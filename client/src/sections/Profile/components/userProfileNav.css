@@ -1,0 +1,119 @@
+.user-profile-nav > ul {
+    display: flex;
+    justify-content: center;
+    font-family: 'Oswald-Light';
+    color: #0080D0;
+    padding: 8px;
+    font-size: 16px;
+    background-color: #ffffff;
+    gap: 40px;
+}
+
+.user-profile-nav > ul > li {
+    /* padding: 0 20px; */
+    cursor: pointer;
+    transition: font-size .2s ease, font-family .2s ease;
+    position: relative;
+}
+
+.user-profile-nav > ul > li.active {
+    font-weight: bold;
+    color: #0080D0;
+    transition: font-size .2s ease, font-family .2s ease;
+    font-weight: bold;
+    font-family: 'Oswald-DemiBold';
+}
+
+.user-profile-nav > ul > li.active, .user-profile-nav > ul > li.active a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.user-profile-nav > ul > li.active a img:hover {
+    transform: scale(1.15);
+    transition: all 0.2s;
+}
+
+.user-profile-nav > ul > li.active img {
+    height: 32px;
+    margin-left: auto;
+}
+
+.user-profile-nav > ul > li.active .close {
+    position: absolute;
+    right: 0px;
+}
+
+.user-profile-nav > ul > li.apartment-score {
+    width: 100%;
+}
+
+
+.user-profile-nav > ul > li:hover::after {
+    color: #0080D0;
+    transform: scaleX(1);
+    transform-origin: bottom center;
+}
+
+.user-profile-nav > ul > li.active:hover::after {
+    transform: scaleX(0);
+    cursor: default;
+}
+
+.user-profile-nav > ul > li.active:hover{
+    cursor: default;
+}
+
+.user-profile-nav > ul > li::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    margin: 0 auto;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #0087ca;
+    transform-origin: bottom center;
+    transition: transform 0.25s ease-out;
+}
+
+.user-profile-nav #nav_4 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.user-profile-nav #nav_3 {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+}
+
+.user-profile-nav .notif-badge {
+    background: #e62a3f;
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 600;
+    font-size: 13.5px;
+}
+
+@media (max-width: 600px) {
+    .user-profile-nav > ul {
+      font-size: 14px;
+      gap: 32px;
+    }
+}
+
+@media (max-width: 475px) {
+    .user-profile-nav > ul {
+      gap: 9px;
+    }
+}

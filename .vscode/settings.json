@@ -1,0 +1,8 @@
+{
+    "editor.formatOnSave": false,
+    
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "compile-hero.disable-compile-files-on-did-save-code": false
+}

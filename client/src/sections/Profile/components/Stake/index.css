@@ -1,0 +1,50 @@
+.stake-container{
+    padding: 30px 10px;
+    background-color: #071D40;
+    border-radius: 0px 0px 30px 30px;
+}
+
+.stake-container > .section {
+    padding: 10px 0px;
+}
+
+.stake-container > .section > .header {
+    display: flex;
+    background-color: #0080d080;
+    color: #ffffff;
+    padding: 10px 50px;
+    font-family: 'Oswald-Light';
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+
+.stake-container > .section > .header > p {
+    font-size: 16px;
+}
+
+.stake-container > .section > .cards-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 27px;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    max-width: 1200px;
+}
+
+.stake-container > .section > .cards-container > img.loading{
+    margin: 20px auto;
+    display: block;
+    height: 80px;
+    animation: spin 1s linear infinite;
+}
+
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

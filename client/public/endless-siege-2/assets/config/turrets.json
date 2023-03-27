@@ -1,0 +1,22 @@
+
+{
+    "turrets": {
+        "projectile" : {
+            "price": 100,
+            "name": "Ballista"
+        },
+        "laser" : {
+            "price": 150,
+            "name": "Torch"
+            
+        },
+        "launch" : {
+            "price": 250,
+            "name": "Cannon"
+        },
+        "glue" : {
+            "price": 500,
+            "name": "Time Warper"
+        }
+    }
+}

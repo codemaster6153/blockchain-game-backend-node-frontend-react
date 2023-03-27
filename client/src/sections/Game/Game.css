@@ -1,0 +1,115 @@
+section.game {
+	padding: 119px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-2 {
+	padding: 51px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-2.navbar-expanded {
+	padding: 119px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-1 {
+	padding: 51px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-1.navbar-expanded {
+	padding: 119px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-3 {
+	padding: 51px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-3.navbar-expanded {
+	padding: 119px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-4 {
+	padding: 51px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-4.navbar-expanded {
+	padding: 119px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-6 {
+	padding: 51px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+section.game.game-6.navbar-expanded {
+	padding: 119px 0 30px 0;
+	min-height: calc(100vh - 31px);
+}
+
+@media (max-width: 600px) {
+	section.game {
+		padding-top: 0;
+		min-height: initial;
+	}
+	section.game.game-2 {
+		padding-top: 52px;
+	}
+	section.game.game-1 {
+		padding-top: 52px;
+	}
+	section.game.game-3 {
+		padding-top: 52px;
+	}
+	section.game.game-4 {
+		padding-top: 52px;
+	}
+	section.game.game-6 {
+		padding-top: 52px;
+	}
+}
+
+
+section.game.game-1 {
+	background: url("/images/endless_background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section.game.game-2 {
+    background: url("/images/candy_bg.jpg") no-repeat 50% fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section.game.game-3 {
+	background: url("/images/templok_background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section.game.game-4 {
+	background: url("/images/new_ringy/ringydingy_bg.jpeg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section.game.game-5 {
+	background: url("/images/endless_background.jpg") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+section.game.game-6 {
+	background: url("/images/newRugPool/rugpool_bg.png") no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

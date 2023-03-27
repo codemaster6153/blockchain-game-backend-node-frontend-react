@@ -1,0 +1,118 @@
+#decoration-pack-modal {
+    min-width: 800px;
+    min-height: 400px;
+    background: linear-gradient(90deg, #f00d9e, #12caf9) !important;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+#decoration-pack-modal .m-container {
+    background: #001a44;
+    width: 100%;
+    border-radius: 23px;
+    display: flex;
+    flex: 1;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+#decoration-pack-modal .m-container .items-container {
+    display: flex;
+    gap: 16px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 30px;
+}
+
+#decoration-pack-modal .m-container .items-container .items {
+    min-width: 215px;
+    gap: 15px;
+
+    padding: 0 25px;
+    padding-top: 65px;
+}
+
+#decoration-pack-modal .m-container .items-container .items img {
+    min-width: 215px;
+}
+
+#decoration-pack-modal .m-container .items-container .loading-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #0080D0;
+    font-size: 19px;
+}
+
+#decoration-pack-modal .m-container .items-container .loading-container .loading {
+    width: 50px;
+    height: 50px;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+#decoration-pack-modal .m-container .items-container .claim-button {
+    background: transparent linear-gradient(2deg, #FFCE00 0%, #FFF61C 100%) 0% 0% no-repeat padding-box;
+    border: 2px solid #AD6B00;
+    border-radius: 12px;
+    color: #6C4200;
+    font-weight: 800;
+    padding: 8px 15px;
+    font-size: 19px;
+    cursor: pointer;
+}
+
+#decoration-pack-modal .m-container .items-container .claim-button:hover {
+    scale: 1.1;
+    transition: scale ease-out 0.5;
+}
+
+#decoration-pack-modal .m-container .close-button {
+    display: flex;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    background: #ec2b4e;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 85px;
+    padding-bottom: 8px;
+}
+
+/* animation */
+
+.decoration-pack-item-appear {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.decoration-pack-item-appear-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 1000ms ease-in, transform 1000ms ease-in;
+}
+
+@media (max-width: 600px) {
+    #decoration-pack-modal {
+        min-width: 100%;
+    }
+    #decoration-pack-modal .m-container .items-container .items {
+      flex-direction: column;
+    }
+
+    #decoration-pack-modal .m-container .items-container .items img {
+        min-width: 225px;
+        width: 225px;
+    }
+}

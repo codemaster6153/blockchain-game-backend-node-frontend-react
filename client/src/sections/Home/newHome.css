@@ -1,0 +1,7 @@
+.new-home-container{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url('/images/section_four.jpeg');
+    background-size: 250px auto;
+    background-attachment: fixed;
+}

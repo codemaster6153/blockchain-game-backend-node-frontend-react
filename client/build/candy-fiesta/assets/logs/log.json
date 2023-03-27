@@ -1,0 +1,1808 @@
+{
+    "logs": {
+      "date": "2021-4-28",
+      "score": 18020,
+      "actions": [
+        {
+          "data": {
+            "p1": {
+              "c": 5,
+              "r": 3
+            },
+            "p2": {
+              "c": 4,
+              "r": 3
+            },
+            "move": 65,
+            "score": 60
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 4
+            },
+            "p2": {
+              "c": 3,
+              "r": 4
+            },
+            "move": 64,
+            "score": 150
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 2
+            },
+            "p2": {
+              "c": 3,
+              "r": 3
+            },
+            "move": 63,
+            "score": 190
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 2,
+              "r": 2
+            },
+            "p2": {
+              "c": 2,
+              "r": 3
+            },
+            "move": 62,
+            "score": 250
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 2,
+              "r": 4
+            },
+            "p2": {
+              "c": 1,
+              "r": 4
+            },
+            "move": 61,
+            "score": 310
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 75831
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 4
+            },
+            "p2": {
+              "c": 3,
+              "r": 4
+            },
+            "move": 60,
+            "score": 590
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 3
+            },
+            "p2": {
+              "c": 3,
+              "r": 4
+            },
+            "move": 59,
+            "score": 1525
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 1,
+              "r": 4
+            },
+            "p2": {
+              "c": 1,
+              "r": 5
+            },
+            "move": 58,
+            "score": 1720
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 2,
+              "r": 5
+            },
+            "p2": {
+              "c": 1,
+              "r": 5
+            },
+            "move": 57,
+            "score": 2330
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 3
+            },
+            "p2": {
+              "c": 2,
+              "r": 3
+            },
+            "move": 56,
+            "score": 2360
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 467975
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 2,
+              "r": 5
+            },
+            "p2": {
+              "c": 2,
+              "r": 6
+            },
+            "move": 55,
+            "score": 2555
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 2
+            },
+            "p2": {
+              "c": 2,
+              "r": 2
+            },
+            "move": 54,
+            "score": 3120
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 1,
+              "r": 5
+            },
+            "p2": {
+              "c": 2,
+              "r": 5
+            },
+            "move": 53,
+            "score": 3150
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 1,
+              "r": 2
+            },
+            "p2": {
+              "c": 0,
+              "r": 2
+            },
+            "move": 52,
+            "score": 3210
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 5,
+              "r": 5
+            },
+            "p2": {
+              "c": 4,
+              "r": 5
+            },
+            "move": 51,
+            "score": 3280
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 31239
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 1,
+              "r": 5
+            },
+            "p2": {
+              "c": 2,
+              "r": 5
+            },
+            "move": 50,
+            "score": 3490
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 0,
+              "r": 4
+            },
+            "p2": {
+              "c": 0,
+              "r": 5
+            },
+            "move": 49,
+            "score": 3610
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 0,
+              "r": 4
+            },
+            "p2": {
+              "c": 1,
+              "r": 4
+            },
+            "move": 48,
+            "score": 3710
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 1
+            },
+            "p2": {
+              "c": 3,
+              "r": 2
+            },
+            "move": 47,
+            "score": 3810
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 2
+            },
+            "p2": {
+              "c": 3,
+              "r": 3
+            },
+            "move": 46,
+            "score": 3975
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 354203
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 1,
+              "r": 4
+            },
+            "p2": {
+              "c": 1,
+              "r": 3
+            },
+            "move": 45,
+            "score": 4235
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 4
+            },
+            "p2": {
+              "c": 4,
+              "r": 5
+            },
+            "move": 44,
+            "score": 4560
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 6
+            },
+            "p2": {
+              "c": 4,
+              "r": 5
+            },
+            "move": 43,
+            "score": 4600
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 5,
+              "r": 4
+            },
+            "p2": {
+              "c": 5,
+              "r": 5
+            },
+            "move": 42,
+            "score": 4935
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 1,
+              "r": 3
+            },
+            "p2": {
+              "c": 2,
+              "r": 3
+            },
+            "move": 41,
+            "score": 5025
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 125363
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 0,
+              "r": 6
+            },
+            "p2": {
+              "c": 1,
+              "r": 6
+            },
+            "move": 40,
+            "score": 5505
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 3
+            },
+            "p2": {
+              "c": 3,
+              "r": 4
+            },
+            "move": 39,
+            "score": 6005
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 5,
+              "r": 5
+            },
+            "p2": {
+              "c": 6,
+              "r": 5
+            },
+            "move": 38,
+            "score": 6605
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 2
+            },
+            "p2": {
+              "c": 6,
+              "r": 3
+            },
+            "move": 37,
+            "score": 7050
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 3
+            },
+            "p2": {
+              "c": 6,
+              "r": 2
+            },
+            "move": 36,
+            "score": 7170
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 519028
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 7,
+              "r": 6
+            },
+            "p2": {
+              "c": 7,
+              "r": 7
+            },
+            "move": 35,
+            "score": 7230
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 4
+            },
+            "p2": {
+              "c": 4,
+              "r": 5
+            },
+            "move": 34,
+            "score": 7320
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 7
+            },
+            "p2": {
+              "c": 5,
+              "r": 7
+            },
+            "move": 33,
+            "score": 7350
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 4
+            },
+            "p2": {
+              "c": 6,
+              "r": 5
+            },
+            "move": 32,
+            "score": 7470
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 7
+            },
+            "p2": {
+              "c": 4,
+              "r": 8
+            },
+            "move": 31,
+            "score": 7530
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 583599
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 2
+            },
+            "p2": {
+              "c": 6,
+              "r": 3
+            },
+            "move": 30,
+            "score": 7570
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 7,
+              "r": 7
+            },
+            "p2": {
+              "c": 6,
+              "r": 7
+            },
+            "move": 29,
+            "score": 7600
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 2,
+              "r": 7
+            },
+            "p2": {
+              "c": 1,
+              "r": 7
+            },
+            "move": 28,
+            "score": 7800
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 7,
+              "r": 3
+            },
+            "p2": {
+              "c": 6,
+              "r": 3
+            },
+            "move": 27,
+            "score": 8305
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 6
+            },
+            "p2": {
+              "c": 6,
+              "r": 5
+            },
+            "move": 26,
+            "score": 9550
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 149107
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 7
+            },
+            "p2": {
+              "c": 5,
+              "r": 7
+            },
+            "move": 25,
+            "score": 9760
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 8,
+              "r": 5
+            },
+            "p2": {
+              "c": 7,
+              "r": 5
+            },
+            "move": 24,
+            "score": 10060
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 7,
+              "r": 7
+            },
+            "p2": {
+              "c": 7,
+              "r": 8
+            },
+            "move": 23,
+            "score": 10900
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 7
+            },
+            "p2": {
+              "c": 4,
+              "r": 8
+            },
+            "move": 22,
+            "score": 12145
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 4
+            },
+            "p2": {
+              "c": 3,
+              "r": 5
+            },
+            "move": 21,
+            "score": 12175
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 974809
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 2
+            },
+            "p2": {
+              "c": 3,
+              "r": 3
+            },
+            "move": 20,
+            "score": 12275
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 3
+            },
+            "p2": {
+              "c": 5,
+              "r": 3
+            },
+            "move": 19,
+            "score": 12335
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 1
+            },
+            "p2": {
+              "c": 5,
+              "r": 1
+            },
+            "move": 18,
+            "score": 12365
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 0
+            },
+            "p2": {
+              "c": 6,
+              "r": 1
+            },
+            "move": 17,
+            "score": 12475
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 7,
+              "r": 3
+            },
+            "p2": {
+              "c": 6,
+              "r": 3
+            },
+            "move": 16,
+            "score": 12535
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 916608
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 7,
+              "r": 3
+            },
+            "p2": {
+              "c": 8,
+              "r": 3
+            },
+            "move": 15,
+            "score": 12575
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 7,
+              "r": 5
+            },
+            "p2": {
+              "c": 7,
+              "r": 6
+            },
+            "move": 14,
+            "score": 12825
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 2
+            },
+            "p2": {
+              "c": 3,
+              "r": 3
+            },
+            "move": 13,
+            "score": 13150
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 3
+            },
+            "p2": {
+              "c": 5,
+              "r": 3
+            },
+            "move": 12,
+            "score": 13330
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 6
+            },
+            "p2": {
+              "c": 5,
+              "r": 6
+            },
+            "move": 11,
+            "score": 13870
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 490304
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 7
+            },
+            "p2": {
+              "c": 3,
+              "r": 6
+            },
+            "move": 10,
+            "score": 15195
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 5,
+              "r": 9
+            },
+            "p2": {
+              "c": 4,
+              "r": 9
+            },
+            "move": 9,
+            "score": 15940
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 8
+            },
+            "p2": {
+              "c": 5,
+              "r": 8
+            },
+            "move": 8,
+            "score": 16000
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 2,
+              "r": 2
+            },
+            "p2": {
+              "c": 2,
+              "r": 3
+            },
+            "move": 7,
+            "score": 16070
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 5,
+              "r": 6
+            },
+            "p2": {
+              "c": 5,
+              "r": 7
+            },
+            "move": 6,
+            "score": 16130
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "seed": 693196
+          },
+          "type": "set seed"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 5,
+              "r": 6
+            },
+            "p2": {
+              "c": 4,
+              "r": 6
+            },
+            "move": 5,
+            "score": 16440
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 1
+            },
+            "p2": {
+              "c": 6,
+              "r": 2
+            },
+            "move": 4,
+            "score": 16795
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 4,
+              "r": 9
+            },
+            "p2": {
+              "c": 4,
+              "r": 8
+            },
+            "move": 3,
+            "score": 17045
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 3,
+              "r": 6
+            },
+            "p2": {
+              "c": 2,
+              "r": 6
+            },
+            "move": 2,
+            "score": 17370
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": {
+            "p1": {
+              "c": 6,
+              "r": 4
+            },
+            "p2": {
+              "c": 6,
+              "r": 5
+            },
+            "move": 1,
+            "score": 17520
+          },
+          "type": "move"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        },
+        {
+          "data": null,
+          "type": "check board"
+        }
+      ],
+      "firstSeed": 362762,
+      "player_id": "d1mau.wam"
+    },
+    "seeds": [
+      693196,
+      490304,
+      916608,
+      974809,
+      149107,
+      583599,
+      519028,
+      125363,
+      354203,
+      31239,
+      467975,
+      75831,
+      362762
+    ]
+  }

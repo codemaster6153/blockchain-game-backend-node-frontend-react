@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="395" height="126" viewBox="0 0 395 126">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#f10c9d"/>
+      <stop offset="1" stop-color="#11cbf9"/>
+    </linearGradient>
+    <filter id="Rectángulo_509" x="0" y="0" width="395" height="126" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.6"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2480" data-name="Grupo 2480" transform="translate(-1062 -10975)">
+    <g transform="matrix(1, 0, 0, 1, 1062, 10975)" filter="url(#Rectángulo_509)">
+      <rect id="Rectángulo_509-2" data-name="Rectángulo 509" width="377" height="108" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <rect id="Rectángulo_510" data-name="Rectángulo 510" width="369" height="100" transform="translate(1075 10985)" fill="#001a44"/>
+  </g>
+</svg>

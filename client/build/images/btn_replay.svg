@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="82" height="68" viewBox="0 0 82 68">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.64" y1="1" x2="0.64" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffce00"/>
+      <stop offset="1" stop-color="#fff61c"/>
+    </linearGradient>
+    <filter id="Rectángulo_317" x="0" y="0" width="82" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1018" data-name="Grupo 1018" transform="translate(-563 -1611)">
+    <g transform="matrix(1, 0, 0, 1, 563, 1611)" filter="url(#Rectángulo_317)">
+      <rect id="Rectángulo_317-2" data-name="Rectángulo 317" width="64" height="50" rx="10" transform="translate(9 6)" fill="url(#linear-gradient)"/>
+    </g>
+    <path id="Icon_awesome-video" data-name="Icon awesome-video" d="M21.888,4.5H3.112A3.112,3.112,0,0,0,0,7.612V26.388A3.112,3.112,0,0,0,3.112,29.5H21.888A3.112,3.112,0,0,0,25,26.388V7.612A3.112,3.112,0,0,0,21.888,4.5ZM34.219,6.954l-7.135,4.922V22.124l7.135,4.915a2.088,2.088,0,0,0,3.281-1.68V8.634A2.088,2.088,0,0,0,34.219,6.954Z" transform="translate(586 1624.5)" fill="#6c4200"/>
+  </g>
+</svg>

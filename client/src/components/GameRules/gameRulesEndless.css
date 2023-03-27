@@ -1,0 +1,291 @@
+.endless-rules-container{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.endless-rules-container .endless-hero{
+    position: relative;
+    padding-top: 20px;
+}
+
+.endless-rules-container .endless-hero .abs-bg-img{
+    background-color: #0069D1;
+    /* background-image: url('/images/endless_bg.png'); */
+    position: absolute;
+    width: 100%;
+    height: 10%;
+    z-index: 1;
+    top: 0;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;
+    justify-content: flex-end;
+}
+
+.endless-rules-container .endless-hero .manage-land-btn{
+    background: transparent linear-gradient(2deg, #FFCE00 0%, #FFF61C 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #00000080;
+    border-radius: 12px;
+    opacity: 1;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 20px;
+    font-family: 'Oswald-DemiBold';
+    padding: 10px;
+    cursor: pointer;
+    color: #6C4200;
+}
+
+.endless-rules-container .endless-hero > a > .manage-land-btn{
+    display: none;
+}
+.endless-rules-container .endless-hero .manage-land-btn > img{
+    height: 32px;
+}
+
+.endless-rules-container .endless-hero .player-svg{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;    
+    max-width: 1240px;
+    margin: 30px auto;
+    
+}
+
+.endless-rules-container .endless-hero .player-svg img {
+    buffered-rendering: static;
+}
+
+.endless-rules-container .endless-hero .player-svg video{
+    position: absolute;
+    height: 90%;
+    border: 6px solid white;
+    border-radius: 20px;
+    left: 50%;
+    top: 0;
+    z-index: 2;
+}
+
+.endless-rules-container .endless-hero .player-svg .abs-triangle{
+    width: 0;
+    height: 0;
+    border-left: 300px solid transparent;
+    border-right: 6px solid transparent;
+    border-bottom: 30px solid #ffffff;
+    position: absolute;
+    top: 32%;
+    left: 30%;
+    z-index: 1;
+}
+
+.endless-rules-container .endless-hero .logo{
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+    margin: 0 auto;
+}
+.endless-rules-container .endless-hero .logo img{
+    max-width: 500px;
+    width: 99%;
+    margin: 0 auto;
+}
+.endless-rules-container .endless-hero .text p{
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    white-space: normal;
+    word-break: break-word;
+    width: 98%;
+    margin: 0 auto;
+}
+
+.endless-rules-container .endless-hero .text p.heading{
+    font-family: "Oswald-DemiBold";
+}
+.endless-rules-container .endless-hero .text p.sub-text{
+    font-family: 'Oswald-Light';
+    max-width: 550px;
+    width: 98%;
+    margin: 0 auto;
+}
+
+
+/* css of section 2 */
+
+.endless-rules-container .endless-replays{
+    background: transparent linear-gradient(290deg, #8403F2 0%, #FF52F2 100%) 0% 0% no-repeat padding-box;
+    padding: 20px 0px;
+    margin-top: 40px;
+}
+.endless-rules-container .endless-replays > div{
+    background: transparent linear-gradient(90deg, #f10c9d99 0%, #52d0ffa3 100%) 0% 0% no-repeat padding-box;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.endless-rules-container .endless-replays > div > p{
+    font-size: 28px;
+    max-width: 200px;
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    color: #ffffff;
+    text-shadow: 0px 3px 10px #00000080;
+}
+
+.endless-rules-container .endless-replays > div > .replay-card{
+    border: 4px solid #ffffff;
+    background: #001A4480 0% 0% no-repeat padding-box;
+    border: 4px solid #FFFFFF;
+    border-radius: 20px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px ;
+    gap: 25px;
+}
+
+.endless-rules-container .endless-replays > div > .replay-card img.avatar {
+    box-shadow: inset 0px 0px 9px #000000F5;
+    border: 6px solid #F10C9D;
+    border-radius: 70px;
+    width: 90px;
+    height: 90px;
+}
+.endless-rules-container .endless-replays > div > .replay-card img.replay {
+    height: 48px;
+    cursor: pointer;
+}
+.endless-rules-container .endless-replays > div > .replay-card a {
+    font-size: 20px;
+    font-family: 'Oswald-DemiBold';
+    text-decoration: none;
+    color: #ffffff;
+}
+
+/* section three */
+
+.endless-rules-container .basic-tips{
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.endless-rules-container .basic-tips > p{
+    font-size: 36px;
+    font-family: 'Oswald-DemiBold';
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.endless-rules-container .basic-tips > div{
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.endless-rules-container .basic-tips > div .tip-card{
+    background: #0080d080 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width: 280px;
+    max-width: 280px;
+    min-width: 280px;
+    padding: 20px;
+    height: 442px;
+    height: max-content;
+    min-height: 400px;
+}
+
+.endless-rules-container .basic-tips > div .tip-card .img{
+    background: transparent linear-gradient(180deg, #52D0FF 0%, #DEF6FF 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    height: 219px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+.endless-rules-container .basic-tips > div .tip-card .img img {
+    buffered-rendering: static;
+}
+
+.endless-rules-container .basic-tips > div .tip-card .img video {
+    height: 100%;
+    width: auto;
+    max-width: initial;
+}
+
+.endless-rules-container .basic-tips > div .tip-card .heading{
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.endless-rules-container .basic-tips > div .tip-card .sub-text{
+    text-align: center;
+    font-family: 'Oswald-Light';
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.endless-rules-container .basic-tips > div .tip-card .sub-text ul{
+    list-style: initial;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 950px) {
+    .endless-rules-container .endless-hero .abs-bg-img .manage-land-btn{
+        display: none;
+    }
+    .endless-rules-container .endless-hero > a > .manage-land-btn{
+        display: flex;
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+}
+@media screen and (max-width: 860px) and (min-width: 640px) {
+    .endless-rules-container .endless-replays > div > .replay-card:nth-child(3){
+        display: none;
+    }
+}
+@media screen and (max-width: 750px) {
+    .endless-rules-container .endless-hero .player-svg .abs-triangle{
+        border-left: 150px solid transparent;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .endless-rules-container .endless-hero .player-svg .abs-triangle{
+        display: none;
+    }
+    .endless-rules-container .endless-hero .player-svg img{
+        display: none;
+    }
+    .endless-rules-container .endless-hero .player-svg video{
+        position: revert;
+        width: 95%;
+    }
+}

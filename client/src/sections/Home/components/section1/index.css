@@ -1,0 +1,234 @@
+.section-one {
+    background-color: #1A1667;
+    background-image: url('/images/newHome/home_big_bg.jpeg');
+    width: 100%;
+    background-position-x: right;
+    background-position-y: center;
+    background-size: cover;
+    padding-top: 150px;
+}
+
+.section-one .img-bg .content-container {
+    width: 100%;
+    /* max-width: 98%; */
+    margin: 0 auto;
+    position: relative;
+    overflow-x: clip;
+}
+
+.section-one .heading p{
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    letter-spacing: 1.4px;
+    color: #FFFF4E;
+    text-shadow: 0px 2px 8px #00093B;
+    opacity: 1;
+    font-size: 64px;
+    background-color: #001A44;
+    padding: 0px 10px;
+}
+
+.section-one  .wax-run {
+    margin-left: 10px;
+    padding-bottom: 5px;
+
+}
+
+.section-one .wax-run p{
+    display: flex;
+    align-items: center;
+    color: #0080D0;
+    font-size: 26px;
+    font-family: 'Oswald-light';
+    gap: 8px;
+    padding-right: 10px;
+}
+
+.section-one .wax-run p img{
+    float: right;
+    height: 2em;
+}
+
+.section-one .content-right {
+    margin: 0 255px 0 auto;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.section-one .section-video {
+    margin: 20px 0 35px 0;
+    display: flex;
+}
+
+.section-one .section-video div {
+    width: 700px;
+    justify-content: center;
+    display: flex;
+    position: relative;
+    height: 325px;
+}
+
+.section-one .section-video video {
+    position: absolute;
+    border-radius: 30px;
+    top: 15px;
+    left: 15px;
+}
+
+.section-one .section-video img {
+    position: absolute;
+    top: -0px;
+    left: -0px;
+    scale: 1.55;
+}
+
+.section-one .big-bold-text, .section-one .big-normal-text {
+    margin: 8px 0;
+    display: flex;
+}
+
+.section-one .big-bold-text p, .section-one .big-normal-text p {
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    font-size: 35px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    white-space: normal;
+    word-break: break-word;
+    max-width: 700px;
+}
+
+
+.section-one .big-normal-text p{
+    font-family: 'Oswald-light';
+    max-width: 700px;
+    font-weight: 300;
+}
+
+.section-one .big-bold-text p{
+    text-shadow: 0px 2px 20px #00000099;
+}
+
+.section-one .buttons-container {
+    margin: 20px 0;
+    display: flex;
+    gap: 10px;
+}
+
+.section-one .buttons-container .button {
+    background-color: #0080D0;
+    border-radius: 8px;
+    padding: 8px 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    height: 75px;
+    border: 0;
+    cursor: pointer;
+}
+
+
+.section-one .buttons-container .button span {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.section-one .buttons-container .button div {
+    display: flex;
+    gap: 12px;
+}
+
+.section-one .buttons-container .button img {
+    height: 30px;
+}
+
+.section-one .buttons-container .button img:hover {
+    scale: 1.1;
+    transition: scale ease-out 0.5;
+}
+
+@media screen and (min-width: 2100px) {
+    .section-one .section-video video {
+        width: 640px;
+        border-radius: 50px;
+        top: 30px;
+        left: 30px;
+    }
+}
+
+@media screen and (max-width: 1920px){
+    .section-one .img-bg .content-container .heading p{
+        font-size: 36px;
+    }
+
+    .section-one .big-bold-text p{
+        font-size: 35px;
+        max-width: 500px;   
+    }
+
+    .section-one .big-normal-text p{
+        font-size: 18px;
+        max-width: 315px;
+    }
+
+    .section-one .section-video div{
+        width: 350px;
+    }
+
+    .section-one .section-video div video {
+        width: 320px;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 1299px) {
+    .section-one {
+        padding-top: 120px;
+    }
+    
+}
+
+@media screen and (max-width: 1024px){
+    .section-one .img-bg .content-container .heading p{
+        font-size: 42px;
+    }
+
+    .section-one .wax-run p{
+        font-size: 24px;
+    }
+
+    .section-one .content-right{
+        margin: 0 auto;
+        justify-content: center;
+        max-width: 98%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-one .img-bg .content-container .heading p{
+        font-size: 26px;
+    }
+
+    .wax-run {
+        display: none;
+    }
+
+    .section-one .big-bold-text, .section-one .big-normal-text {
+        max-width: 98%;
+    }
+
+    .section-one .big-bold-text p {
+        font-size: 28px;
+    }
+    
+    .section-one .big-normal-text p{
+        font-size: 16px;
+    }
+
+}

@@ -1,0 +1,73 @@
+.recent-dual-scroll-card {
+    width: 100px;
+    text-align: center;
+    border-radius: 10px;
+    margin: auto;
+    cursor: pointer;
+    border: transparent 4px solid;
+    /* overflow: hidden; */
+}
+
+.recent-dual-scroll-card.win-highlight{
+    border: 4px solid #00E34F;
+}
+.recent-dual-scroll-card.pending-highlight{
+    border: 4px solid #FFFF4E;
+}
+.recent-dual-scroll-card.lose-highlight{
+    border: 4px solid #FF0045;
+}
+
+.recent-dual-scroll-card .header{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    background-color: red;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    /* overflow: hidden; */
+}
+.customSlider .react-multi-carousel-track .react-multi-carousel-item{
+    width: 100px !important;
+    margin-bottom: 2px;
+}
+.customSlider .section-header{
+    margin-bottom: 2px !important;
+}
+
+.recent-dual-scroll-card .header .bg-img {
+    width: 100%;   
+    height: 100%;
+    background-color: aqua;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.recent-dual-scroll-card .header .bg-img img {
+    width: 100%;
+    height: 100%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+
+.recent-dual-scroll-card .header .abs-result {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: -12px;
+    bottom: 3px;
+    border-radius: 10px;
+}
+
+.recent-dual-scroll-card .dual-type {
+    font-size: 20px;
+    font-weight: 900;
+    background-color: yellow;
+}
+.recent-dual-scroll-card .recent-dual-footer {
+    font-family: 'Oswald-Light';
+    color: #0080D0;
+    background-color: aliceblue;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}

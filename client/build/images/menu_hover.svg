@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="46" height="46" viewBox="0 0 46 46">
+  <g id="Grupo_955" data-name="Grupo 955" transform="translate(0 -0.437)">
+    <g id="Rectángulo_7" data-name="Rectángulo 7" transform="translate(0 0.437)" fill="#fff" stroke="#0080d0" stroke-width="3">
+      <rect width="46" height="46" rx="8" stroke="none"/>
+      <rect x="1.5" y="1.5" width="43" height="43" rx="6.5" fill="none"/>
+    </g>
+    <g id="Grupo_809" data-name="Grupo 809" transform="translate(7 15)">
+      <line id="Línea_37" data-name="Línea 37" x2="32" transform="translate(0 0.437)" fill="none" stroke="#0080d0" stroke-width="4"/>
+      <line id="Línea_38" data-name="Línea 38" x2="32" transform="translate(0 8.437)" fill="none" stroke="#0080d0" stroke-width="4"/>
+      <line id="Línea_39" data-name="Línea 39" x2="32" transform="translate(0 16.437)" fill="none" stroke="#0080d0" stroke-width="4"/>
+    </g>
+  </g>
+</svg>

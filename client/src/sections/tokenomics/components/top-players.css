@@ -1,0 +1,90 @@
+.chart-container.top-players {
+    display: flex;
+    flex-direction: column;
+}
+
+.chart-container.top-players .chart-container-header {
+    height: 65px;
+}
+
+.chart-container.top-players .top-players-list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-height: auto;
+}
+
+.chart-container.top-players .players-row {
+    display: flex;
+    align-items: center;
+    background-color: #002F60;
+    color: #fff;
+    padding: 10px;
+}
+
+.chart-container.top-players .players-row.tr:nth-child(2n+1) {
+    background-color: #0080D026 !important;
+}
+
+.chart-container.top-players .players-row.thead {
+    background-color: #004D8A;
+    font-family: 'Oswald-Light';
+    font-weight: 200;
+    font-size: 1em;
+}
+
+.chart-container.top-players .players-row .td:last-child {
+    justify-content: center;
+}
+
+.chart-container.top-players .players-row .td {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+
+.chart-container.top-players .players-row .td .order{
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.chart-container.top-players .players-row .td img {
+    width: 35px;
+    border-radius: 999px;
+    margin-right: 10px;
+}
+
+.chart-container.top-players .players-row .td a.profile {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.chart-container.top-players .players-row .td a.profile:hover {
+    color: #ddd;
+}
+
+.chart-container.top-players .players-container {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.chart-container.top-players .players-container .player-rows-container {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    flex: 0 0 25%;
+}
+
+@media all and (max-width: 834px) {
+    .chart-container.top-players .players-container {
+        flex-direction: column;
+    }
+
+    .chart-container.top-players .players-container .player-rows-container {
+        width: 100%;
+        flex: 0 0 100%;
+    }
+}

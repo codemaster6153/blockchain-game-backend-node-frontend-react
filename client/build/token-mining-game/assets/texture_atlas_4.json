@@ -1,0 +1,461 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1380,
+				"h": 954
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "wall_texture_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 343,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 343,
+						"h": 400
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 343,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_texture_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 343,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 343,
+						"h": 400
+					},
+					"frame": {
+						"x": 346,
+						"y": 1,
+						"w": 343,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_texture_03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 343,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 343,
+						"h": 400
+					},
+					"frame": {
+						"x": 691,
+						"y": 1,
+						"w": 343,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_texture_04",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 343,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 343,
+						"h": 400
+					},
+					"frame": {
+						"x": 1036,
+						"y": 1,
+						"w": 343,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_texture_gamerism",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 343,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 343,
+						"h": 400
+					},
+					"frame": {
+						"x": 1,
+						"y": 403,
+						"w": 343,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_texture_modding",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 343,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 343,
+						"h": 400
+					},
+					"frame": {
+						"x": 346,
+						"y": 403,
+						"w": 343,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_texture_rugpool",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 343,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 343,
+						"h": 400
+					},
+					"frame": {
+						"x": 691,
+						"y": 403,
+						"w": 343,
+						"h": 400
+					}
+				},
+				{
+					"filename": "floor_gamerism",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 270,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 270,
+						"h": 102
+					},
+					"frame": {
+						"x": 1036,
+						"y": 403,
+						"w": 270,
+						"h": 102
+					}
+				},
+				{
+					"filename": "floor_modding_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 270,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 270,
+						"h": 102
+					},
+					"frame": {
+						"x": 1036,
+						"y": 507,
+						"w": 270,
+						"h": 102
+					}
+				},
+				{
+					"filename": "floor_modding_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 270,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 270,
+						"h": 102
+					},
+					"frame": {
+						"x": 1036,
+						"y": 611,
+						"w": 270,
+						"h": 102
+					}
+				},
+				{
+					"filename": "floor_rugpool_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 270,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 270,
+						"h": 102
+					},
+					"frame": {
+						"x": 1036,
+						"y": 715,
+						"w": 270,
+						"h": 102
+					}
+				},
+				{
+					"filename": "floor_rugpool_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 270,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 270,
+						"h": 102
+					},
+					"frame": {
+						"x": 1,
+						"y": 805,
+						"w": 270,
+						"h": 102
+					}
+				},
+				{
+					"filename": "ceiling_gamerism",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 206,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 206,
+						"h": 40
+					},
+					"frame": {
+						"x": 273,
+						"y": 805,
+						"w": 206,
+						"h": 40
+					}
+				},
+				{
+					"filename": "ceiling_rugpool",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 204,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 50
+					},
+					"frame": {
+						"x": 481,
+						"y": 805,
+						"w": 204,
+						"h": 50
+					}
+				},
+				{
+					"filename": "baseboard_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 96
+					},
+					"frame": {
+						"x": 273,
+						"y": 847,
+						"w": 136,
+						"h": 96
+					}
+				},
+				{
+					"filename": "ceiling_modding",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 204,
+						"h": 42
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 42
+					},
+					"frame": {
+						"x": 1,
+						"y": 909,
+						"w": 204,
+						"h": 42
+					}
+				},
+				{
+					"filename": "baseboard_gamerism_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 96
+					},
+					"frame": {
+						"x": 687,
+						"y": 805,
+						"w": 136,
+						"h": 96
+					}
+				},
+				{
+					"filename": "baseboard_gamerism_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 96
+					},
+					"frame": {
+						"x": 825,
+						"y": 805,
+						"w": 136,
+						"h": 96
+					}
+				},
+				{
+					"filename": "baseboard_modding_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 96
+					},
+					"frame": {
+						"x": 411,
+						"y": 857,
+						"w": 136,
+						"h": 96
+					}
+				},
+				{
+					"filename": "baseboard_modding_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 96
+					},
+					"frame": {
+						"x": 549,
+						"y": 857,
+						"w": 136,
+						"h": 96
+					}
+				},
+				{
+					"filename": "baseboard_rugpool",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 136,
+						"h": 96
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 136,
+						"h": 96
+					},
+					"frame": {
+						"x": 963,
+						"y": 819,
+						"w": 136,
+						"h": 96
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:ae9f937585b31102b78aa6e33e18a4d8:94421027271c6c20922d6593c9047cd9:da96745a4979f34ffd84fb8b5d66e27c$"
+	}
+}

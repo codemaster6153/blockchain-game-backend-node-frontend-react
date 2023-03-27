@@ -1,0 +1,76 @@
+{
+  "urls": [
+    "../assets/audio/audiosprite.mp3",
+    "../assets/audio/audiosprite.ogg"
+  ],
+  "sprite": {
+    "btn_feature_pressed": [
+      0,
+      574.6938775510204
+    ],
+    "cleared_line": [
+      2000,
+      960
+    ],
+    "combo": [
+      4000,
+      2925.7142857142853
+    ],
+    "duel_loser": [
+      8000,
+      11389.387755102043
+    ],
+    "duel_winner": [
+      21000,
+      9665.306122448981
+    ],
+    "gameover": [
+      32000,
+      3448.163265306121
+    ],
+    "loop_gameover": [
+      37000,
+      32235.102040816328
+    ],
+    "piece_clicked": [
+      71000,
+      417.9591836734744
+    ],
+    "piece_large_released": [
+      73000,
+      888.0045351473882
+    ],
+    "piece_medium_released": [
+      75000,
+      648.0045351473933
+    ],
+    "piece_released_wrong": [
+      77000,
+      1175.5102040816325
+    ],
+    "piece_rerolled": [
+      80000,
+      1567.346938775515
+    ],
+    "piece_small_released": [
+      83000,
+      455.98639455782575
+    ],
+    "piece_turn": [
+      85000,
+      731.428571428566
+    ],
+    "premarked_feature": [
+      87000,
+      3735.5102040816346
+    ],
+    "surpassed_score": [
+      92000,
+      1697.7097505668867
+    ],
+    "templok_soundtrack": [
+      95000,
+      65750.20408163266
+    ]
+  }
+}

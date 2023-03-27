@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_hall_7.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1848,
+				"h": 1182
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "bg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1136,
+						"h": 640
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1136,
+						"h": 640
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1136,
+						"h": 640
+					}
+				},
+				{
+					"filename": "wood",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1015,
+						"h": 601
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 32,
+						"w": 952,
+						"h": 538
+					},
+					"frame": {
+						"x": 1,
+						"y": 643,
+						"w": 952,
+						"h": 538
+					}
+				},
+				{
+					"filename": "cloth",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 1015,
+						"h": 601
+					},
+					"spriteSourceSize": {
+						"x": 61,
+						"y": 63,
+						"w": 892,
+						"h": 474
+					},
+					"frame": {
+						"x": 955,
+						"y": 643,
+						"w": 892,
+						"h": 474
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:88c66bd6e302aa1dfcec7c349418cddf:28e5d930bc17a4676fae0e0c831a435c:ef7d807ab4e87fe013794143c984dbea$"
+	}
+}

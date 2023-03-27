@@ -1,0 +1,21 @@
+.token-mining-result-container{
+    padding-bottom: 20px;
+    background-color: #071D40;
+    border-radius: 0px 0px 30px 30px;
+    padding: 30px 10px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+}
+.token-mining-result-container img.loading {
+    margin: 20px auto;
+    display: block;
+    height: 80px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}

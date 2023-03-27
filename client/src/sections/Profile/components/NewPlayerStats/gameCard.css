@@ -1,0 +1,53 @@
+.new-player-stats-info .game-card{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 95%;
+    margin: 0 auto;
+}
+
+.new-player-stats-info .game-card:nth-child(even){
+    background-color: #0080D026 !important;
+}
+
+.new-player-stats-info .game-card:nth-child(odd){
+    background-color: transparent !important;
+}
+/* .new-player-stats-info .game-card.endless,
+.new-player-stats-info .game-card.templok{
+    background-color: #0080D026
+} */
+.new-player-stats-info .game-card .game-img {
+    width: 100px;
+}
+
+.new-player-stats-info .game-card .game-data p.value {
+    text-align: center;
+    color: #0080D0;
+    font-family: 'Oswald-Light';
+    min-width: 60px;
+    font-size: 20px;
+}
+
+.new-player-stats-info .game-card .game-data p.value.yellow {
+    color: #dce13d;
+}
+
+.new-player-stats-info .game-card .game-data p.label {
+    text-align: center;
+    color: #00437C;
+    font-weight: 200;
+    font-family: 'Oswald-Light';
+    font-size: 14px;
+}
+
+.new-player-stats-info .game-card.header {
+    margin-top: 10px;
+    background-color: #0080D026;
+}
+
+.new-player-stats-info .game-card.header p.value {
+    font-size: 14px;
+}

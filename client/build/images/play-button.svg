@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="70" height="98" viewBox="0 0 70 98">
+  <defs>
+    <filter id="Rectángulo_272" x="0" y="0" width="70" height="98" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2484" data-name="Grupo 2484" transform="translate(-112 -4.673)">
+    <g transform="matrix(1, 0, 0, 1, 112, 4.67)" filter="url(#Rectángulo_272)">
+      <rect id="Rectángulo_272-2" data-name="Rectángulo 272" width="52" height="80" rx="8" transform="translate(9 6)" fill="#ffee57"/>
+    </g>
+    <path id="Icon_awesome-play" data-name="Icon awesome-play" d="M21.551,10.9,3.676.336A2.424,2.424,0,0,0,0,2.433V23.562a2.435,2.435,0,0,0,3.676,2.1L21.551,15.1A2.435,2.435,0,0,0,21.551,10.9Z" transform="translate(137.876 37.506)" fill="#4d2008"/>
+  </g>
+</svg>

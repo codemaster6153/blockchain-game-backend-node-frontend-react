@@ -1,0 +1,122 @@
+#friendo-request-modal {
+    max-width: 500px;
+    max-height: 350px;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(90deg, #f00d9e, #12caf9) !important;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 3px;
+}
+
+#friendo-request-modal .m-container {
+    background: #001a44;
+    width: 100%;
+    border-radius: 23px;
+    display: flex;
+    flex: 1;
+    color: #fff;
+    padding: 10px;
+    position: relative;
+}
+
+#friendo-request-modal .m-container .items-container {
+    display: flex;
+    gap: 16px;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 0 36px 10px 36px;
+}
+
+#friendo-request-modal .m-container .items-container .title {
+    color: #fff;
+    font-size: 22px;
+}
+
+#friendo-request-modal .m-container .items-container div.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 210px;   
+}
+
+#friendo-request-modal .m-container .items-container div.avatar-wrap {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #f00d9e, #12caf9) !important;
+    padding: 4px;
+    border-radius: 100%;
+    width: 75px;
+    height: 75px;
+}
+
+#friendo-request-modal .m-container .items-container div.avatar-wrap img{
+    border-radius: 100%;
+    width: 100%;
+    height: 100%;
+}
+
+
+#friendo-request-modal .m-container .items-container span.name {
+    color: #fff;
+    font-size: 18px;
+}
+
+#friendo-request-modal .m-container .items-container span.username {
+    color: #255599;
+}
+
+
+#friendo-request-modal .m-container .items-container .action-button {
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-Light';
+    background-color: #0080D0;
+    width: 210px;
+    padding: 6px 8px;
+    border-radius: 6px;
+    overflow: hidden;
+    white-space: nowrap; 
+    transition: all 0.2s;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+#friendo-request-modal .m-container .items-container .action-button:hover {
+    scale: 1.05;
+    transition: scale ease-out 0.5;
+}
+
+#friendo-request-modal .m-container .items-container .action-button img {
+    width: 25px;
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+
+#friendo-request-modal .m-container .items-container span.info {
+    font-weight: 300;
+    text-align: center;
+}
+
+#friendo-request-modal .m-container .close-button {
+    display: flex;
+    position: absolute;
+    left: 12px;
+    top: 12px;
+    background: #ec2b4e;
+    width: 30px;
+    height: 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 300;
+    font-size: 75px;
+    padding-bottom: 8px;
+}

@@ -1,0 +1,713 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_6.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1024,
+				"h": 1024
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "hud_box",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 748,
+						"h": 167
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 748,
+						"h": 167
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 748,
+						"h": 167
+					}
+				},
+				{
+					"filename": "glow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 253,
+						"h": 246
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 253,
+						"h": 246
+					},
+					"frame": {
+						"x": 751,
+						"y": 1,
+						"w": 253,
+						"h": 246
+					}
+				},
+				{
+					"filename": "glare_tile_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 17,
+						"h": 17
+					},
+					"frame": {
+						"x": 1006,
+						"y": 1,
+						"w": 17,
+						"h": 17
+					}
+				},
+				{
+					"filename": "glare_tile_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 14,
+						"h": 14
+					},
+					"frame": {
+						"x": 1006,
+						"y": 20,
+						"w": 14,
+						"h": 14
+					}
+				},
+				{
+					"filename": "hud_box_duels",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 736,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 736,
+						"h": 136
+					},
+					"frame": {
+						"x": 1,
+						"y": 170,
+						"w": 736,
+						"h": 136
+					}
+				},
+				{
+					"filename": "fx_electricity_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 739,
+						"y": 170,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "fx_electricity_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 739,
+						"y": 170,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "fx_electricity_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 739,
+						"y": 170,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "fx_electricity_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 739,
+						"y": 170,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "fx_electricity_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 3,
+						"h": 3
+					},
+					"frame": {
+						"x": 739,
+						"y": 170,
+						"w": 3,
+						"h": 3
+					}
+				},
+				{
+					"filename": "shadow_logo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 275,
+						"h": 275
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 275,
+						"h": 275
+					},
+					"frame": {
+						"x": 739,
+						"y": 249,
+						"w": 275,
+						"h": 275
+					}
+				},
+				{
+					"filename": "btn_menu_off",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 101,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 103
+					},
+					"frame": {
+						"x": 1,
+						"y": 526,
+						"w": 101,
+						"h": 103
+					}
+				},
+				{
+					"filename": "btn_menu_on",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 101,
+						"h": 102
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 101,
+						"h": 102
+					},
+					"frame": {
+						"x": 1,
+						"y": 308,
+						"w": 101,
+						"h": 102
+					}
+				},
+				{
+					"filename": "fx_electricity_07",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 89
+					},
+					"frame": {
+						"x": 1,
+						"y": 412,
+						"w": 295,
+						"h": 89
+					}
+				},
+				{
+					"filename": "fx_electricity_09",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 295,
+						"h": 89
+					},
+					"frame": {
+						"x": 104,
+						"y": 308,
+						"w": 295,
+						"h": 89
+					}
+				},
+				{
+					"filename": "fx_electricity_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 2,
+						"w": 295,
+						"h": 87
+					},
+					"frame": {
+						"x": 401,
+						"y": 308,
+						"w": 295,
+						"h": 87
+					}
+				},
+				{
+					"filename": "glare_tile_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 39,
+						"y": 31,
+						"w": 35,
+						"h": 43
+					},
+					"frame": {
+						"x": 698,
+						"y": 308,
+						"w": 35,
+						"h": 43
+					}
+				},
+				{
+					"filename": "glare_tile_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 46,
+						"y": 40,
+						"w": 28,
+						"h": 34
+					},
+					"frame": {
+						"x": 698,
+						"y": 353,
+						"w": 28,
+						"h": 34
+					}
+				},
+				{
+					"filename": "glare_tile_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 48,
+						"y": 41,
+						"w": 26,
+						"h": 33
+					},
+					"frame": {
+						"x": 698,
+						"y": 389,
+						"w": 26,
+						"h": 33
+					}
+				},
+				{
+					"filename": "fx_electricity_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 295,
+						"h": 86
+					},
+					"frame": {
+						"x": 401,
+						"y": 397,
+						"w": 295,
+						"h": 86
+					}
+				},
+				{
+					"filename": "glare_tile_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 25,
+						"h": 25
+					},
+					"frame": {
+						"x": 698,
+						"y": 424,
+						"w": 25,
+						"h": 25
+					}
+				},
+				{
+					"filename": "glare_tile_06",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 298,
+						"y": 399,
+						"w": 74,
+						"h": 74
+					}
+				},
+				{
+					"filename": "glare_tile_07",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 298,
+						"y": 475,
+						"w": 74,
+						"h": 74
+					}
+				},
+				{
+					"filename": "timer",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 170,
+						"h": 35
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 170,
+						"h": 35
+					},
+					"frame": {
+						"x": 104,
+						"y": 503,
+						"w": 170,
+						"h": 35
+					}
+				},
+				{
+					"filename": "fx_electricity_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 295,
+						"h": 81
+					},
+					"frame": {
+						"x": 374,
+						"y": 485,
+						"w": 295,
+						"h": 81
+					}
+				},
+				{
+					"filename": "glare_tile_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 66,
+						"h": 66
+					},
+					"frame": {
+						"x": 671,
+						"y": 485,
+						"w": 66,
+						"h": 66
+					}
+				},
+				{
+					"filename": "fx_electricity_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 295,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 293,
+						"h": 89
+					},
+					"frame": {
+						"x": 671,
+						"y": 553,
+						"w": 293,
+						"h": 89
+					}
+				},
+				{
+					"filename": "glare_tile_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 14,
+						"w": 48,
+						"h": 60
+					},
+					"frame": {
+						"x": 966,
+						"y": 526,
+						"w": 48,
+						"h": 60
+					}
+				},
+				{
+					"filename": "glare_tile_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 41,
+						"h": 41
+					},
+					"frame": {
+						"x": 966,
+						"y": 588,
+						"w": 41,
+						"h": 41
+					}
+				},
+				{
+					"filename": "glare_tile_08",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 104,
+						"y": 540,
+						"w": 74,
+						"h": 74
+					}
+				},
+				{
+					"filename": "glare_tile_09",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 180,
+						"y": 540,
+						"w": 74,
+						"h": 74
+					}
+				},
+				{
+					"filename": "tile",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 256,
+						"y": 551,
+						"w": 74,
+						"h": 74
+					}
+				},
+				{
+					"filename": "tile_duels",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 74,
+						"h": 74
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 74,
+						"h": 74
+					},
+					"frame": {
+						"x": 104,
+						"y": 616,
+						"w": 74,
+						"h": 74
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:822657b22e59db253bc242489232f38d:c609ecaac509eff9691ff6ff7eab86eb:fec2424eb57c92d42173fdf5f8cb1b1a$"
+	}
+}

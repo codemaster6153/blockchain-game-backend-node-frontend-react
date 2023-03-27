@@ -1,0 +1,7349 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_3.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "column_gamerism",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 207,
+						"h": 533
+					},
+					"spriteSourceSize": {
+						"x": 10,
+						"y": 0,
+						"w": 187,
+						"h": 533
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 187,
+						"h": 533
+					}
+				},
+				{
+					"filename": "column_base",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 500
+					},
+					"frame": {
+						"x": 1,
+						"y": 536,
+						"w": 56,
+						"h": 500
+					}
+				},
+				{
+					"filename": "column_shadow",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 56,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 56,
+						"h": 500
+					},
+					"frame": {
+						"x": 1,
+						"y": 1038,
+						"w": 56,
+						"h": 500
+					}
+				},
+				{
+					"filename": "column_lights",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 56,
+						"h": 500
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 47,
+						"h": 500
+					},
+					"frame": {
+						"x": 1,
+						"y": 1540,
+						"w": 47,
+						"h": 500
+					}
+				},
+				{
+					"filename": "wall_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 50,
+						"y": 1540,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "decor_rugpool_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 103
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 103
+					},
+					"frame": {
+						"x": 50,
+						"y": 1942,
+						"w": 82,
+						"h": 103
+					}
+				},
+				{
+					"filename": "wall_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 59,
+						"y": 536,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 59,
+						"y": 938,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "decor_modding_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 52,
+						"h": 195
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 52,
+						"h": 195
+					},
+					"frame": {
+						"x": 59,
+						"y": 1340,
+						"w": 52,
+						"h": 195
+					}
+				},
+				{
+					"filename": "wall_04",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 62,
+						"y": 1537,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_05",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 74,
+						"y": 1537,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_06",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 86,
+						"y": 1537,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_07",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 98,
+						"y": 1537,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_08",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 110,
+						"y": 1537,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "wall_09",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 400
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 400
+					},
+					"frame": {
+						"x": 71,
+						"y": 536,
+						"w": 10,
+						"h": 400
+					}
+				},
+				{
+					"filename": "arcade_side_back_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 36,
+						"w": 118,
+						"h": 343
+					},
+					"frame": {
+						"x": 71,
+						"y": 938,
+						"w": 118,
+						"h": 343
+					}
+				},
+				{
+					"filename": "stuff_09_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 52
+					},
+					"frame": {
+						"x": 71,
+						"y": 1283,
+						"w": 40,
+						"h": 52
+					}
+				},
+				{
+					"filename": "cabinet_rugpool",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 168,
+						"h": 243
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 168,
+						"h": 243
+					},
+					"frame": {
+						"x": 113,
+						"y": 1283,
+						"w": 168,
+						"h": 243
+					}
+				},
+				{
+					"filename": "arcade_side_front_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 121,
+						"y": 41,
+						"w": 157,
+						"h": 342
+					},
+					"frame": {
+						"x": 83,
+						"y": 536,
+						"w": 157,
+						"h": 342
+					}
+				},
+				{
+					"filename": "aquarium_tank_17",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 56
+					},
+					"frame": {
+						"x": 83,
+						"y": 880,
+						"w": 97,
+						"h": 56
+					}
+				},
+				{
+					"filename": "aquarium_tank_18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 56
+					},
+					"frame": {
+						"x": 182,
+						"y": 880,
+						"w": 97,
+						"h": 56
+					}
+				},
+				{
+					"filename": "arcade_side_back_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 46,
+						"w": 133,
+						"h": 339
+					},
+					"frame": {
+						"x": 191,
+						"y": 938,
+						"w": 133,
+						"h": 339
+					}
+				},
+				{
+					"filename": "arcade_side_front_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 127,
+						"y": 46,
+						"w": 133,
+						"h": 339
+					},
+					"frame": {
+						"x": 122,
+						"y": 1528,
+						"w": 133,
+						"h": 339
+					}
+				},
+				{
+					"filename": "decor_modding_3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 72,
+						"h": 71
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 72,
+						"h": 71
+					},
+					"frame": {
+						"x": 122,
+						"y": 1869,
+						"w": 72,
+						"h": 71
+					}
+				},
+				{
+					"filename": "badge_rugpool_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 159,
+						"h": 177
+					},
+					"frame": {
+						"x": 196,
+						"y": 1869,
+						"w": 159,
+						"h": 177
+					}
+				},
+				{
+					"filename": "stuff_06",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 60,
+						"h": 78
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 60,
+						"h": 78
+					},
+					"frame": {
+						"x": 134,
+						"y": 1942,
+						"w": 60,
+						"h": 78
+					}
+				},
+				{
+					"filename": "gamerism_visor_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 134,
+						"y": 2022,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "gamerism_visor_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 134,
+						"y": 2022,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 45,
+						"w": 8,
+						"h": 12
+					},
+					"frame": {
+						"x": 186,
+						"y": 2022,
+						"w": 8,
+						"h": 12
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 82,
+						"y": 46,
+						"w": 7,
+						"h": 11
+					},
+					"frame": {
+						"x": 186,
+						"y": 2036,
+						"w": 7,
+						"h": 11
+					}
+				},
+				{
+					"filename": "stuff_01_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 64,
+						"h": 330
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 64,
+						"h": 330
+					},
+					"frame": {
+						"x": 257,
+						"y": 1528,
+						"w": 64,
+						"h": 330
+					}
+				},
+				{
+					"filename": "stuff_07_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 126,
+						"h": 229
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 229
+					},
+					"frame": {
+						"x": 283,
+						"y": 1279,
+						"w": 126,
+						"h": 229
+					}
+				},
+				{
+					"filename": "badge_endless_ligths",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 35,
+						"y": 115,
+						"w": 63,
+						"h": 16
+					},
+					"frame": {
+						"x": 283,
+						"y": 1510,
+						"w": 63,
+						"h": 16
+					}
+				},
+				{
+					"filename": "stuff_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 63,
+						"h": 325
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 63,
+						"h": 325
+					},
+					"frame": {
+						"x": 323,
+						"y": 1528,
+						"w": 63,
+						"h": 325
+					}
+				},
+				{
+					"filename": "column_gamerism_gamepads_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 207,
+						"h": 533
+					},
+					"spriteSourceSize": {
+						"x": 76,
+						"y": 157,
+						"w": 55,
+						"h": 192
+					},
+					"frame": {
+						"x": 357,
+						"y": 1855,
+						"w": 55,
+						"h": 192
+					}
+				},
+				{
+					"filename": "aquarium_botLight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 84,
+						"y": 11,
+						"w": 31,
+						"h": 12
+					},
+					"frame": {
+						"x": 323,
+						"y": 1855,
+						"w": 31,
+						"h": 12
+					}
+				},
+				{
+					"filename": "evomoment_leg_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 24,
+						"w": 43,
+						"h": 15
+					},
+					"frame": {
+						"x": 348,
+						"y": 1510,
+						"w": 43,
+						"h": 15
+					}
+				},
+				{
+					"filename": "evomoment_leg_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 18,
+						"y": 24,
+						"w": 43,
+						"h": 15
+					},
+					"frame": {
+						"x": 348,
+						"y": 1510,
+						"w": 43,
+						"h": 15
+					}
+				},
+				{
+					"filename": "divider",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 11,
+						"h": 325
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 10,
+						"h": 325
+					},
+					"frame": {
+						"x": 388,
+						"y": 1527,
+						"w": 10,
+						"h": 325
+					}
+				},
+				{
+					"filename": "badge_xmas_snowflake_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 57,
+						"y": 124,
+						"w": 27,
+						"h": 15
+					},
+					"frame": {
+						"x": 393,
+						"y": 1510,
+						"w": 27,
+						"h": 15
+					}
+				},
+				{
+					"filename": "arcade_mid_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 120,
+						"w": 161,
+						"h": 261
+					},
+					"frame": {
+						"x": 400,
+						"y": 1527,
+						"w": 161,
+						"h": 261
+					}
+				},
+				{
+					"filename": "column_gamerism_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 207,
+						"h": 533
+					},
+					"spriteSourceSize": {
+						"x": 78,
+						"y": 147,
+						"w": 12,
+						"h": 257
+					},
+					"frame": {
+						"x": 414,
+						"y": 1790,
+						"w": 12,
+						"h": 257
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 44,
+						"w": 12,
+						"h": 13
+					},
+					"frame": {
+						"x": 400,
+						"y": 1790,
+						"w": 12,
+						"h": 13
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 54,
+						"y": 44,
+						"w": 11,
+						"h": 13
+					},
+					"frame": {
+						"x": 400,
+						"y": 1805,
+						"w": 11,
+						"h": 13
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 77,
+						"y": 45,
+						"w": 10,
+						"h": 12
+					},
+					"frame": {
+						"x": 400,
+						"y": 1820,
+						"w": 10,
+						"h": 12
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 72,
+						"y": 44,
+						"w": 10,
+						"h": 11
+					},
+					"frame": {
+						"x": 400,
+						"y": 1834,
+						"w": 10,
+						"h": 11
+					}
+				},
+				{
+					"filename": "stuff_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 125,
+						"h": 259
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 125,
+						"h": 254
+					},
+					"frame": {
+						"x": 428,
+						"y": 1790,
+						"w": 125,
+						"h": 254
+					}
+				},
+				{
+					"filename": "stuff_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 169,
+						"h": 228
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 127,
+						"h": 228
+					},
+					"frame": {
+						"x": 555,
+						"y": 1790,
+						"w": 127,
+						"h": 228
+					}
+				},
+				{
+					"filename": "evomoment_leg_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 12,
+						"w": 39,
+						"h": 26
+					},
+					"frame": {
+						"x": 555,
+						"y": 2020,
+						"w": 39,
+						"h": 26
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 297,
+						"w": 15,
+						"h": 26
+					},
+					"frame": {
+						"x": 596,
+						"y": 2020,
+						"w": 15,
+						"h": 26
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 295,
+						"w": 15,
+						"h": 26
+					},
+					"frame": {
+						"x": 613,
+						"y": 2020,
+						"w": 15,
+						"h": 26
+					}
+				},
+				{
+					"filename": "gamerism_visor_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 630,
+						"y": 2020,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "gamerism_visor_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 682,
+						"y": 2020,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "arcade_mid_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 120,
+						"w": 169,
+						"h": 260
+					},
+					"frame": {
+						"x": 190,
+						"y": 1,
+						"w": 169,
+						"h": 260
+					}
+				},
+				{
+					"filename": "stuff_05_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 126,
+						"h": 258
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 126,
+						"h": 258
+					},
+					"frame": {
+						"x": 190,
+						"y": 263,
+						"w": 126,
+						"h": 258
+					}
+				},
+				{
+					"filename": "arcade_top_2_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 11
+					},
+					"frame": {
+						"x": 190,
+						"y": 523,
+						"w": 120,
+						"h": 11
+					}
+				},
+				{
+					"filename": "stuff_02_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 241,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 241,
+						"h": 219
+					},
+					"frame": {
+						"x": 242,
+						"y": 536,
+						"w": 241,
+						"h": 219
+					}
+				},
+				{
+					"filename": "gamerism",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 210,
+						"h": 179
+					},
+					"frame": {
+						"x": 281,
+						"y": 757,
+						"w": 210,
+						"h": 179
+					}
+				},
+				{
+					"filename": "evomoment_ken_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 17,
+						"w": 37,
+						"h": 51
+					},
+					"frame": {
+						"x": 242,
+						"y": 757,
+						"w": 37,
+						"h": 51
+					}
+				},
+				{
+					"filename": "evomoment_leg_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 27,
+						"w": 37,
+						"h": 28
+					},
+					"frame": {
+						"x": 242,
+						"y": 810,
+						"w": 37,
+						"h": 28
+					}
+				},
+				{
+					"filename": "aquarium_topLight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 84,
+						"y": 0,
+						"w": 31,
+						"h": 11
+					},
+					"frame": {
+						"x": 312,
+						"y": 523,
+						"w": 31,
+						"h": 11
+					}
+				},
+				{
+					"filename": "arcade_mid_1_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 141,
+						"y": 332,
+						"w": 29,
+						"h": 37
+					},
+					"frame": {
+						"x": 242,
+						"y": 840,
+						"w": 29,
+						"h": 37
+					}
+				},
+				{
+					"filename": "arcade_mid_1_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 141,
+						"y": 332,
+						"w": 29,
+						"h": 37
+					},
+					"frame": {
+						"x": 242,
+						"y": 840,
+						"w": 29,
+						"h": 37
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 83,
+						"y": 46,
+						"w": 6,
+						"h": 10
+					},
+					"frame": {
+						"x": 273,
+						"y": 840,
+						"w": 6,
+						"h": 10
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 46,
+						"w": 5,
+						"h": 9
+					},
+					"frame": {
+						"x": 273,
+						"y": 852,
+						"w": 5,
+						"h": 9
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 53,
+						"y": 46,
+						"w": 5,
+						"h": 8
+					},
+					"frame": {
+						"x": 273,
+						"y": 863,
+						"w": 5,
+						"h": 8
+					}
+				},
+				{
+					"filename": "stuff_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 241,
+						"h": 218
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 240,
+						"h": 214
+					},
+					"frame": {
+						"x": 318,
+						"y": 263,
+						"w": 240,
+						"h": 214
+					}
+				},
+				{
+					"filename": "gamerism_cables_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 86,
+						"w": 96,
+						"h": 42
+					},
+					"frame": {
+						"x": 318,
+						"y": 479,
+						"w": 96,
+						"h": 42
+					}
+				},
+				{
+					"filename": "badge_xmas_blue_lights",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 74,
+						"w": 69,
+						"h": 10
+					},
+					"frame": {
+						"x": 345,
+						"y": 523,
+						"w": 69,
+						"h": 10
+					}
+				},
+				{
+					"filename": "decor_gamerism_3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 51
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 51
+					},
+					"frame": {
+						"x": 416,
+						"y": 479,
+						"w": 82,
+						"h": 51
+					}
+				},
+				{
+					"filename": "column_gamerism_gamepads_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 207,
+						"h": 533
+					},
+					"spriteSourceSize": {
+						"x": 76,
+						"y": 184,
+						"w": 55,
+						"h": 212
+					},
+					"frame": {
+						"x": 485,
+						"y": 532,
+						"w": 55,
+						"h": 212
+					}
+				},
+				{
+					"filename": "arcade_mid_1_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 141,
+						"y": 318,
+						"w": 29,
+						"h": 51
+					},
+					"frame": {
+						"x": 500,
+						"y": 479,
+						"w": 29,
+						"h": 51
+					}
+				},
+				{
+					"filename": "arcade_mid_1_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 141,
+						"y": 318,
+						"w": 29,
+						"h": 51
+					},
+					"frame": {
+						"x": 500,
+						"y": 479,
+						"w": 29,
+						"h": 51
+					}
+				},
+				{
+					"filename": "arcade_mid_1_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 155,
+						"y": 360,
+						"w": 15,
+						"h": 9
+					},
+					"frame": {
+						"x": 485,
+						"y": 746,
+						"w": 15,
+						"h": 9
+					}
+				},
+				{
+					"filename": "arcade_mid_1_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 155,
+						"y": 360,
+						"w": 15,
+						"h": 9
+					},
+					"frame": {
+						"x": 485,
+						"y": 746,
+						"w": 15,
+						"h": 9
+					}
+				},
+				{
+					"filename": "decor_modding_4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 50
+					},
+					"frame": {
+						"x": 531,
+						"y": 479,
+						"w": 82,
+						"h": 50
+					}
+				},
+				{
+					"filename": "arcade_side_2_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 180,
+						"y": 136,
+						"w": 68,
+						"h": 206
+					},
+					"frame": {
+						"x": 361,
+						"y": 1,
+						"w": 68,
+						"h": 206
+					}
+				},
+				{
+					"filename": "stuff_10",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 50
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 50
+					},
+					"frame": {
+						"x": 361,
+						"y": 209,
+						"w": 40,
+						"h": 50
+					}
+				},
+				{
+					"filename": "stuff_08",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 42,
+						"h": 49
+					},
+					"frame": {
+						"x": 403,
+						"y": 209,
+						"w": 42,
+						"h": 49
+					}
+				},
+				{
+					"filename": "arcade_side_2_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 172,
+						"y": 136,
+						"w": 76,
+						"h": 205
+					},
+					"frame": {
+						"x": 431,
+						"y": 1,
+						"w": 76,
+						"h": 205
+					}
+				},
+				{
+					"filename": "stuff_08_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 42,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 42,
+						"h": 49
+					},
+					"frame": {
+						"x": 447,
+						"y": 208,
+						"w": 42,
+						"h": 49
+					}
+				},
+				{
+					"filename": "stuff_10_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 40,
+						"h": 49
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 40,
+						"h": 49
+					},
+					"frame": {
+						"x": 491,
+						"y": 208,
+						"w": 40,
+						"h": 49
+					}
+				},
+				{
+					"filename": "arcade_side_2_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 172,
+						"y": 136,
+						"w": 75,
+						"h": 205
+					},
+					"frame": {
+						"x": 509,
+						"y": 1,
+						"w": 75,
+						"h": 205
+					}
+				},
+				{
+					"filename": "decor_modding_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 79,
+						"h": 47
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 79,
+						"h": 47
+					},
+					"frame": {
+						"x": 533,
+						"y": 208,
+						"w": 79,
+						"h": 47
+					}
+				},
+				{
+					"filename": "arcade_side_2_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 136,
+						"w": 74,
+						"h": 205
+					},
+					"frame": {
+						"x": 586,
+						"y": 1,
+						"w": 74,
+						"h": 205
+					}
+				},
+				{
+					"filename": "arcade_side_2_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 172,
+						"y": 136,
+						"w": 75,
+						"h": 204
+					},
+					"frame": {
+						"x": 560,
+						"y": 257,
+						"w": 75,
+						"h": 204
+					}
+				},
+				{
+					"filename": "stuff_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 40,
+						"h": 52
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 38,
+						"h": 47
+					},
+					"frame": {
+						"x": 614,
+						"y": 208,
+						"w": 38,
+						"h": 47
+					}
+				},
+				{
+					"filename": "badge_endless_eyes",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 47,
+						"y": 69,
+						"w": 39,
+						"h": 14
+					},
+					"frame": {
+						"x": 560,
+						"y": 463,
+						"w": 39,
+						"h": 14
+					}
+				},
+				{
+					"filename": "aquarium_midLight",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 84,
+						"y": 5,
+						"w": 31,
+						"h": 12
+					},
+					"frame": {
+						"x": 601,
+						"y": 463,
+						"w": 31,
+						"h": 12
+					}
+				},
+				{
+					"filename": "arcade_side_2_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 197,
+						"y": 136,
+						"w": 52,
+						"h": 204
+					},
+					"frame": {
+						"x": 326,
+						"y": 938,
+						"w": 52,
+						"h": 204
+					}
+				},
+				{
+					"filename": "badge_ringydingy",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 12,
+						"y": 37,
+						"w": 138,
+						"h": 132
+					},
+					"frame": {
+						"x": 326,
+						"y": 1144,
+						"w": 138,
+						"h": 132
+					}
+				},
+				{
+					"filename": "arcade_side_2_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 178,
+						"y": 137,
+						"w": 72,
+						"h": 203
+					},
+					"frame": {
+						"x": 380,
+						"y": 938,
+						"w": 72,
+						"h": 203
+					}
+				},
+				{
+					"filename": "arcade_side_2_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 188,
+						"y": 137,
+						"w": 60,
+						"h": 203
+					},
+					"frame": {
+						"x": 454,
+						"y": 938,
+						"w": 60,
+						"h": 203
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 158,
+						"h": 190
+					},
+					"frame": {
+						"x": 502,
+						"y": 746,
+						"w": 158,
+						"h": 190
+					}
+				},
+				{
+					"filename": "decor_rugpool_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 51,
+						"h": 194
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 51,
+						"h": 194
+					},
+					"frame": {
+						"x": 542,
+						"y": 531,
+						"w": 51,
+						"h": 194
+					}
+				},
+				{
+					"filename": "neko_badge_bottom_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 141,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 542,
+						"y": 727,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "neko_badge_bottom_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 141,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 571,
+						"y": 727,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "decor_gamerism_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 48,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 48,
+						"h": 193
+					},
+					"frame": {
+						"x": 595,
+						"y": 531,
+						"w": 48,
+						"h": 193
+					}
+				},
+				{
+					"filename": "aquarium_tank_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 66
+					},
+					"frame": {
+						"x": 634,
+						"y": 463,
+						"w": 97,
+						"h": 66
+					}
+				},
+				{
+					"filename": "arcade_top_2_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 41,
+						"y": 75,
+						"w": 76,
+						"h": 18
+					},
+					"frame": {
+						"x": 600,
+						"y": 726,
+						"w": 76,
+						"h": 18
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 295,
+						"w": 15,
+						"h": 28
+					},
+					"frame": {
+						"x": 615,
+						"y": 477,
+						"w": 15,
+						"h": 28
+					}
+				},
+				{
+					"filename": "poster_candy_fiesta",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 191
+					},
+					"frame": {
+						"x": 645,
+						"y": 531,
+						"w": 154,
+						"h": 191
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 66,
+						"y": 44,
+						"w": 10,
+						"h": 10
+					},
+					"frame": {
+						"x": 615,
+						"y": 507,
+						"w": 10,
+						"h": 10
+					}
+				},
+				{
+					"filename": "poster_endless",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 191
+					},
+					"frame": {
+						"x": 637,
+						"y": 257,
+						"w": 154,
+						"h": 191
+					}
+				},
+				{
+					"filename": "arcade_side_1_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 144,
+						"y": 57,
+						"w": 79,
+						"h": 78
+					},
+					"frame": {
+						"x": 733,
+						"y": 450,
+						"w": 79,
+						"h": 78
+					}
+				},
+				{
+					"filename": "arcade_side_2_halo",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 168,
+						"y": 69,
+						"w": 50,
+						"h": 46
+					},
+					"frame": {
+						"x": 654,
+						"y": 208,
+						"w": 50,
+						"h": 46
+					}
+				},
+				{
+					"filename": "poster_rugpool",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 191
+					},
+					"frame": {
+						"x": 662,
+						"y": 1,
+						"w": 154,
+						"h": 191
+					}
+				},
+				{
+					"filename": "arcade_mid_2_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 193,
+						"w": 106,
+						"h": 61
+					},
+					"frame": {
+						"x": 706,
+						"y": 194,
+						"w": 106,
+						"h": 61
+					}
+				},
+				{
+					"filename": "badge_xmas_glare_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 80,
+						"y": 45,
+						"w": 9,
+						"h": 12
+					},
+					"frame": {
+						"x": 662,
+						"y": 194,
+						"w": 9,
+						"h": 12
+					}
+				},
+				{
+					"filename": "poster_templok",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 191
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 191
+					},
+					"frame": {
+						"x": 793,
+						"y": 257,
+						"w": 154,
+						"h": 191
+					}
+				},
+				{
+					"filename": "arcade_mid_2_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 193,
+						"w": 106,
+						"h": 61
+					},
+					"frame": {
+						"x": 814,
+						"y": 194,
+						"w": 106,
+						"h": 61
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 0,
+						"w": 157,
+						"h": 190
+					},
+					"frame": {
+						"x": 818,
+						"y": 1,
+						"w": 157,
+						"h": 190
+					}
+				},
+				{
+					"filename": "arcade_mid_2_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 192,
+						"w": 105,
+						"h": 62
+					},
+					"frame": {
+						"x": 922,
+						"y": 193,
+						"w": 105,
+						"h": 62
+					}
+				},
+				{
+					"filename": "poster_lasser_cook",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 190
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 190
+					},
+					"frame": {
+						"x": 977,
+						"y": 1,
+						"w": 154,
+						"h": 190
+					}
+				},
+				{
+					"filename": "poster_og",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 154,
+						"h": 190
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 154,
+						"h": 190
+					},
+					"frame": {
+						"x": 411,
+						"y": 1278,
+						"w": 154,
+						"h": 190
+					}
+				},
+				{
+					"filename": "badge_rugpool_outlines",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 22,
+						"w": 121,
+						"h": 131
+					},
+					"frame": {
+						"x": 466,
+						"y": 1143,
+						"w": 121,
+						"h": 131
+					}
+				},
+				{
+					"filename": "badge_endless_fire_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 60,
+						"w": 129,
+						"h": 36
+					},
+					"frame": {
+						"x": 411,
+						"y": 1470,
+						"w": 129,
+						"h": 36
+					}
+				},
+				{
+					"filename": "neko_badge_bottom_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 141,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 422,
+						"y": 1508,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "neko_badge_bottom_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 141,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 451,
+						"y": 1508,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "neko_badge_bottom_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 141,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 480,
+						"y": 1508,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "neko_badge_bottom_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 141,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 509,
+						"y": 1508,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "neko_badge_bottom_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 141,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 538,
+						"y": 1508,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "badge_endless_fire_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 60,
+						"w": 129,
+						"h": 36
+					},
+					"frame": {
+						"x": 542,
+						"y": 1470,
+						"w": 129,
+						"h": 36
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 163,
+						"h": 189
+					},
+					"frame": {
+						"x": 567,
+						"y": 1276,
+						"w": 163,
+						"h": 189
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 161,
+						"h": 189
+					},
+					"frame": {
+						"x": 516,
+						"y": 938,
+						"w": 161,
+						"h": 189
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 159,
+						"h": 189
+					},
+					"frame": {
+						"x": 662,
+						"y": 746,
+						"w": 159,
+						"h": 189
+					}
+				},
+				{
+					"filename": "badge_xmas_snowflake_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 31,
+						"y": 117,
+						"w": 79,
+						"h": 20
+					},
+					"frame": {
+						"x": 678,
+						"y": 724,
+						"w": 79,
+						"h": 20
+					}
+				},
+				{
+					"filename": "gamerism_character",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 28,
+						"w": 204,
+						"h": 144
+					},
+					"frame": {
+						"x": 589,
+						"y": 1129,
+						"w": 204,
+						"h": 144
+					}
+				},
+				{
+					"filename": "arcade_mid_1_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 148,
+						"y": 350,
+						"w": 22,
+						"h": 19
+					},
+					"frame": {
+						"x": 759,
+						"y": 724,
+						"w": 22,
+						"h": 19
+					}
+				},
+				{
+					"filename": "arcade_mid_1_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 148,
+						"y": 350,
+						"w": 22,
+						"h": 19
+					},
+					"frame": {
+						"x": 759,
+						"y": 724,
+						"w": 22,
+						"h": 19
+					}
+				},
+				{
+					"filename": "neko_badge_neon_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 36,
+						"y": 113,
+						"w": 75,
+						"h": 18
+					},
+					"frame": {
+						"x": 783,
+						"y": 724,
+						"w": 75,
+						"h": 18
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_15",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 2,
+						"w": 156,
+						"h": 188
+					},
+					"frame": {
+						"x": 679,
+						"y": 937,
+						"w": 156,
+						"h": 188
+					}
+				},
+				{
+					"filename": "portrait_frame_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 188,
+						"h": 188
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 0,
+						"w": 187,
+						"h": 187
+					},
+					"frame": {
+						"x": 823,
+						"y": 744,
+						"w": 187,
+						"h": 187
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 4,
+						"w": 163,
+						"h": 187
+					},
+					"frame": {
+						"x": 801,
+						"y": 530,
+						"w": 163,
+						"h": 187
+					}
+				},
+				{
+					"filename": "arcade_side_1_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 144,
+						"y": 57,
+						"w": 79,
+						"h": 78
+					},
+					"frame": {
+						"x": 814,
+						"y": 450,
+						"w": 79,
+						"h": 78
+					}
+				},
+				{
+					"filename": "arcade_side_1_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 144,
+						"y": 57,
+						"w": 79,
+						"h": 78
+					},
+					"frame": {
+						"x": 895,
+						"y": 450,
+						"w": 79,
+						"h": 78
+					}
+				},
+				{
+					"filename": "badge_templok_bulb",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 64,
+						"y": 140,
+						"w": 21,
+						"h": 21
+					},
+					"frame": {
+						"x": 860,
+						"y": 719,
+						"w": 21,
+						"h": 21
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 4,
+						"w": 156,
+						"h": 186
+					},
+					"frame": {
+						"x": 949,
+						"y": 257,
+						"w": 156,
+						"h": 186
+					}
+				},
+				{
+					"filename": "arcade_mid_2_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 192,
+						"w": 105,
+						"h": 62
+					},
+					"frame": {
+						"x": 1029,
+						"y": 193,
+						"w": 105,
+						"h": 62
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_16",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 4,
+						"w": 155,
+						"h": 186
+					},
+					"frame": {
+						"x": 1133,
+						"y": 1,
+						"w": 155,
+						"h": 186
+					}
+				},
+				{
+					"filename": "badge_xmas_lights_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 56,
+						"y": 10,
+						"w": 41,
+						"h": 18
+					},
+					"frame": {
+						"x": 883,
+						"y": 719,
+						"w": 41,
+						"h": 18
+					}
+				},
+				{
+					"filename": "badge_xmas_lights_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 10,
+						"w": 40,
+						"h": 18
+					},
+					"frame": {
+						"x": 926,
+						"y": 719,
+						"w": 40,
+						"h": 18
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 7,
+						"w": 163,
+						"h": 185
+					},
+					"frame": {
+						"x": 966,
+						"y": 530,
+						"w": 163,
+						"h": 185
+					}
+				},
+				{
+					"filename": "gamerism_visor_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 968,
+						"y": 717,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "gamerism_neon_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 67,
+						"y": 8,
+						"w": 79,
+						"h": 80
+					},
+					"frame": {
+						"x": 976,
+						"y": 445,
+						"w": 79,
+						"h": 80
+					}
+				},
+				{
+					"filename": "arcade_side_1_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 144,
+						"y": 57,
+						"w": 79,
+						"h": 78
+					},
+					"frame": {
+						"x": 1057,
+						"y": 445,
+						"w": 79,
+						"h": 78
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 163,
+						"h": 184
+					},
+					"frame": {
+						"x": 1107,
+						"y": 257,
+						"w": 163,
+						"h": 184
+					}
+				},
+				{
+					"filename": "aquarium_tank_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 66
+					},
+					"frame": {
+						"x": 1136,
+						"y": 189,
+						"w": 97,
+						"h": 66
+					}
+				},
+				{
+					"filename": "aquarium_tank_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 66
+					},
+					"frame": {
+						"x": 1235,
+						"y": 189,
+						"w": 97,
+						"h": 66
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 10,
+						"w": 163,
+						"h": 183
+					},
+					"frame": {
+						"x": 1290,
+						"y": 1,
+						"w": 163,
+						"h": 183
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 10,
+						"w": 161,
+						"h": 183
+					},
+					"frame": {
+						"x": 563,
+						"y": 1527,
+						"w": 161,
+						"h": 183
+					}
+				},
+				{
+					"filename": "arcade_mid_2_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 196,
+						"w": 109,
+						"h": 58
+					},
+					"frame": {
+						"x": 673,
+						"y": 1467,
+						"w": 109,
+						"h": 58
+					}
+				},
+				{
+					"filename": "neko_badge_bottom_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 59,
+						"y": 141,
+						"w": 27,
+						"h": 17
+					},
+					"frame": {
+						"x": 567,
+						"y": 1508,
+						"w": 27,
+						"h": 17
+					}
+				},
+				{
+					"filename": "stuff_06_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 59,
+						"h": 76
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 59,
+						"h": 76
+					},
+					"frame": {
+						"x": 563,
+						"y": 1712,
+						"w": 59,
+						"h": 76
+					}
+				},
+				{
+					"filename": "arcade_side_2_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 193,
+						"y": 261,
+						"w": 58,
+						"h": 76
+					},
+					"frame": {
+						"x": 624,
+						"y": 1712,
+						"w": 58,
+						"h": 76
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 9,
+						"w": 159,
+						"h": 183
+					},
+					"frame": {
+						"x": 732,
+						"y": 1275,
+						"w": 159,
+						"h": 183
+					}
+				},
+				{
+					"filename": "dummy_avatar",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 140,
+						"h": 140
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 140,
+						"h": 140
+					},
+					"frame": {
+						"x": 795,
+						"y": 1127,
+						"w": 140,
+						"h": 140
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 3,
+						"y": 8,
+						"w": 157,
+						"h": 183
+					},
+					"frame": {
+						"x": 837,
+						"y": 933,
+						"w": 157,
+						"h": 183
+					}
+				},
+				{
+					"filename": "badge_ringydingy_serie_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 163,
+						"h": 193
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 7,
+						"w": 155,
+						"h": 183
+					},
+					"frame": {
+						"x": 684,
+						"y": 1712,
+						"w": 155,
+						"h": 183
+					}
+				},
+				{
+					"filename": "neko_badge_neon_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 7,
+						"w": 142,
+						"h": 120
+					},
+					"frame": {
+						"x": 684,
+						"y": 1897,
+						"w": 142,
+						"h": 120
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 734,
+						"y": 2019,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 734,
+						"y": 2019,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_templok_serie_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 34,
+						"w": 135,
+						"h": 117
+					},
+					"frame": {
+						"x": 828,
+						"y": 1897,
+						"w": 135,
+						"h": 117
+					}
+				},
+				{
+					"filename": "arcade_top_2_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 27,
+						"y": 63,
+						"w": 105,
+						"h": 31
+					},
+					"frame": {
+						"x": 857,
+						"y": 2016,
+						"w": 105,
+						"h": 31
+					}
+				},
+				{
+					"filename": "stuff_04",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 31
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 31
+					},
+					"frame": {
+						"x": 964,
+						"y": 2016,
+						"w": 24,
+						"h": 31
+					}
+				},
+				{
+					"filename": "badge_templok",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 3,
+						"w": 149,
+						"h": 177
+					},
+					"frame": {
+						"x": 726,
+						"y": 1527,
+						"w": 149,
+						"h": 177
+					}
+				},
+				{
+					"filename": "aquarium_tank_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 64
+					},
+					"frame": {
+						"x": 784,
+						"y": 1460,
+						"w": 97,
+						"h": 64
+					}
+				},
+				{
+					"filename": "neko_badge",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 146,
+						"h": 169
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 146,
+						"h": 169
+					},
+					"frame": {
+						"x": 841,
+						"y": 1706,
+						"w": 146,
+						"h": 169
+					}
+				},
+				{
+					"filename": "hatch_door",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 162,
+						"h": 136
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 162,
+						"h": 136
+					},
+					"frame": {
+						"x": 965,
+						"y": 1877,
+						"w": 162,
+						"h": 136
+					}
+				},
+				{
+					"filename": "stuff_04_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 24,
+						"h": 30
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 24,
+						"h": 30
+					},
+					"frame": {
+						"x": 990,
+						"y": 2015,
+						"w": 24,
+						"h": 30
+					}
+				},
+				{
+					"filename": "arcade_mid_1_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 144,
+						"y": 340,
+						"w": 26,
+						"h": 29
+					},
+					"frame": {
+						"x": 1016,
+						"y": 2015,
+						"w": 26,
+						"h": 29
+					}
+				},
+				{
+					"filename": "arcade_mid_1_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 144,
+						"y": 340,
+						"w": 26,
+						"h": 29
+					},
+					"frame": {
+						"x": 1016,
+						"y": 2015,
+						"w": 26,
+						"h": 29
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1044,
+						"y": 2015,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_top_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 30,
+						"y": 12,
+						"w": 188,
+						"h": 167
+					},
+					"frame": {
+						"x": 877,
+						"y": 1526,
+						"w": 188,
+						"h": 167
+					}
+				},
+				{
+					"filename": "aquarium_tank_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 64
+					},
+					"frame": {
+						"x": 883,
+						"y": 1460,
+						"w": 97,
+						"h": 64
+					}
+				},
+				{
+					"filename": "portrait_frame_1_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 188,
+						"h": 188
+					},
+					"spriteSourceSize": {
+						"x": 5,
+						"y": 5,
+						"w": 178,
+						"h": 167
+					},
+					"frame": {
+						"x": 989,
+						"y": 1695,
+						"w": 178,
+						"h": 167
+					}
+				},
+				{
+					"filename": "column_gamerism_spotlights",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 207,
+						"h": 533
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 29,
+						"w": 207,
+						"h": 148
+					},
+					"frame": {
+						"x": 1129,
+						"y": 1864,
+						"w": 207,
+						"h": 148
+					}
+				},
+				{
+					"filename": "arcade_top_2_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1167,
+						"y": 2014,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "arcade_top_2_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1289,
+						"y": 2014,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "badge_templok_3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 42,
+						"y": 0,
+						"w": 67,
+						"h": 165
+					},
+					"frame": {
+						"x": 893,
+						"y": 1269,
+						"w": 67,
+						"h": 165
+					}
+				},
+				{
+					"filename": "badge_xmas",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 141,
+						"h": 139
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 141,
+						"h": 139
+					},
+					"frame": {
+						"x": 937,
+						"y": 1118,
+						"w": 141,
+						"h": 139
+					}
+				},
+				{
+					"filename": "badge_endless",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 1,
+						"w": 133,
+						"h": 160
+					},
+					"frame": {
+						"x": 996,
+						"y": 933,
+						"w": 133,
+						"h": 160
+					}
+				},
+				{
+					"filename": "badge_endless_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 2,
+						"y": 0,
+						"w": 129,
+						"h": 155
+					},
+					"frame": {
+						"x": 1012,
+						"y": 744,
+						"w": 129,
+						"h": 155
+					}
+				},
+				{
+					"filename": "gamerism_visor_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 1020,
+						"y": 717,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "gamerism_visor_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 1072,
+						"y": 717,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "gamerism_visor_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 1124,
+						"y": 717,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1012,
+						"y": 901,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_rugpool_rim",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 15,
+						"w": 159,
+						"h": 128
+					},
+					"frame": {
+						"x": 1131,
+						"y": 525,
+						"w": 159,
+						"h": 128
+					}
+				},
+				{
+					"filename": "arcade_mid_2_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 194,
+						"w": 108,
+						"h": 60
+					},
+					"frame": {
+						"x": 1131,
+						"y": 655,
+						"w": 108,
+						"h": 60
+					}
+				},
+				{
+					"filename": "arcade_side_2_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 178,
+						"y": 261,
+						"w": 72,
+						"h": 78
+					},
+					"frame": {
+						"x": 1138,
+						"y": 443,
+						"w": 72,
+						"h": 78
+					}
+				},
+				{
+					"filename": "plinth",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 77
+					},
+					"frame": {
+						"x": 1212,
+						"y": 443,
+						"w": 102,
+						"h": 77
+					}
+				},
+				{
+					"filename": "badge_templok_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 20,
+						"y": 27,
+						"w": 108,
+						"h": 128
+					},
+					"frame": {
+						"x": 1272,
+						"y": 257,
+						"w": 108,
+						"h": 128
+					}
+				},
+				{
+					"filename": "aquarium_tank_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 68
+					},
+					"frame": {
+						"x": 1334,
+						"y": 186,
+						"w": 97,
+						"h": 68
+					}
+				},
+				{
+					"filename": "evomoment_ken_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 6,
+						"y": 23,
+						"w": 45,
+						"h": 46
+					},
+					"frame": {
+						"x": 1272,
+						"y": 387,
+						"w": 45,
+						"h": 46
+					}
+				},
+				{
+					"filename": "aquarium",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 140,
+						"h": 125
+					},
+					"frame": {
+						"x": 962,
+						"y": 1259,
+						"w": 140,
+						"h": 125
+					}
+				},
+				{
+					"filename": "aquarium_tank_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 68
+					},
+					"frame": {
+						"x": 962,
+						"y": 1386,
+						"w": 97,
+						"h": 68
+					}
+				},
+				{
+					"filename": "aquarium_tank_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 68
+					},
+					"frame": {
+						"x": 982,
+						"y": 1456,
+						"w": 97,
+						"h": 68
+					}
+				},
+				{
+					"filename": "aquarium_tank_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 68
+					},
+					"frame": {
+						"x": 1061,
+						"y": 1386,
+						"w": 97,
+						"h": 68
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1080,
+						"y": 1095,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "hatch_door_goo_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 35
+					},
+					"frame": {
+						"x": 1080,
+						"y": 1220,
+						"w": 82,
+						"h": 35
+					}
+				},
+				{
+					"filename": "hatch_door_goo_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 35
+					},
+					"frame": {
+						"x": 1080,
+						"y": 1220,
+						"w": 82,
+						"h": 35
+					}
+				},
+				{
+					"filename": "hatch_door_goo_20",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 35
+					},
+					"frame": {
+						"x": 1080,
+						"y": 1220,
+						"w": 82,
+						"h": 35
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1104,
+						"y": 1257,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "hatch_door_goo_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 35
+					},
+					"frame": {
+						"x": 1164,
+						"y": 1220,
+						"w": 82,
+						"h": 35
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1131,
+						"y": 931,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1135,
+						"y": 901,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "hatch_door_goo_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 35
+					},
+					"frame": {
+						"x": 1131,
+						"y": 1056,
+						"w": 82,
+						"h": 35
+					}
+				},
+				{
+					"filename": "hatch_door_goo_18",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 35
+					},
+					"frame": {
+						"x": 1215,
+						"y": 1056,
+						"w": 82,
+						"h": 35
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1219,
+						"y": 1093,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1143,
+						"y": 744,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "arcade_top_1_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 46,
+						"w": 182,
+						"h": 87
+					},
+					"frame": {
+						"x": 1241,
+						"y": 655,
+						"w": 182,
+						"h": 87
+					}
+				},
+				{
+					"filename": "gamerism_visor_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 1176,
+						"y": 717,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "arcade_mid_2_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 194,
+						"w": 107,
+						"h": 60
+					},
+					"frame": {
+						"x": 1258,
+						"y": 869,
+						"w": 107,
+						"h": 60
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1282,
+						"y": 744,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1270,
+						"y": 931,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "aquarium_tank_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 60
+					},
+					"frame": {
+						"x": 1367,
+						"y": 869,
+						"w": 97,
+						"h": 60
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1421,
+						"y": 744,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "hatch_door_goo_19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 35
+					},
+					"frame": {
+						"x": 1299,
+						"y": 1056,
+						"w": 82,
+						"h": 35
+					}
+				},
+				{
+					"filename": "badge_endless_gem_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1143,
+						"y": 869,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_endless_gem_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1143,
+						"y": 869,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_endless_gem_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1180,
+						"y": 869,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_endless_gem_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1217,
+						"y": 869,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1292,
+						"y": 522,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "gamerism_neon_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 55,
+						"y": 0,
+						"w": 102,
+						"h": 95
+					},
+					"frame": {
+						"x": 1425,
+						"y": 647,
+						"w": 102,
+						"h": 95
+					}
+				},
+				{
+					"filename": "evomoment_glitch_1",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 77,
+						"h": 85
+					},
+					"frame": {
+						"x": 1316,
+						"y": 435,
+						"w": 77,
+						"h": 85
+					}
+				},
+				{
+					"filename": "arcade_mid_1_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 141,
+						"y": 323,
+						"w": 29,
+						"h": 46
+					},
+					"frame": {
+						"x": 1319,
+						"y": 387,
+						"w": 29,
+						"h": 46
+					}
+				},
+				{
+					"filename": "arcade_mid_1_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 141,
+						"y": 323,
+						"w": 29,
+						"h": 46
+					},
+					"frame": {
+						"x": 1319,
+						"y": 387,
+						"w": 29,
+						"h": 46
+					}
+				},
+				{
+					"filename": "decor_gamerism_2",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 44
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 44
+					},
+					"frame": {
+						"x": 1350,
+						"y": 387,
+						"w": 82,
+						"h": 44
+					}
+				},
+				{
+					"filename": "arcade_top_1_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 46,
+						"w": 182,
+						"h": 87
+					},
+					"frame": {
+						"x": 1395,
+						"y": 433,
+						"w": 182,
+						"h": 87
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1431,
+						"y": 522,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "decor_gamerism_4",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 82,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 82,
+						"h": 95
+					},
+					"frame": {
+						"x": 1529,
+						"y": 647,
+						"w": 82,
+						"h": 95
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1570,
+						"y": 522,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "badge_rugpool_neon_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 11,
+						"y": 1,
+						"w": 137,
+						"h": 123
+					},
+					"frame": {
+						"x": 1382,
+						"y": 256,
+						"w": 137,
+						"h": 123
+					}
+				},
+				{
+					"filename": "aquarium_tank_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 68
+					},
+					"frame": {
+						"x": 1433,
+						"y": 186,
+						"w": 97,
+						"h": 68
+					}
+				},
+				{
+					"filename": "gamerism_cables_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 86,
+						"w": 96,
+						"h": 42
+					},
+					"frame": {
+						"x": 1434,
+						"y": 381,
+						"w": 96,
+						"h": 42
+					}
+				},
+				{
+					"filename": "badge_templok_serie_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 33,
+						"w": 135,
+						"h": 117
+					},
+					"frame": {
+						"x": 1521,
+						"y": 256,
+						"w": 135,
+						"h": 117
+					}
+				},
+				{
+					"filename": "aquarium_tank_19",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 56
+					},
+					"frame": {
+						"x": 1532,
+						"y": 375,
+						"w": 97,
+						"h": 56
+					}
+				},
+				{
+					"filename": "arcade_top_1_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 46,
+						"w": 182,
+						"h": 87
+					},
+					"frame": {
+						"x": 1579,
+						"y": 433,
+						"w": 182,
+						"h": 87
+					}
+				},
+				{
+					"filename": "gamerism_cables_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 86,
+						"w": 96,
+						"h": 42
+					},
+					"frame": {
+						"x": 1631,
+						"y": 375,
+						"w": 96,
+						"h": 42
+					}
+				},
+				{
+					"filename": "badge_templok_serie_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 33,
+						"w": 135,
+						"h": 117
+					},
+					"frame": {
+						"x": 1067,
+						"y": 1526,
+						"w": 135,
+						"h": 117
+					}
+				},
+				{
+					"filename": "aquarium_tank_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 68
+					},
+					"frame": {
+						"x": 1081,
+						"y": 1456,
+						"w": 97,
+						"h": 68
+					}
+				},
+				{
+					"filename": "gamerism_neon_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 72,
+						"y": 18,
+						"w": 68,
+						"h": 68
+					},
+					"frame": {
+						"x": 1160,
+						"y": 1382,
+						"w": 68,
+						"h": 68
+					}
+				},
+				{
+					"filename": "aquarium_details",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 17,
+						"y": 38,
+						"w": 99,
+						"h": 67
+					},
+					"frame": {
+						"x": 1180,
+						"y": 1452,
+						"w": 99,
+						"h": 67
+					}
+				},
+				{
+					"filename": "arcade_mid_2_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 24,
+						"y": 192,
+						"w": 105,
+						"h": 62
+					},
+					"frame": {
+						"x": 1230,
+						"y": 1382,
+						"w": 105,
+						"h": 62
+					}
+				},
+				{
+					"filename": "gamerism_cables_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 86,
+						"w": 96,
+						"h": 42
+					},
+					"frame": {
+						"x": 1067,
+						"y": 1645,
+						"w": 96,
+						"h": 42
+					}
+				},
+				{
+					"filename": "gamerism_cables_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 86,
+						"w": 96,
+						"h": 42
+					},
+					"frame": {
+						"x": 1165,
+						"y": 1645,
+						"w": 96,
+						"h": 42
+					}
+				},
+				{
+					"filename": "badge_templok_serie_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 35,
+						"w": 135,
+						"h": 116
+					},
+					"frame": {
+						"x": 1204,
+						"y": 1521,
+						"w": 135,
+						"h": 116
+					}
+				},
+				{
+					"filename": "badge_templok_serie_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 35,
+						"w": 135,
+						"h": 116
+					},
+					"frame": {
+						"x": 1243,
+						"y": 1257,
+						"w": 135,
+						"h": 116
+					}
+				},
+				{
+					"filename": "hatch_door_goo_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 34
+					},
+					"frame": {
+						"x": 1248,
+						"y": 1218,
+						"w": 82,
+						"h": 34
+					}
+				},
+				{
+					"filename": "hatch_door_goo_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 34
+					},
+					"frame": {
+						"x": 1332,
+						"y": 1218,
+						"w": 82,
+						"h": 34
+					}
+				},
+				{
+					"filename": "badge_templok_serie_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 34,
+						"w": 135,
+						"h": 116
+					},
+					"frame": {
+						"x": 1358,
+						"y": 1093,
+						"w": 135,
+						"h": 116
+					}
+				},
+				{
+					"filename": "hatch_door_goo_17",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 34
+					},
+					"frame": {
+						"x": 1383,
+						"y": 1056,
+						"w": 82,
+						"h": 34
+					}
+				},
+				{
+					"filename": "badge_templok_serie_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 34,
+						"w": 135,
+						"h": 116
+					},
+					"frame": {
+						"x": 1409,
+						"y": 931,
+						"w": 135,
+						"h": 116
+					}
+				},
+				{
+					"filename": "aquarium_tank_15",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 60
+					},
+					"frame": {
+						"x": 1466,
+						"y": 869,
+						"w": 97,
+						"h": 60
+					}
+				},
+				{
+					"filename": "gamerism_cables_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 86,
+						"w": 96,
+						"h": 42
+					},
+					"frame": {
+						"x": 1467,
+						"y": 1049,
+						"w": 96,
+						"h": 42
+					}
+				},
+				{
+					"filename": "badge_templok_serie_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 34,
+						"w": 135,
+						"h": 116
+					},
+					"frame": {
+						"x": 1546,
+						"y": 931,
+						"w": 135,
+						"h": 116
+					}
+				},
+				{
+					"filename": "badge_templok_serie_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 35,
+						"w": 135,
+						"h": 115
+					},
+					"frame": {
+						"x": 1560,
+						"y": 744,
+						"w": 135,
+						"h": 115
+					}
+				},
+				{
+					"filename": "evomoment_text_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 71,
+						"h": 94
+					},
+					"frame": {
+						"x": 1613,
+						"y": 647,
+						"w": 71,
+						"h": 94
+					}
+				},
+				{
+					"filename": "evomoment_text_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 71,
+						"h": 94
+					},
+					"frame": {
+						"x": 1686,
+						"y": 647,
+						"w": 71,
+						"h": 94
+					}
+				},
+				{
+					"filename": "aquarium_tank_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 62
+					},
+					"frame": {
+						"x": 1565,
+						"y": 861,
+						"w": 97,
+						"h": 62
+					}
+				},
+				{
+					"filename": "aquarium_tank_14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 62
+					},
+					"frame": {
+						"x": 1664,
+						"y": 861,
+						"w": 97,
+						"h": 62
+					}
+				},
+				{
+					"filename": "badge_templok_serie_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 35,
+						"w": 135,
+						"h": 115
+					},
+					"frame": {
+						"x": 1697,
+						"y": 743,
+						"w": 135,
+						"h": 115
+					}
+				},
+				{
+					"filename": "badge_templok_serie_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 35,
+						"w": 135,
+						"h": 115
+					},
+					"frame": {
+						"x": 1709,
+						"y": 522,
+						"w": 135,
+						"h": 115
+					}
+				},
+				{
+					"filename": "floor_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1759,
+						"y": 639,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "floor_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1771,
+						"y": 639,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "floor_03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1783,
+						"y": 639,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "floor_04",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1795,
+						"y": 639,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "floor_05",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1807,
+						"y": 639,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "floor_06",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1819,
+						"y": 639,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "floor_07",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1831,
+						"y": 639,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "arcade_mid_2_14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 193,
+						"w": 106,
+						"h": 61
+					},
+					"frame": {
+						"x": 1281,
+						"y": 1446,
+						"w": 106,
+						"h": 61
+					}
+				},
+				{
+					"filename": "arcade_mid_2_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 25,
+						"y": 193,
+						"w": 105,
+						"h": 61
+					},
+					"frame": {
+						"x": 1337,
+						"y": 1375,
+						"w": 105,
+						"h": 61
+					}
+				},
+				{
+					"filename": "badge_templok_serie_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 34,
+						"w": 135,
+						"h": 115
+					},
+					"frame": {
+						"x": 1380,
+						"y": 1254,
+						"w": 135,
+						"h": 115
+					}
+				},
+				{
+					"filename": "hatch_door_lights",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 98,
+						"w": 167,
+						"h": 40
+					},
+					"frame": {
+						"x": 1416,
+						"y": 1211,
+						"w": 167,
+						"h": 40
+					}
+				},
+				{
+					"filename": "badge_templok_serie_14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 34,
+						"w": 135,
+						"h": 115
+					},
+					"frame": {
+						"x": 1495,
+						"y": 1093,
+						"w": 135,
+						"h": 115
+					}
+				},
+				{
+					"filename": "gamerism_cables_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 86,
+						"w": 96,
+						"h": 42
+					},
+					"frame": {
+						"x": 1565,
+						"y": 1049,
+						"w": 96,
+						"h": 42
+					}
+				},
+				{
+					"filename": "arcade_top_1_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 46,
+						"w": 182,
+						"h": 87
+					},
+					"frame": {
+						"x": 1846,
+						"y": 1,
+						"w": 182,
+						"h": 87
+					}
+				},
+				{
+					"filename": "evomoment_text_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 4,
+						"y": 0,
+						"w": 71,
+						"h": 94
+					},
+					"frame": {
+						"x": 1455,
+						"y": 90,
+						"w": 71,
+						"h": 94
+					}
+				},
+				{
+					"filename": "arcade_top_1_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 46,
+						"w": 182,
+						"h": 87
+					},
+					"frame": {
+						"x": 1455,
+						"y": 1,
+						"w": 182,
+						"h": 87
+					}
+				},
+				{
+					"filename": "evomoment_frame",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 6,
+						"w": 80,
+						"h": 91
+					},
+					"frame": {
+						"x": 1763,
+						"y": 1,
+						"w": 80,
+						"h": 91
+					}
+				},
+				{
+					"filename": "gamerism_neon_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 34,
+						"y": 61,
+						"w": 144,
+						"h": 90
+					},
+					"frame": {
+						"x": 1528,
+						"y": 94,
+						"w": 144,
+						"h": 90
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1639,
+						"y": 1,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_mid_1_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 141,
+						"y": 308,
+						"w": 29,
+						"h": 61
+					},
+					"frame": {
+						"x": 1639,
+						"y": 31,
+						"w": 29,
+						"h": 61
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 295,
+						"w": 15,
+						"h": 28
+					},
+					"frame": {
+						"x": 2030,
+						"y": 1,
+						"w": 15,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 295,
+						"w": 15,
+						"h": 28
+					},
+					"frame": {
+						"x": 2030,
+						"y": 31,
+						"w": 15,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 295,
+						"w": 15,
+						"h": 28
+					},
+					"frame": {
+						"x": 2030,
+						"y": 61,
+						"w": 15,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_top_1_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 29,
+						"y": 46,
+						"w": 182,
+						"h": 87
+					},
+					"frame": {
+						"x": 1846,
+						"y": 90,
+						"w": 182,
+						"h": 87
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 295,
+						"w": 15,
+						"h": 28
+					},
+					"frame": {
+						"x": 2030,
+						"y": 91,
+						"w": 15,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 295,
+						"w": 15,
+						"h": 28
+					},
+					"frame": {
+						"x": 2030,
+						"y": 121,
+						"w": 15,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_side_1_bubbles_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 174,
+						"y": 295,
+						"w": 15,
+						"h": 28
+					},
+					"frame": {
+						"x": 2030,
+						"y": 151,
+						"w": 15,
+						"h": 28
+					}
+				},
+				{
+					"filename": "decor_rugpool_3",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 77,
+						"h": 89
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 77,
+						"h": 89
+					},
+					"frame": {
+						"x": 1763,
+						"y": 94,
+						"w": 77,
+						"h": 89
+					}
+				},
+				{
+					"filename": "hatch_door_goo_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1674,
+						"y": 31,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "gamerism_visor_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 1670,
+						"y": 66,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "badge_endless_gem_04",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1722,
+						"y": 66,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_templok_neon",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 54,
+						"y": 0,
+						"w": 41,
+						"h": 40
+					},
+					"frame": {
+						"x": 1674,
+						"y": 93,
+						"w": 41,
+						"h": 40
+					}
+				},
+				{
+					"filename": "hatch_door_goo_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1674,
+						"y": 135,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hatch_door_goo_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1674,
+						"y": 170,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "floor_08",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1658,
+						"y": 186,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1532,
+						"y": 186,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1532,
+						"y": 216,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "plinth_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 102,
+						"h": 77
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 102,
+						"h": 77
+					},
+					"frame": {
+						"x": 1658,
+						"y": 288,
+						"w": 102,
+						"h": 77
+					}
+				},
+				{
+					"filename": "floor_09",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 10,
+						"h": 100
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 100
+					},
+					"frame": {
+						"x": 1758,
+						"y": 185,
+						"w": 10,
+						"h": 100
+					}
+				},
+				{
+					"filename": "arcade_side_2_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 187,
+						"y": 261,
+						"w": 64,
+						"h": 77
+					},
+					"frame": {
+						"x": 1670,
+						"y": 205,
+						"w": 64,
+						"h": 77
+					}
+				},
+				{
+					"filename": "arcade_mid_2_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 195,
+						"w": 109,
+						"h": 59
+					},
+					"frame": {
+						"x": 1729,
+						"y": 367,
+						"w": 109,
+						"h": 59
+					}
+				},
+				{
+					"filename": "arcade_side_2_14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 199,
+						"y": 263,
+						"w": 50,
+						"h": 75
+					},
+					"frame": {
+						"x": 1762,
+						"y": 287,
+						"w": 50,
+						"h": 75
+					}
+				},
+				{
+					"filename": "evomoment_glitch_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 8,
+						"w": 77,
+						"h": 87
+					},
+					"frame": {
+						"x": 1763,
+						"y": 428,
+						"w": 77,
+						"h": 87
+					}
+				},
+				{
+					"filename": "badge_endless_gem_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1717,
+						"y": 96,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_top_2",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 13,
+						"y": 21,
+						"w": 173,
+						"h": 114
+					},
+					"frame": {
+						"x": 1846,
+						"y": 179,
+						"w": 173,
+						"h": 114
+					}
+				},
+				{
+					"filename": "stuff_03_fill",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 26,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 26,
+						"h": 40
+					},
+					"frame": {
+						"x": 2021,
+						"y": 181,
+						"w": 26,
+						"h": 40
+					}
+				},
+				{
+					"filename": "evomoment_impact",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 33,
+						"y": 18,
+						"w": 24,
+						"h": 25
+					},
+					"frame": {
+						"x": 2021,
+						"y": 223,
+						"w": 24,
+						"h": 25
+					}
+				},
+				{
+					"filename": "stuff_03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 27,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 27,
+						"h": 40
+					},
+					"frame": {
+						"x": 1814,
+						"y": 185,
+						"w": 27,
+						"h": 40
+					}
+				},
+				{
+					"filename": "badge_endless_gem_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1770,
+						"y": 185,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_endless_gem_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1770,
+						"y": 215,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_endless_gem_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1807,
+						"y": 227,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_endless_gem_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1770,
+						"y": 245,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_endless_gem_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1807,
+						"y": 257,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_mid_2_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 195,
+						"w": 108,
+						"h": 59
+					},
+					"frame": {
+						"x": 1814,
+						"y": 295,
+						"w": 108,
+						"h": 59
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1924,
+						"y": 295,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1924,
+						"y": 325,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1924,
+						"y": 355,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "hatch_door_goo_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1840,
+						"y": 356,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "arcade_top_2_05",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1840,
+						"y": 391,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hatch_door_goo_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1962,
+						"y": 385,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hatch_door_goo_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1962,
+						"y": 420,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "arcade_mid_2_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 21,
+						"y": 195,
+						"w": 108,
+						"h": 59
+					},
+					"frame": {
+						"x": 1842,
+						"y": 455,
+						"w": 108,
+						"h": 59
+					}
+				},
+				{
+					"filename": "gamerism_visor_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 81,
+						"y": 48,
+						"w": 50,
+						"h": 25
+					},
+					"frame": {
+						"x": 1842,
+						"y": 426,
+						"w": 50,
+						"h": 25
+					}
+				},
+				{
+					"filename": "hatch_door_goo_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1952,
+						"y": 455,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hatch_door_goo_14",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1952,
+						"y": 490,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "aquarium_tank_16",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 140,
+						"h": 125
+					},
+					"spriteSourceSize": {
+						"x": 14,
+						"y": 35,
+						"w": 97,
+						"h": 58
+					},
+					"frame": {
+						"x": 1846,
+						"y": 516,
+						"w": 97,
+						"h": 58
+					}
+				},
+				{
+					"filename": "gamerism_cables_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 212,
+						"h": 181
+					},
+					"spriteSourceSize": {
+						"x": 58,
+						"y": 86,
+						"w": 96,
+						"h": 42
+					},
+					"frame": {
+						"x": 1945,
+						"y": 525,
+						"w": 96,
+						"h": 42
+					}
+				},
+				{
+					"filename": "hatch_door_goo_15",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1945,
+						"y": 569,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "hatch_door_goo_16",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 167,
+						"h": 138
+					},
+					"spriteSourceSize": {
+						"x": 44,
+						"y": 102,
+						"w": 82,
+						"h": 33
+					},
+					"frame": {
+						"x": 1846,
+						"y": 576,
+						"w": 82,
+						"h": 33
+					}
+				},
+				{
+					"filename": "arcade_mid_2_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 22,
+						"y": 196,
+						"w": 108,
+						"h": 58
+					},
+					"frame": {
+						"x": 1930,
+						"y": 604,
+						"w": 108,
+						"h": 58
+					}
+				},
+				{
+					"filename": "evomoment_glitch_03",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 8,
+						"w": 77,
+						"h": 87
+					},
+					"frame": {
+						"x": 1846,
+						"y": 611,
+						"w": 77,
+						"h": 87
+					}
+				},
+				{
+					"filename": "badge_rugpool_balls_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 19,
+						"y": 62,
+						"w": 121,
+						"h": 28
+					},
+					"frame": {
+						"x": 1925,
+						"y": 664,
+						"w": 121,
+						"h": 28
+					}
+				},
+				{
+					"filename": "arcade_top_2_06",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1925,
+						"y": 694,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "evomoment",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 80,
+						"h": 97
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 9,
+						"w": 77,
+						"h": 86
+					},
+					"frame": {
+						"x": 1843,
+						"y": 700,
+						"w": 77,
+						"h": 86
+					}
+				},
+				{
+					"filename": "arcade_top_2_07",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1922,
+						"y": 729,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "arcade_top_2_08",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1922,
+						"y": 764,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "arcade_side_2_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 197,
+						"y": 262,
+						"w": 52,
+						"h": 74
+					},
+					"frame": {
+						"x": 1834,
+						"y": 788,
+						"w": 52,
+						"h": 74
+					}
+				},
+				{
+					"filename": "arcade_side_2_13",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 198,
+						"y": 262,
+						"w": 51,
+						"h": 74
+					},
+					"frame": {
+						"x": 1763,
+						"y": 860,
+						"w": 51,
+						"h": 74
+					}
+				},
+				{
+					"filename": "badge_templok_serie_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 36,
+						"w": 135,
+						"h": 114
+					},
+					"frame": {
+						"x": 1888,
+						"y": 799,
+						"w": 135,
+						"h": 114
+					}
+				},
+				{
+					"filename": "badge_endless_gem_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 133,
+						"h": 161
+					},
+					"spriteSourceSize": {
+						"x": 49,
+						"y": 20,
+						"w": 35,
+						"h": 28
+					},
+					"frame": {
+						"x": 1816,
+						"y": 864,
+						"w": 35,
+						"h": 28
+					}
+				},
+				{
+					"filename": "badge_templok_serie_15",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 149,
+						"h": 180
+					},
+					"spriteSourceSize": {
+						"x": 7,
+						"y": 35,
+						"w": 135,
+						"h": 114
+					},
+					"frame": {
+						"x": 1169,
+						"y": 1689,
+						"w": 135,
+						"h": 114
+					}
+				},
+				{
+					"filename": "arcade_top_2_09",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1263,
+						"y": 1639,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "badge_rugpool",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 159,
+						"h": 177
+					},
+					"spriteSourceSize": {
+						"x": 26,
+						"y": 34,
+						"w": 107,
+						"h": 107
+					},
+					"frame": {
+						"x": 1341,
+						"y": 1509,
+						"w": 107,
+						"h": 107
+					}
+				},
+				{
+					"filename": "arcade_top_2_10",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1169,
+						"y": 1805,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "arcade_top_2_11",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1291,
+						"y": 1805,
+						"w": 120,
+						"h": 33
+					}
+				},
+				{
+					"filename": "arcade_top_2_12",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 280,
+						"h": 385
+					},
+					"spriteSourceSize": {
+						"x": 23,
+						"y": 61,
+						"w": 120,
+						"h": 33
+					},
+					"frame": {
+						"x": 1389,
+						"y": 1438,
+						"w": 120,
+						"h": 33
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:4845e63febad645099490087d60a19cb:354f2d6cbab49aba2d2ad9b4552c0ce9:b87986fdd92f2882d179b98624ef4e28$"
+	}
+}

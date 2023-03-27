@@ -1,0 +1,62 @@
+.success-vote-popup {
+    position: absolute;
+    top: -150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: auto;
+    border-radius: 20px;
+    background: #fff;
+    border: 5px solid #a2c4c2;
+    display: flex;
+    align-items: center;
+    padding: 7px 10px;
+    pointer-events: none;
+    z-index: 999;
+}
+
+.success-vote-popup img {
+    margin-right: 10px;
+    width: 50px;
+}
+
+.success-vote-popup .info {
+    color: #001a44;
+    font-size: 18px;
+}
+
+.success-vote-popup-enter {
+    opacity: 0;
+    top: -120%;
+}
+
+.success-vote-popup-enter-active {
+    opacity: 1;
+    top: -150%;
+    transition: opacity 200ms, top 200ms;
+}
+
+.success-vote-popup-exit {
+    opacity: 1;
+    top: -150%;
+}
+
+.success-vote-popup-exit-active {
+    opacity: 0;
+    top: -120%;
+    transition: opacity 200ms, top 200ms;
+}
+
+@media (max-width: 576px) {
+    .success-vote-popup {
+        width: 300px;
+    }
+    
+    .success-vote-popup img {
+        width: 40px;
+    }
+
+    .success-vote-popup .info {
+        font-size: 16px;
+    }
+}

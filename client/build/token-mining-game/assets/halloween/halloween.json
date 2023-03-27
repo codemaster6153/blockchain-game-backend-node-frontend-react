@@ -1,0 +1,125 @@
+{
+	"textures": [
+		{
+			"image": "halloween.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 209,
+				"h": 421
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "halloween_bats.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 207,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 207,
+						"h": 75
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 207,
+						"h": 75
+					}
+				},
+				{
+					"filename": "halloween_bats_01.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 207,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 207,
+						"h": 75
+					},
+					"frame": {
+						"x": 1,
+						"y": 78,
+						"w": 207,
+						"h": 75
+					}
+				},
+				{
+					"filename": "halloween_bats_02.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 207,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 207,
+						"h": 75
+					},
+					"frame": {
+						"x": 1,
+						"y": 155,
+						"w": 207,
+						"h": 75
+					}
+				},
+				{
+					"filename": "halloween_bats_03.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 207,
+						"h": 75
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 207,
+						"h": 75
+					},
+					"frame": {
+						"x": 1,
+						"y": 232,
+						"w": 207,
+						"h": 75
+					}
+				},
+				{
+					"filename": "halloween_pumpkins.png",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 130,
+						"h": 111
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 130,
+						"h": 111
+					},
+					"frame": {
+						"x": 1,
+						"y": 309,
+						"w": 130,
+						"h": 111
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:95f44be5f5952cf8ac32c236e2557cd2:3ede4f8fedf144976945b078829437c8:a2718b4ee4047cb4bc4942aabc31e87b$"
+	}
+}

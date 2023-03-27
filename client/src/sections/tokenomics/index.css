@@ -1,0 +1,75 @@
+.tokenomics-container{
+    padding: 30px 10px;
+    /* background-color: #071D40; */
+    padding: 119px 0 30px;
+    min-height: calc(100vh - 31px);
+    box-shadow: inset 0 320px 55px -40px rgb(11 35 71 / 85%);
+    background: url('/images/clashdome_background.jpg') no-repeat 50% fixed;
+    background-size: cover;
+    border-radius: 0px;
+}
+
+.tokenomics-container > h1{
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    font-size: 42px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 10px #000000A8;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.tokenomics-container .tokenomic-chart-row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.tokenomics-container .tokenomic-chart-row .chart-column {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.statsWrapper{
+    display: flex;
+    margin-top: 20px;
+}
+
+.statsContainer {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.statsTextWrapper {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  padding: 16px;
+  min-height: 250px;
+}
+
+
+@media screen and (max-width: 1200px) {
+    .tokenomics-container .tokenomic-chart-row {
+        /* flex-direction: column; */
+    }
+    .tokenomics-container .tokenomic-chart-row .chart-column{
+        padding: 10px;
+    }
+    .tokenomics-container .tokenomic-chart-row .chart-container{
+        flex: 1;
+        width: 100%;
+        max-width: 100%;
+    }
+    
+}
+@media screen and (max-width: 525px) {
+    .tokenomics-container .tokenomic-chart-row {
+        flex-direction: column;
+    }
+    .tokenomics-container .tokenomic-chart-row .chart-column{
+        width: 100%;
+    }
+    
+}

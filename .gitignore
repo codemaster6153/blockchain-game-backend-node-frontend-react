@@ -1,0 +1,62 @@
+# OS X
+.DS_Store*
+Icon?
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux
+.directory
+*~
+
+# editors
+.idea/
+
+# npm
+node_modules
+package-lock.json
+*.log
+*.gz
+
+# Coveralls
+coverage
+
+# Benchmarking
+benchmarks/graphs
+
+# Sass
+.sass-cache
+
+# other
+nohup.out
+*.ignore
+*.ignore.md
+config/*
+
+/.env
+
+!config/database.json
+!config/contracts.json
+!config/default.json
+!config/enemies.json
+!config/turrets.json
+!config/waves.json
+!config/maps.json
+!config/templok_levels.json
+!config/maps_duels.json
+!config/default.template.json
+!client/build/endless-siege/assets/config/enemies.json
+!client/build/endless-siege/assets/config/maps.json
+!client/build/endless-siege/assets/config/text.json
+!client/build/endless-siege/assets/config/turrets.json
+!client/build/endless-siege/assets/config/waves.json
+
+# certbot
+
+client/build/.well-known
+client/src/games/ringy-dingy/dist
+routes/prng-main-net.js
+client/build/maze-levels

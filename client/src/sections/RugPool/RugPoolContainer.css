@@ -1,0 +1,116 @@
+.rug-pool {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	/* background-size: 100%, 110%; */
+	background-position: top 20px center;
+	background-color: #060045;
+	
+}
+
+.section.rug-pool {
+	padding: 0 0 !important;
+	height: 95vh;
+}
+
+.game-loader.rug-pool{
+	height: 100%;
+}
+
+.rug-pool > .rug-pool-nav {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	padding: 14px;
+	margin-top: 16px;
+	background-image: url('/images/alerts_stripes.jpg');
+}
+
+.rug-pool > .rug-pool-nav > .middle {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background: transparent linear-gradient(180deg, #1D2D3B 0%, #273C4F 36%, #273D50 100%) 0% 0% no-repeat padding-box;
+	border-radius: 16px;
+	opacity: 1;
+	padding: 7px;
+}
+
+.rug-pool > .rug-pool-nav > .middle > .nav-item.active {
+	background: transparent linear-gradient(180deg, #FFFF4E 0%, #D59300 100%) 0% 0% no-repeat padding-box;
+	border-radius: 10px;
+	width: fit-content;
+	padding: 9px 43px;
+	display: flex;
+	padding-right: 9px;
+	transition: all 0.2s ease;
+	cursor: pointer;
+	user-select: none;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  	-moz-user-select: none;     /* Firefox all */
+  	-ms-user-select: none; 
+}
+
+.rug-pool > .rug-pool-nav > .middle > .nav-item.active > p	{
+	text-align: center;
+	font: normal normal 600 40px/98px "Oswald";
+	letter-spacing: -1.44px;
+	color: #03272C;
+	opacity: 1;
+	text-shadow: none;
+	line-height: normal;
+}
+
+.rug-pool > .rug-pool-nav > .middle > .nav-item {
+	width: fit-content;
+	padding: 9px 43px;
+	cursor: pointer;
+	display: flex;
+	transition: all 0.2s ease;
+	user-select: none;
+	-webkit-user-select: none;  /* Chrome all / Safari all */
+  	-moz-user-select: none;     /* Firefox all */
+  	-ms-user-select: none; 
+}
+
+.rug-pool > .rug-pool-nav > .middle > .nav-item > p {
+	text-align: center;
+	font: normal normal 600 40px/98px "Oswald";
+	letter-spacing: -1.44px;
+	color: #FFFFFF;
+	text-shadow: 0px 3px 10px #001A4466;
+	opacity: 0.4;
+	line-height: normal;
+}
+
+.active-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 13px;
+}
+.active-button > .stick {
+	height: 39px;
+	border: 1px solid #B27C00;
+	width: 0px;
+	margin: 0 3.5px;
+}
+
+@media screen and (max-width: 990px){
+	.rug-pool > .rug-pool-nav > .middle > .nav-item.active > p {
+		font-size: 20px;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	.rug-pool > .rug-pool-nav > .middle > .nav-item > p {
+		font-size: 20px;
+		letter-spacing: normal;
+		line-height: normal;
+	}
+
+	.active-button > .stick {
+		height: 20px;
+	}
+}

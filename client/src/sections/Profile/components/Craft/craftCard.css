@@ -1,0 +1,173 @@
+
+.craft-card{
+    width: 270px;
+    height: 608px;
+    display: flex;
+    flex-direction: column;
+}
+
+.craft-card > .top {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: #3d287d;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    padding: 10px;
+}
+
+.craft-card > .top > .heading {
+    display: flex;
+    justify-content: center;
+    color: #eaf9ff;
+    align-items: center;
+    gap: 10px;
+    font-size: 18px;
+    font-family: 'Oswald-SemiBold';
+    margin: 5px auto 20px;
+}
+
+.craft-card > .top > .heading > img {
+    height: 23px;
+}
+
+.craft-card > .top > .card-cover {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-height: 180px;
+    height: 180px;
+}
+
+.craft-card > .top > .card-cover > img {
+    height: 100%;
+    width: auto;
+    margin: 0 auto;
+}
+
+.craft-card > .bottom {
+    background-color: #eaf9ff;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    height: 100%;
+}
+
+.craft-card > .bottom .entry {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+}
+
+.craft-card > .bottom .entry > .label {
+    font-size: 15px;
+    color: #001a44;
+    font-family: 'Oswald-SemiBold';
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.craft-card > .bottom .entry > .values {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.craft-card > .bottom .entry > .values > .value {
+    font-size: 15px;
+    color: #001a44;
+    font-family: 'Oswald-Light';
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 2px;
+}
+
+.craft-card > .bottom .entry > .values > .value > img{
+    height: 14px;
+    margin-left: 2px;
+}
+
+.craft-card > .bottom > .button-wrapper > img {
+    margin: 0 auto;
+    display: block;
+    height: 36px;
+    margin-top: 32px;
+    animation: spin 1s linear infinite;
+}
+
+.craft-card > .bottom > a{
+    font-size: 15px;
+    color: #001a44;
+    font-family: 'Oswald-SemiBold';
+    margin-bottom: 0;
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.craft-card > .bottom > a:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #001a44;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.craft-card > .bottom > a:hover:after { 
+    width: 100%; 
+    left: 0; 
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.craft-card > .bottom > .button-wrapper{
+    margin-top: auto;
+}
+
+.craft-card > .bottom > .button-wrapper > .asset-button{
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.craft-card > .bottom > .button-wrapper > .asset-button > img {
+    transition: all 0.3s;
+    transition-timing-function: ease-out;
+}
+
+.craft-card > .bottom > .button-wrapper > .asset-button:hover > img:nth-child(1) {
+    transition-duration: 0ms;
+    opacity: 0;
+}
+.craft-card > .bottom > .button-wrapper > .asset-button:hover > img:nth-child(2) {
+    transition-duration: 0ms;
+    opacity: 1;
+}
+.craft-card > .bottom > .button-wrapper > .asset-button > img:nth-child(2) {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+}

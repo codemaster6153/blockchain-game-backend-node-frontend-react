@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="119.155" height="118.015" viewBox="0 0 119.155 118.015">
+  <defs>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff733"/>
+      <stop offset="0.557" stop-color="#ffff4e"/>
+      <stop offset="1" stop-color="#ff9d00"/>
+    </radialGradient>
+    <filter id="Trazado_121" x="0" y="0" width="119.155" height="118.015" filterUnits="userSpaceOnUse">
+      <feOffset dy="2" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_1223" data-name="Grupo 1223" transform="translate(9 7)">
+    <g transform="matrix(1, 0, 0, 1, -9, -7)" filter="url(#Trazado_121)">
+      <path id="Trazado_121-2" data-name="Trazado 121" d="M604.04,223.674l3.675-14.375L593.3,205.27l-4.074-14.257-14.539,3.633L563.918,184.3l-10.745,10.347-14.539-3.633L534.56,205.27,520.14,209.3l3.675,14.375L513.35,234.317l10.465,10.623-3.675,14.375,14.419,4.028,4.074,14.257,14.539-3.633,10.765,10.347,10.745-10.347,14.539,3.633,4.074-14.257,14.419-4.028-3.675-14.375,10.465-10.623Z" transform="translate(-504.35 -177.3)" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>

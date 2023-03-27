@@ -1,0 +1,188 @@
+
+assets/spine/trial.png
+size: 299,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+GUEST/arm_back
+  rotate: false
+  xy: 100, 90
+  size: 61, 142
+  orig: 61, 142
+  offset: 0, 0
+  index: -1
+GUEST/arm_front
+  rotate: false
+  xy: 162, 90
+  size: 61, 142
+  orig: 61, 142
+  offset: 0, 0
+  index: -1
+GUEST/chispa/spark_01
+  rotate: true
+  xy: 280, 248
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+GUEST/chispa/spark_03
+  rotate: true
+  xy: 201, 25
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+GUEST/chispa/spark_05
+  rotate: true
+  xy: 265, 56
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+GUEST/chispa/spark_07
+  rotate: false
+  xy: 201, 5
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+GUEST/chispa/spark_09
+  rotate: true
+  xy: 221, 25
+  size: 23, 19
+  orig: 23, 19
+  offset: 0, 0
+  index: -1
+GUEST/head
+  rotate: true
+  xy: 0, 0
+  size: 89, 96
+  orig: 89, 96
+  offset: 0, 0
+  index: -1
+GUEST/leg_back
+  rotate: false
+  xy: 0, 90
+  size: 49, 181
+  orig: 49, 181
+  offset: 0, 0
+  index: -1
+GUEST/leg_front
+  rotate: false
+  xy: 50, 90
+  size: 49, 181
+  orig: 49, 181
+  offset: 0, 0
+  index: -1
+GUEST/neck
+  rotate: false
+  xy: 201, 49
+  size: 21, 40
+  orig: 21, 40
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_00
+  rotate: false
+  xy: 285, 109
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_01
+  rotate: true
+  xy: 280, 234
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_02
+  rotate: false
+  xy: 285, 89
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_03
+  rotate: false
+  xy: 285, 69
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_04
+  rotate: false
+  xy: 225, 5
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_05
+  rotate: false
+  xy: 241, 30
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_06
+  rotate: false
+  xy: 255, 30
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_07
+  rotate: false
+  xy: 269, 36
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_08
+  rotate: false
+  xy: 285, 49
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/numbers/num_09
+  rotate: true
+  xy: 241, 16
+  size: 13, 19
+  orig: 13, 19
+  offset: 0, 0
+  index: -1
+GUEST/pelvis
+  rotate: false
+  xy: 224, 80
+  size: 60, 48
+  orig: 60, 48
+  offset: 0, 0
+  index: -1
+GUEST/sleeve
+  rotate: true
+  xy: 223, 50
+  size: 29, 41
+  orig: 29, 41
+  offset: 0, 0
+  index: -1
+GUEST/torso
+  rotate: true
+  xy: 97, 11
+  size: 78, 103
+  orig: 78, 103
+  offset: 0, 0
+  index: -1
+GUEST/torso_screen
+  rotate: false
+  xy: 224, 129
+  size: 74, 103
+  orig: 74, 103
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 100, 233
+  size: 179, 38
+  orig: 179, 38
+  offset: 0, 0
+  index: -1

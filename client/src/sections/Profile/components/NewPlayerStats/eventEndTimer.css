@@ -1,0 +1,10 @@
+.ranking-table .comp-timer{
+    /* background-color: #0080D080; */
+}
+
+.ranking-table .comp-timer p{
+    color: white;
+    font-family: 'Oswald-Light';
+    font-weight: 200;
+    /* padding: 10px 20px; */
+}

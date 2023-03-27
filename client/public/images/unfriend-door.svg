@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="59" viewBox="0 0 77 59">
+  <defs>
+    <filter id="Rectángulo_272" x="0" y="0" width="77" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2526" data-name="Grupo 2526" transform="translate(-2159 -906)">
+    <g id="Grupo_962" data-name="Grupo 962" transform="translate(646.492)">
+      <g transform="matrix(1, 0, 0, 1, 1512.51, 906)" filter="url(#Rectángulo_272)">
+        <rect id="Rectángulo_272-2" data-name="Rectángulo 272" width="59" height="41" rx="6" transform="translate(9 6)" fill="#ffee57"/>
+      </g>
+      <path id="Icon_metro-enter" data-name="Icon metro-enter" d="M14.139,17.352H4.5V13.5h9.64V9.64l5.784,5.784-5.784,5.784ZM33.419,1.928V26.992L21.851,32.777V26.992H10.283V19.28h1.928v5.784h9.64V7.712l7.712-3.856H12.211v7.712H10.283V1.928Z" transform="translate(1531.049 917.148)" fill="#4d2008"/>
+    </g>
+  </g>
+</svg>

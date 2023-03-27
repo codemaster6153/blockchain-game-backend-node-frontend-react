@@ -1,0 +1,58 @@
+.new-player-stats-wrapper .new-player-stats-info .final-calc {
+    padding: 8px 0px;
+}
+.new-player-stats-wrapper .new-player-stats-info .final-calc .final-calc-row {
+    display: grid;
+    grid-template-columns: 6fr 5fr;
+}
+
+.new-player-stats-wrapper .new-player-stats-info .final-calc .final-calc-row p:nth-child(2).green{
+    color: #00E34F;
+}
+.new-player-stats-wrapper .new-player-stats-info .final-calc .final-calc-row p:nth-child(2).red{
+    color: #e30000;
+}
+.new-player-stats-wrapper .new-player-stats-info .final-calc .final-calc-row p:nth-child(1){
+    text-align: right;
+    padding: 0 10px;
+    border-right: solid 1px #0080D0;
+    color: #0080D0;
+}
+.new-player-stats-wrapper .new-player-stats-info .final-calc .final-calc-row p:nth-child(2){
+    text-align: left;
+    padding: 0 10px;
+    color: #0080D0;
+    border-left: solid 1px #0080D0;
+}
+
+.new-player-stats-wrapper .new-player-stats-info .final-calc .final-calc-row p:nth-child(2) span{
+    text-align: center;
+    color: #00437C;
+    font-weight: 200;
+    font-family: 'Oswald-Light';
+}
+
+.new-player-stats-wrapper .new-player-stats-info .final-calc .total-score {
+    display: flex;
+    justify-content: center;
+    background-color: #0080D026;
+    padding: 10px;
+    width: 100%;
+    max-width: 95%;
+    margin: 20px auto;
+}
+
+.new-player-stats-wrapper .new-player-stats-info .final-calc .total-score a{
+    display: flex;
+    margin-left: auto;
+}
+.new-player-stats-wrapper .new-player-stats-info .final-calc .total-score a img{
+    width: 24px;
+}
+
+.new-player-stats-wrapper .new-player-stats-info .final-calc .total-score p{
+    font-size: 20px;
+    font-family: 'Oswald-Light';
+    color: #FFFF4E;
+    margin-left: auto;
+}

@@ -1,0 +1,39 @@
+div.leaderboard-entry {
+  padding: 10px 15px;
+  margin-bottom: 10px !important;
+  background-color: #a8eaff; }
+  div.leaderboard-entry.me-true {
+    background-color: #a8fff5; }
+  div.leaderboard-entry .avatar {
+    float: left;
+    margin-right: 12px; }
+    div.leaderboard-entry .avatar img {
+      width: 35px; }
+  div.leaderboard-entry .position {
+    display: inline-block;
+    font-weight: bold;
+    margin-right: 10px; }
+  div.leaderboard-entry .address {
+    font-weight: bold; }
+
+/*# sourceMappingURL=LeaderboardEntry.css.map */
+
+@media screen and (max-width: 780px) {
+  section.footer .container{
+    display: flex;
+    flex-direction: column;
+    /* height: 53px; */
+    justify-content: center;
+    align-items: center;
+  }
+
+  section.footer .container .legal-links{
+    width: 100% !important;
+    margin-bottom: 0;
+    margin: 0;
+  }
+
+  section.footer .container .social{
+    position: relative !important;
+  }
+}

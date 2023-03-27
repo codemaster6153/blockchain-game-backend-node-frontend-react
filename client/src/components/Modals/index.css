@@ -1,0 +1,374 @@
+.modal-container {
+    position: fixed;
+    background-color: #000000ad;
+    width: 100%;
+    z-index: 1000;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: -3;
+    opacity: 0;
+    /* transition: all 0.5s ease; */
+}
+
+.modal-box {
+    background: #18242F;
+    border: 2px solid #FFEE57;
+    border-radius: 10px;
+    width: 400px;
+    max-width: 98%;
+    padding: 10px;
+    box-shadow: 5px 5px 35px black;
+}
+
+.modal-red-text {
+    text-align: center;
+    font: normal normal 500 24px "Oswald";
+    letter-spacing: normal;
+    color: #FF004E;
+    text-transform: uppercase;
+}
+
+.modal-white-text {
+    text-align: center;
+    font: normal normal 500 24px "Oswald";
+    letter-spacing: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.modal-red-text-small {
+    text-align: center;
+    font: normal normal 300 18px "Oswald";
+    letter-spacing: normal;
+    color: #FF004E;
+    opacity: 1;
+}
+
+.modal-button {
+    background: linear-gradient(180deg, #FFFF4E 0%, #D59300 100%);
+    border-radius: 10px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px 24px;
+    text-align: center;
+    font: normal normal 500 24px "Oswald";
+    letter-spacing: normal;
+    color: #03272C;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.modal-white-text-small {
+    text-align: center;
+    font: normal normal 500 20px "Oswald";
+    letter-spacing: normal;
+    color: #FFFFFF;
+    opacity: 1;
+    margin: 10px auto;
+}
+
+.inline-ludio {
+    margin: 0px 5px;
+}
+
+.modal-blue-text{
+    text-align: center;
+    font: normal normal 300 22px "Oswald";
+    letter-spacing: normal;
+    color: #11CBF9;
+    text-shadow: 0px 3px 10px #001A44;
+    opacity: 1;
+}
+
+/* this is the cssfor the country select modal */
+#countryClaimModal .modal-box{
+    background-color: white;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#countryClaimModal .modal-blue-text {
+    text-align: center;
+    font: normal normal 500 24px "Oswald";
+    letter-spacing: normal;
+    color: #001A43;
+    text-transform: uppercase;
+    text-shadow: none;
+}
+
+#cpuRentModal .modal-box {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-transition: -webkit-backdrop-filter 1s;
+    transition: -webkit-backdrop-filter 1s;
+    transition: backdrop-filter 1s;
+    transition: backdrop-filter 1s, -webkit-backdrop-filter 1s;
+    -webkit-animation: gradient 5s ease infinite;
+    animation: gradient 5s ease infinite;
+    border: none;
+    width: 560px;
+    max-height: 625px;
+    height: 98%;
+    border-radius: 20px;
+    overflow: auto;
+}
+
+#cpuRentModal .modal-box h2{
+    font-family: 'Oswald-DemiBold';
+    font-size: 32px;
+}
+#cpuRentModal .modal-box > p{
+    font-family: 'Oswald-Light';
+    font-size: 24px;
+    text-align: center;
+    color: #001A44;
+    margin-top: 20px;
+    padding: 9px 12px;
+}
+#cpuRentModal .modal-box p.modal-white-text{
+    color: #ffffff;
+    text-transform: none;
+}
+
+#cpuRentModal .modal-box img{
+    width: 30px;
+    cursor: pointer;
+}
+
+#cpuRentModal .modal-box .boostcard-wrapper{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: space-evenly;
+}
+
+#cpuRentModal .modal-box .boostcard-wrapper .best-deal{
+    flex: 1;
+    max-width: 140px;
+    height: 100%;
+}
+
+#cpuRentModal .modal-box .boost-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: fit-content;
+    background-color: #A7EDFF;
+    border-radius: 15px;
+    padding: 10px;
+    max-width: 140px;
+}
+
+#cpuRentModal .modal-box .boost-card.two{
+    background-color: #FFFFB4;
+}
+
+#cpuRentModal .modal-box .boost-card.three{
+    background:linear-gradient(148deg, #C4FF00 0%, #00E34F 100%);
+}
+
+#cpuRentModal .modal-box .boost-card h3{
+    font-family: 'Oswald-DemiBold';
+    font-size: 20px;
+    color: #001A44;
+    text-align: center;
+    line-height: 22px;
+}
+
+#cpuRentModal .modal-box .boost-card p{
+    font-family: 'Oswald-Light';
+    font-size: 18px;
+    color: #001A44;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    line-height: 22px;
+}
+
+#cpuRentModal .modal-box p.left-text{
+    font-family: 'Oswald-DemiBold';
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+#cpuRentModal .modal-box .boost-card div{
+    background: linear-gradient(1deg, #FFCE00 0%, #FFF61C 100%);
+    box-shadow: 0px 3px 6px #00000080;
+    border-radius: 12px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+#cpuRentModal .modal-box .boost-card div.disable{
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+#cpuRentModal .modal-box .boost-card div.disable:hover{
+    transform: none;
+}
+
+#cpuRentModal .modal-box .boost-card div:hover{
+    transform: scale(1.1);
+}
+
+#cpuRentModal .modal-box .boost-card div p{
+    color: #6C4200;
+    font-size: 16px;
+    font-family: 'Oswald-DemiBold';
+    margin: 0;
+}
+
+#cpuRentModal .modal-box .boost-card div img{
+    height: 24px;
+    width: auto;
+}
+
+/* this is for trial dummy claim modal */
+
+#trialDummyClaimModal .modal-box {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    -webkit-transition: -webkit-backdrop-filter 1s;
+    transition: -webkit-backdrop-filter 1s;
+    transition: backdrop-filter 1s;
+    transition: backdrop-filter 1s, -webkit-backdrop-filter 1s;
+    -webkit-animation: gradient 5s ease infinite;
+    animation: gradient 5s ease infinite;
+    border: none;
+    width: 560px;
+    max-height: 635px;
+    height: 98%;
+    overflow-y: overlay;
+    border-radius: 20px;
+}
+
+#trialDummyClaimModal .modal-box .dummy-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#trialDummyClaimModal .modal-box .dummy-header img{
+    width: 25px;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#trialDummyClaimModal .modal-box h2{
+    font-family: 'Oswald-DemiBold';
+    font-size: 27px;
+    margin-right: auto;
+}
+
+#trialDummyClaimModal .modal-box > p{
+    font-family: 'Oswald-Light';
+    font-size: 22px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 12px;
+}
+
+#trialDummyClaimModal .modal-box .main-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#trialDummyClaimModal .modal-box .main-content img{
+    margin: 20px auto;
+    max-height: 270px;
+}
+
+#trialDummyClaimModal .modal-box .main-content .claim-btn{
+    background: transparent linear-gradient(3deg, #FFCE00 0%, #FFF61C 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #AD6B00;
+    border-radius: 12px;
+    width: fit-content;
+    margin: 0 auto;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#trialDummyClaimModal .modal-box .disclaimer {
+    background-color: #ff0045;
+    color: #fff;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 16px;
+    padding: 4px 0;
+}
+
+#trialDummyClaimModal .modal-box .disclaimer-text {
+    display: block;
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    margin-top: 15px;
+    font-weight: 300;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+::-webkit-scrollbar-track {
+    background: #dedede;
+    border-radius: 31px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ababab;
+    border-radius: 31px;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+}
+
+@media screen and (max-width: 600px) {
+    #cpuRentModal .modal-box h2{
+        font-size: 24px;
+    }
+    #cpuRentModal .modal-box p{
+        font-size: 18px;
+    }
+    #cpuRentModal .modal-box p.left-text{
+        font-size: 16px;
+        margin-right: 12px;
+    }
+    #cpuRentModal .modal-box .boost-card {
+        padding: 10px 5px;
+    }
+}
+

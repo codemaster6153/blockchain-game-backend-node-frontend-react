@@ -1,0 +1,101 @@
+.apartment-voting-bar {
+    height: 45px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.apartment-voting-bar .bg {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(to bottom, #ffffff, #eaf4f4);
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+
+.apartment-voting-bar .box-container {
+    height: 170%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: -40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.apartment-voting-bar .vote-box {
+    height: 100%;
+    width: 260px;
+
+    background: url(/images/apartment-voting-bg.svg);
+    background-color: transparent;
+    background-size: cover;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.apartment-voting-bar .vote-box img {
+    cursor: pointer;
+    display: flex;
+    width: calc(100% / 7);
+}
+
+.apartment-voting-bar .current-apartment {
+    color: #9ABBBC;
+    font-size: 20px;
+}
+
+.apartment-voting-bar-enter {
+    opacity: 0;
+    transform: scale(0.8);
+}
+
+.apartment-voting-bar-enter-active {
+    opacity: 1;
+    transform: scale(1);
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+}
+
+.apartment-voting-bar-exit {
+    opacity: 1;
+    transform: scale(1);
+}
+
+.apartment-voting-bar-exit-active {
+    transform: scale(0.8);
+    opacity: 0;
+    transition: opacity 500ms ease-in, transform 500ms ease-in;
+}
+
+.apartment-voting-bar .close-button {
+    display: flex;
+    position: absolute;
+    right: 7px;
+    top: 23px;
+    padding: 10px;
+    padding-top: 3px;
+    background: #ec2b4e;
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 67px;
+}
+
+@media screen and (max-width: 820px) {
+    .apartment-voting-bar .vote-box {
+        transform: scale(0.8);
+        margin-left: 0;
+    }
+}

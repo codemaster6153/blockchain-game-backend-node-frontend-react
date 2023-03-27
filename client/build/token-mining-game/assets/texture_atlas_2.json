@@ -1,0 +1,188 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1024,
+				"h": 1024
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "hand_paper",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 340,
+						"h": 322
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 9,
+						"w": 339,
+						"h": 305
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 339,
+						"h": 305
+					}
+				},
+				{
+					"filename": "hand_scissors",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 340,
+						"h": 322
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 328,
+						"h": 313
+					},
+					"frame": {
+						"x": 342,
+						"y": 1,
+						"w": 328,
+						"h": 313
+					}
+				},
+				{
+					"filename": "hand",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 661,
+						"h": 374
+					},
+					"spriteSourceSize": {
+						"x": 322,
+						"y": 40,
+						"w": 323,
+						"h": 283
+					},
+					"frame": {
+						"x": 1,
+						"y": 308,
+						"w": 323,
+						"h": 283
+					}
+				},
+				{
+					"filename": "hand_idle",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 340,
+						"h": 322
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 39,
+						"w": 322,
+						"h": 283
+					},
+					"frame": {
+						"x": 672,
+						"y": 1,
+						"w": 322,
+						"h": 283
+					}
+				},
+				{
+					"filename": "hand_halo",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 661,
+						"h": 374
+					},
+					"spriteSourceSize": {
+						"x": 284,
+						"y": 44,
+						"w": 296,
+						"h": 259
+					},
+					"frame": {
+						"x": 672,
+						"y": 286,
+						"w": 296,
+						"h": 259
+					}
+				},
+				{
+					"filename": "hand_rock",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 340,
+						"h": 322
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 40,
+						"w": 273,
+						"h": 273
+					},
+					"frame": {
+						"x": 326,
+						"y": 316,
+						"w": 273,
+						"h": 273
+					}
+				},
+				{
+					"filename": "sack",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 163,
+						"h": 292
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 163,
+						"h": 292
+					},
+					"frame": {
+						"x": 1,
+						"y": 593,
+						"w": 163,
+						"h": 292
+					}
+				},
+				{
+					"filename": "hand_patch",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 661,
+						"h": 374
+					},
+					"spriteSourceSize": {
+						"x": 398,
+						"y": 116,
+						"w": 124,
+						"h": 119
+					},
+					"frame": {
+						"x": 1,
+						"y": 887,
+						"w": 124,
+						"h": 119
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:38a31c42bf25878ebb759e1bae1ecfa0:329f0bf377faea7fcd7f756e77a62684:1841566b8127e300c587f5f8309c1e38$"
+	}
+}

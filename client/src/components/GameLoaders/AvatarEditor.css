@@ -1,0 +1,27 @@
+div.container.game-loader.avatar-editor {
+  padding-top: 60px; }
+  @media (max-width: 600px) {
+    div.container.game-loader.avatar-editor {
+      padding: 0;
+      margin: 0;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 999; } }
+  div.container.game-loader.avatar-editor #content {
+    height: 100%;
+    width: 100%; }
+  div.container.game-loader.avatar-editor canvas {
+    max-width: 600px;
+    max-height: 800px;
+    height: calc(100vh - 150px); }
+    @media (max-width: 600px) {
+      div.container.game-loader.avatar-editor canvas {
+        width: 100%;
+        max-width: initial;
+        max-height: initial;
+        height: 100%; } }
+
+/*# sourceMappingURL=CandyFiesta.css.map */

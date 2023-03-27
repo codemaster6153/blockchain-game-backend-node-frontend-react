@@ -1,0 +1,146 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+var app = require('../app');
+var debug = require('debug')('endlessiege:server');
+const fs = require('fs');
+var http = require('http');
+var https = require('https');
+var Server = require("colyseus").Server;
+var WebSocketTransport = require("@colyseus/ws-transport").WebSocketTransport;
+var LobbyRoom = require('../rooms/LobbyRoom').LoobyRoom;
+var ConnectionRoom = require('../rooms/ConnectionRoom').ConnectionRoom;
+
+/**
+ * Get port from environment and store in Express.
+ */
+
+var port = normalizePort(process.env.PORT || '3001');
+app.set('port', port);
+
+console.log("PORT:" + port);
+
+/**
+ * Create the server server
+ */
+
+if (port === 443) {
+  const privateKey = fs.readFileSync(process.env.SERVER_TYPE === "testnet" ? '/etc/letsencrypt/live/test.clashdome.io/privkey.pem' : '/etc/letsencrypt/live/clashdome.io/privkey.pem', 'utf8');
+  const certificate = fs.readFileSync(process.env.SERVER_TYPE === "testnet" ? '/etc/letsencrypt/live/test.clashdome.io/fullchain.pem' : '/etc/letsencrypt/live/clashdome.io/fullchain.pem', 'utf8');
+  const ca = fs.readFileSync(process.env.SERVER_TYPE === "testnet" ? '/etc/letsencrypt/live/test.clashdome.io/chain.pem' : '/etc/letsencrypt/live/clashdome.io/chain.pem', 'utf8');
+  const credentials = {
+    key: privateKey,
+    cert: certificate,
+    ca: ca
+  };
+
+  var server = https.createServer(credentials, app);
+  // server.listen(port);
+  server.on('error', onError);
+  server.on('listening', onListening);
+
+  // Redirect from http port to https
+  http.createServer(function (req, res) {
+    try {
+      res.writeHead(301, { "Location": "https://" + req.headers['host'].replace(80,443) + req.url });
+      res.end();
+    } catch(err) {
+      // do nothing here
+    }
+  }).listen(80);
+
+  const gameServer = new Server({
+    transport: new WebSocketTransport({
+        server: server,
+        pingInterval: 5000,
+        pingMaxRetries: 3,
+    })
+  });
+  
+  gameServer.listen(port);
+  gameServer.define("lobby", LobbyRoom)
+  .filterBy(["password"]);
+  gameServer.define("connection", ConnectionRoom);
+
+} else {
+  var server = http.createServer(app);
+  // server.listen(port);
+  server.on('error', onError);
+  server.on('listening', onListening);
+
+  const gameServer = new Server({
+    transport: new WebSocketTransport({
+        server: server,
+        pingInterval: 5000,
+        pingMaxRetries: 3,
+    })
+  });
+  
+  gameServer.listen(port);
+  gameServer.define("lobby", LobbyRoom)
+  .filterBy(["password"]);
+  gameServer.define("connection", ConnectionRoom);
+}
+
+/**
+ * Normalize a port into a number, string, or false.
+ */
+
+function normalizePort(val) {
+  var port = parseInt(val, 10);
+
+  if (isNaN(port)) {
+    // named pipe
+    return val;
+  }
+
+  if (port >= 0) {
+    // port number
+    return port;
+  }
+
+  return false;
+}
+
+/**
+ * Event listener for HTTP server "error" event.
+ */
+
+function onError(error) {
+  if (error.syscall !== 'listen') {
+    throw error;
+  }
+
+  var bind = typeof port === 'string'
+    ? 'Pipe ' + port
+    : 'Port ' + port;
+
+  // handle specific listen errors with friendly messages
+  switch (error.code) {
+    case 'EACCES':
+      console.error(bind + ' requires elevated privileges');
+      process.exit(1);
+      break;
+    case 'EADDRINUSE':
+      console.error(bind + ' is already in use');
+      process.exit(1);
+      break;
+    default:
+      throw error;
+  }
+}
+
+/**
+ * Event listener for HTTP server "listening" event.
+ */
+
+function onListening() {
+  var addr = server.address();
+  var bind = typeof addr === 'string'
+    ? 'pipe ' + addr
+    : 'port ' + addr.port;
+  debug('Listening on ' + bind);
+}

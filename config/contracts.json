@@ -1,0 +1,7 @@
+{
+    "leaderboards_name": "clashdomeldb",
+    "rewards_name": "clashdomerwd",
+    "duels_name": "clashdomedls",
+    "free_duels_name": "clashdomedll",
+    "rewards_percentages": [33, 20, 10, 6, 5, 4, 3, 2, 1, 1, 1, 1, 1, 1, 1]
+}

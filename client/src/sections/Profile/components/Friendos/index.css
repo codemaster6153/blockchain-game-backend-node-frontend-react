@@ -1,0 +1,521 @@
+.friendos-table {
+    background-color: #001A44;
+}
+
+.friendos-table-container {
+    width: 100%;
+    overflow-x: hidden;
+    background-color: #001A44;
+}
+
+.friendos-table-container:nth-child(1) {
+    max-width: 512px;
+}
+
+.friendos-table .friendos-table-wrapper {
+    width: 100%;
+    display: flex;
+    grid-gap: 20px;
+    gap: 20px;
+    padding: 0 20px;
+    padding-bottom: 20px;
+}
+
+.friendos-table-container .header {
+    display: flex;
+    background-color: #0080D080;
+    color: #ffffff;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.friendos-table-container .search-wrapper {
+    text-align: center;
+    background: #0080D033;
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    padding-top: 20px;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.friendos-table-container .search-wrapper div {
+    display: flex;
+    align-items: center;
+}
+
+.friendos-table-container .search-wrapper>div:nth-child(1) {
+    background: #001A44 0% 0% no-repeat padding-box;
+    border-radius: 50px;
+    border-radius: 50px;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.friendos-table-container .search-wrapper>div:nth-child(1) div {
+
+    padding: 8px;
+    background-color: #004D8A;
+    cursor: pointer;
+    width: 36px;
+    margin: 5px;
+    border-radius: 52px;
+}
+
+.friendos-table-container .search-wrapper>div:nth-child(1) input {
+    background: inherit;
+    border: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    width: 100%;
+    color: #0080D0;
+}
+
+.friendos-table-container .search-wrapper>div:nth-child(1) input:focus {
+    outline: none;
+}
+
+/* css for friend result search */
+
+.friend-search {
+    margin-top: 20px;
+}
+
+.search-wrapper .user-result {
+    background-color: #0080D0;
+    display: flex;
+    align-items: center;
+    padding: 7px 16px;
+    border-radius: 10px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.search-wrapper .user-result a:nth-child(2) {
+    margin-right: auto;
+}
+
+.search-wrapper .user-result .dp,
+.search-wrapper .user-info {
+    width: 40px;
+    height: 40px;
+    transition: all 0.2s;
+    padding-bottom: 5px;
+}
+.search-wrapper .user-info{
+    justify-content: center;
+    width: 100%;
+}
+.search-wrapper .user-result .dp img,
+.search-wrapper .user-info img {
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    transition: all 0.2s;
+}
+
+.search-wrapper .user-result .username,
+.search-wrapper .user-result .send-req,
+.search-wrapper .user-info .username {
+    font-weight: 200;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-Light';
+    min-width: 112px;
+    padding: 4px 10px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 0.2s;
+}
+
+.search-wrapper .user-result .send-req {
+    font-family: 'Oswald-DemiBold';
+    padding: 0;
+    cursor: pointer;
+}
+
+.search-wrapper .user-result .send-req>img {
+    margin-right: 20px;
+}
+
+.search-wrapper .user-result .send-req p {
+    display: flex;
+    align-items: center;
+    padding-left: 90px;
+}
+
+.search-wrapper .user-result .send-req p img {
+    margin-left: 5px;
+}
+
+/* this is for friend list */
+.friendos-table-container .friends-list {
+    margin-top: 20px;
+}
+
+.friendos-table-container .friends-list table {
+    width: 100%;
+    margin-bottom: 15px;
+    ;
+}
+
+.friendos-table-container .friends-list table tr:nth-child(1) {
+    text-align: center;
+    background: #0080D033;
+    display: table-row;
+}
+
+.friendos-table-container .friends-list table th {
+    color: white;
+    font-family: 'Oswald-Light';
+    font-weight: 200;
+    padding: 10px 20px;
+}
+
+.friendos-table-container .friends-list table th.postion {
+    text-align: left;
+    padding-left: 36px;
+}
+
+/* friend table row */
+.friendos-table-container .friends-list table td {
+    padding: 10px;
+}
+
+.friendos-table-container .friends-list table td.position {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.friendos-table-container .friends-list table td.position .player-dp {
+    width: 36px;
+    height: 36px;
+    background-image: url('/images/dummy_avatar.png');
+    background-size: contain;
+    transition: all 0.2s;
+}
+
+.friendos-table-container .friends-list table td.position .player-dp img {
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    transition: all 0.2s;
+}
+
+.friendos-table-container .friends-list table td.position .player-dp:hover {
+    transform: scale(1.08);
+}
+
+.player-info-wrapper .online-badge{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 3px;
+    bottom: 4px;
+    border-radius: 100%;
+    background-color: #00e34f;
+}
+
+.friendos-table-container .friends-list table td.position .rank-num {
+    font-weight: bold;
+    color: white;
+    width: 30px;
+    font-family: 'Oswald-DemiBold';
+    align-items: center;
+    text-align: center;
+}
+
+.friendos-table-container .friends-list table td.position .username {
+    font-weight: bold;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-Light';
+    margin-left: 0px;
+    width: 130px;
+    padding: 3px 0;
+    border-radius: 6px;
+    transition: all 0.2s;
+}
+
+.friendos-table-container .friends-list table td.position .username:hover {
+    transform: scale(1.08);
+}
+
+.friendos-table-container .friends-list table td.score {
+    vertical-align: middle;
+    text-align: center;
+    min-width: 30px;
+}
+
+.friendos-table-container .friends-list table td.score:last-child {
+    max-width: 30px;
+}
+
+.friendos-table-container .friends-list table td.score p {
+    font-weight: 200;
+    color: #FFFF4E;
+    align-items: center;
+    font-family: 'Oswald-Light';
+    margin-left: 8px;
+}
+
+.friendos-table-container .friends-list table td.apartment{
+    
+    gap: 5px;
+}
+
+.friendos-table-container .friends-list table td.apartment div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+}
+
+.friendos-table-container .friends-list table td.apartment div img{
+    width: 30px;
+    height: 30px;
+}
+
+.friendos-table-container .friends-list table td.apartment p {
+    font-weight: 200;
+    color: white;
+    font-family: 'Oswald-DemiBold';
+    text-align: center;
+}
+
+
+.friendos-table-container .friends-list table td.action {
+    display: flex;
+    justify-content: end;
+    padding-right: 0;
+}
+
+.friendos-table-container .friends-list table td.action img {
+    padding: 0 0px;
+    padding-left: 4px;
+}
+
+.friendos-table-container .friends-list table td.action img.clock-icon {
+    position: relative;
+    right: 40px;
+    top: 4px;
+}
+
+.friendos-table-container .friends-list table td.action .normal-btn {
+    font-weight: 600;
+    color: #4d2008;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    margin-left: 8px;
+    background-color: #fbf142;
+    padding: 4px 12px 4px 8px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 0.2s;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.friendos-table-container .friends-list table td.action .normal-btn img {
+    width: 25px;
+}
+
+.friendos-table-container .friends-list table td.action .confirm-btn {
+    font-weight: 600;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    margin-left: 8px;
+    background-color: #00c745;
+    width: 130px;
+    padding: 3px 6px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.friendos-table-container .friends-list table td.action .blocked-btn {
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    margin-left: 8px;
+    background-color: #c8002c;
+    width: 112px;
+    padding: 3px 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.friendos-table-container .friends-list table td.action .confirm-btn:hover {
+    transform: scale(1.08);
+}
+
+.friendos-table-container .friends-list table td.action .normal-btn:hover {
+    transform: scale(1.08);
+}
+
+.friendos-table-container .friends-list table td.action .blocked-btn:hover {
+    transform: scale(1.08);
+}
+
+.friendos-table-container .friends-list table td.close {
+
+    text-align: center;
+    min-width: 30px;
+    cursor: pointer;
+}
+
+.friendos-table-container .friends-list table td.close:last-child ,
+.friendos-table-container .friends-list table td.close:last-child img{
+    max-width: 30px;
+}
+
+.friendos-table-container .friends-list table td.close p {
+    font-weight: 200;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.friendos-table-container .friends-list table td.close img:hover {
+    transform: scale(1.08);
+}
+
+.friendos-table-container .group-challenge-button {
+    font-weight: 600;
+    font-size: 18px;
+    color: #4d2008;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    background-color: #fbf142;
+    width: 100%;
+    padding: 2px 8px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 0.2s;
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.friendos-table-container .group-challenge-button img {
+    height: 32px;
+}
+
+.friendos-table-container .group-challenge-button:hover {
+    transform: scale(1.02);
+}
+
+
+@media(max-width:1024px){
+    .table-responsive{
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+@media (max-width: 653px) {
+    .friendos-table-container:nth-child(1){
+        max-width: 100%;
+    }
+    .friendos-table .friendos-table-wrapper {
+        display: block;
+        padding: 0 6px;
+    }
+
+    .friendos-table-container .friends-list table td.position .rank-num {
+
+        width: 20px;
+    }
+
+    .friendos-table-container .friends-list table td.position .username {
+        font-size: 14px;
+        width: auto;
+        margin: 0 4px;
+    }
+
+    .friendos-table-container .friends-list table tr:nth-child(1) {
+        font-size: 11px;
+    }
+
+    .friendos-table-container .friends-list table td {
+        padding: 10px 0px;
+    }
+
+    .friendos-table-container .friends-list table th {
+        color: white;
+        font-family: 'Oswald-Light';
+        font-weight: 200;
+        padding: 10px 0px;
+    }
+
+    .friendos-table-container .friends-list table td.score {
+        min-width: 10px;
+    }
+    .friendos-table-container .friends-list table td.close {
+
+        min-width: 10px;
+    }
+
+    .friendos-table-container .friends-list table td.position .player-dp {
+        width: 28px;
+        height: 28px;
+    }
+    
+    .friendos-table-container .friends-list table td.position .player-dp img {
+        width: 28px;
+        height: 28px;
+    }
+
+    .friendos-table-container .friends-list table td.apartment div img{
+        width: 22px;
+        height: 22px;
+    }
+
+
+    .friendos-table-container .friends-list table td.score p {
+        font-weight: 200;
+        color: #FFFF4E;
+        align-items: center;
+        font-family: 'Oswald-Light';
+        margin-left: 0px;
+        font-size: 12px;
+    }
+
+    .friendos-table-container .friends-list table td.action .normal-btn {
+        font-size: 12px;
+        margin-right: 4px;
+    }
+}

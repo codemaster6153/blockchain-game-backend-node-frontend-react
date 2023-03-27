@@ -1,0 +1,342 @@
+.duels-history > .section-header {
+    background-color: #0080d080;
+    padding: 10px 20px;
+    font-family: 'Oswald-Light';
+    color: #ffffff;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.duels-history > .section-header .dropdowns{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.duels-history > .section-header .dropdowns .checkbox{
+    transform: scale(2);
+}
+
+.duels-history > .section-header .dropdowns .dropdown .dropdown-trigger .custom-button{
+    font-weight: 200;
+    color: #001a45;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-Light';
+    background-color: #fff;
+    width: 112px;
+    padding: 3px 20px;
+    border-radius: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: all 0.2s;
+    padding: 0;
+    line-height: 16px;
+    border: none;
+    font-size: 18px;
+    gap: 10px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+}
+
+.duels-history > .section-header .dropdowns .dropdown .dropdown-trigger .custom-button .arrow{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 6px 12px 6px;
+    border-color: transparent transparent #001a45 transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.duels-history > .section-header .dropdowns .dropdown .dropdown-trigger .custom-button .arrow.down{
+    transform: rotate(180deg);
+}
+
+.duels-history > .body > .early-access-row:hover {
+    background: #2E4289;
+    border-radius: 8px;
+    opacity: 1;
+    border: 2px solid #FFFF4E;
+}
+
+.duels-history > .body > .early-access-row.highlight {
+    background: #2E4289;
+    border-radius: 8px;
+    opacity: 1;
+    border: 2px solid #FFFF4E;
+}
+
+.duels-history > .body > .early-access-row.highlight.lose{
+    border: 2px solid #FF0045;
+}
+.duels-history > .body > .early-access-row.highlight.won{
+    border: 2px solid #00E34F;
+}
+
+.duels-history > .body > .early-access-row > .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.duels-history > .body > .early-access-row > .left > img{
+    width: 130px;
+}
+
+.duels-history > .body > .early-access-row > .center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 15px;
+    gap: 15px;
+    max-width: 590px;
+    width: 100%;
+}
+.duels-history > .body > .early-access-row > .center > img {
+    width: 60px;
+}
+
+.duels-history > .body > .early-access-row > .center > a {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    transition-property: ease-in;
+}
+
+.duels-history > .body > .early-access-row > .center > .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > img {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    transition-property: ease-in;
+    z-index: 1;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > img.logo,
+.duels-history > .body > .early-access-row > .center > img.unfolded-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+.duels-history > .body > .early-access-row > .center > .player > img.logo.green,
+.duels-history > .body > .early-access-row > .center > img.unfolded-logo.green{
+    /* background-color: #00E34F; */
+    background-image: url('/images/dummy_avatar.png');
+    background-size: contain;
+    background-position: center;
+}
+.duels-history > .body > .early-access-row > .center > .player > img.logo.red,
+.duels-history > .body > .early-access-row > .center > img.unfolded-logo.red{
+    /* background-color: #FF0045; */
+    background-image: url('/images/dummy_avatar.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.rotate-y{
+    /* transform: rotateY(180deg); */
+    transform: scaleX(-1);
+}
+
+.duels-history > .body > .early-access-row > .center > .player > p{
+    text-align: center;
+    font: normal normal 500 16px 'Oswald-Light';
+    letter-spacing: 0px;
+    color: #FFFF4E;
+    opacity: 1;
+}
+.duels-history > .body > .early-access-row > .center > .player > .red {
+    color: #FF0045;
+    font-size: 18px;
+}
+.duels-history > .body > .early-access-row > .center > .player > .green {
+    font-size: 18px;
+    color: #00E34F;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > a{
+    z-index: 3;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > a > .red.my {
+    color: #FF0045;
+    font-size: 18px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > a > .red {
+    color: #ffffff;
+    font-size: 18px;
+    background: #FF0045;
+    padding: 0px 6px 3px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 10px #121212;
+    transition: all 0.2s;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > a > .red:hover,
+.duels-history > .body > .early-access-row > .center > .player > a > .green:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > a > .red.my:hover,
+.duels-history > .body > .early-access-row > .center > .player > a > .green.my:hover {
+    box-shadow: none;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > a > .green.my {
+    font-size: 18px;
+    color: #00E34F;
+    background: transparent;
+    box-shadow: none;
+}
+.duels-history > .body > .early-access-row > .center > .player > a > .green {
+    background-color: #00E34F;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px 6px 3px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 10px #121212;
+    transition: all 0.2s;
+}
+
+.duels-history > .body > .early-access-row > .center > .player > a > p{
+    text-align: center;
+    font: normal normal 500 16px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFF4E;
+    opacity: 1;
+}
+/* .duels-history > .body > .early-access-row > .center > .player > a > .red {
+    color: #FF0045;
+    font-size: 18px;
+}
+.duels-history > .body > .early-access-row > .center > .player > a > .green {
+    font-size: 18px;
+    color: #00E34F;
+} */
+
+.duels-history > .body > .early-access-row > .center > .reveal-result {
+    background: transparent linear-gradient(179deg, #CFF958 0%, #53C209 100%);
+    border: 2px solid #21AA00;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.duels-history > .body > .early-access-row > .center > .reveal-result > .head {
+    text-align: center;
+    font: normal normal 600 20px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 8px #000000B3;
+    opacity: 1;
+}
+.duels-history > .body > .early-access-row > .center > .reveal-result > .subtext {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 8px #000000B3;
+    opacity: 1;
+}
+
+.duels-history > .body > .early-access-row > .right{
+    text-align: right;
+    font: normal normal 600 16px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* for the pending row */
+.duels-history > .body > .early-access-row > .center > .pending-row {
+    text-align: center;
+    margin: 0 auto;
+}
+.duels-history > .body > .early-access-row > .center > .pending-row > h2{
+    text-align: center;
+    font: normal normal 500 20px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 18px #000000cc;
+    opacity: 1;
+}
+
+.duels-history > .body > .early-access-row > .center > .pending-row > h2 > span {
+    color: #FFFF4E;
+}
+
+.duels-history > .body > .early-access-row > .center > .pending-row > p {
+    text-align: center;
+    font: normal normal 500 16px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 3px;
+}
+
+@media screen and (max-width: 430px) {
+    .duels-history > .body > .early-access-row > .left > img {
+        width: 72px;
+    }
+    .duels-history > .body > .early-access-row > .center {
+        gap: 7px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .duels-history > .section-header {
+        display: block;
+        padding: 10px 6px;
+    }
+    .duels-history > .section-header .dropdowns {
+        gap: 8px;
+        flex-direction: column;
+    }
+    .duels-history > .section-header .dropdowns .dropdown .dropdown-trigger .custom-button {
+        font-size: 16px;
+        min-width: 100px !important;
+        width: 104px;
+    }
+    .duels-history > .section-header .table-title {
+        padding-bottom: 5px;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .duels-history > .section-header .dropdowns input {
+        max-width: 128px;
+    }
+}
+
+@media screen and (max-width: 374px) {
+    .duels-history > .section-header .dropdowns {
+        text-align: center;
+        display: block;
+    }
+    .duels-history > .section-header .dropdowns .dropdown {
+        text-align: center;
+        display: block;
+        margin: 5px 0 !important;
+    }
+    .duels-history > .section-header .dropdowns .dropdown .dropdown-trigger .custom-button {
+        margin: 0 auto;
+    }
+    .duels-history > .section-header .dropdowns input {
+        padding: 10px !important;
+    }
+}

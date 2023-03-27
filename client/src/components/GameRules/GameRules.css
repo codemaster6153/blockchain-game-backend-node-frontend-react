@@ -1,0 +1,204 @@
+.game-rules,
+.tournament-rules {
+  	padding-left: 10px;
+  	padding-right: 10px;
+	position: relative;
+	color: white;
+	text-align: justify;
+	font-size: 14px;
+	font-weight: lighter;
+}
+
+.game-rules,
+.tournament-rules-1 {
+	background: #0b2347d8;
+	border-radius: 10px 10px 10px 10px;
+	padding-bottom: 5px;
+	padding-top: 5px;
+}
+
+.combos,
+.tournament-rules-2 {
+  background: #1f429988;
+  border-radius: 10px 10px 10px 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+@media (max-width: 600px) {
+	.game-rules,
+	.tournament-rules {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    border-radius: 10px 
+	}
+}
+
+.game-rules h2,
+.tournament-rules h2 {
+	color: #ffd800;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.tournament-rules-2 h2 {
+  color: #ffffff;
+}
+
+.combos h2 {
+  color: #ffffff;
+	font-size: 16px;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 10px 0;
+}
+
+.game-rules h3,
+.tournament-rules h3 {
+	color: white;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+	margin: 10px 0;
+}
+
+.game-rules strong,
+.tournament-rules strong {
+	color: white;
+}
+
+.game-rules a,
+.tournament-rules a {
+	color: #67a3cd;
+}
+
+.game-rules a:hover,
+.tournament-rules a:hover {
+	color: #67a3cd;
+	text-decoration: underline;
+}
+
+.game-rules ul,
+.tournament-rules ul {
+	margin: 10px 0;
+}
+
+.game-rules ul li,
+.tournament-rules ul li {
+	list-style-type: disc;
+  list-style-position: inside;
+}
+
+.game-rules .columns .column span,
+.tournament-rules .columns .column span {
+	margin: 0 auto 15px;
+}
+
+.game-rules .columns .column p,
+.tournament-rules .columns .column p {
+  text-align: justify;
+  margin-bottom: 10px;
+}
+
+.game-rules .columns .column .image-wrapper,
+.tournament-rules .columns .column .image-wrapper {
+	text-align: center;
+}
+
+.game-rules .columns .column .image-wrapper img,
+.tournament-rules .columns .column .image-wrapper img {
+	height: 150px;
+}
+
+.game-rules .columns .column .video-wrapper {
+  text-align: center;
+}
+
+.game-rules .columns .column .title {
+	font-size: 16px;
+	display: block;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 4px;
+}
+
+.game-rules .columns .column .title .avatar {
+	width: 30px;
+	vertical-align: -8px;
+}
+
+.game-rules .columns .column .video-wrapper video{
+  height: 100px;
+}
+
+.game-rules .columns .column .templok {
+	text-align: center;
+	height: 100px;
+}
+
+
+.game-rules .wiki-link,
+.tournament-rules .wiki-link {
+  width: 100%;
+  padding-bottom: 5px;
+}
+
+.game-rules .wiki-link a,
+.tournament-rules .wiki-link a {
+	display: block;
+	width: 100%;
+  margin: 20px 0;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #2781c1;
+	text-align: center;
+	background-color: #202734;
+	border: 1px solid #4b4e54;
+	padding: 5px 0 6px;
+	border-radius: 5px;
+}
+
+.game-rules .wiki-link a:hover,
+.tournament-rules .wiki-link a:hover {
+	text-decoration: underline;
+	border-color: #2781c1;
+}
+
+#how-to-play {
+	position: absolute;
+	top: -80px;
+}
+
+.tournament-rules {
+  margin-bottom: 20px !important;
+}
+
+.game-rules {
+  margin-bottom: 20px !important;
+}
+
+.tournament-rules p {
+	margin-bottom: 10px;
+}
+
+.combos h2 {
+  color: #ffffff;
+}
+
+.tournament-rules-2 a {
+  color: #c0c0c0;
+}
+
+.tournament-rules-2 a:hover {
+  color: #616161;
+}
+
+
+/*# sourceMappingURL=GameRules.css.map */

@@ -1,0 +1,155 @@
+.section-four {
+    box-shadow: inset 0px 16px 18px -10px #00000099, inset 0px -16px 18px -10px #00000099;
+    padding: 30px 0px;
+}
+
+.section-four > div{
+    padding-top: 24px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 24px;
+    gap: 60px;
+    width: 98%;
+    margin: 0 auto;
+    max-width: 90%;
+}
+
+.section-four .right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    flex: 1;
+    width: 100%;
+}
+
+.section-four .left .main-text {
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    letter-spacing: 1.4px;
+    line-height: 1.15;
+    opacity: 1;
+    font-size: 80px;
+    color: #ffffff;
+    text-shadow: 0px 3px 20px #000000e1;
+}
+
+.section-four .left .sub-text {
+    text-align: center;
+    font-family: 'Oswald-Light';
+    opacity: 1;
+    font-size: 28px;
+    color: #ffffff;
+    text-shadow: 0px 3px 20px #000000e1;
+}
+
+.section-four .social-card {
+    box-shadow: 0px 3px 14px #00000099;
+    border-radius: 20px;
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 20px;
+    color: #ffffff;
+    height: 190px;
+    transition: all 0.2s;
+}
+
+.section-four .social-card .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-four .social-card .info-container p {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.section-four .social-card:hover {
+    transform: scale(1.05);
+}
+
+.section-four .social-card.discord {
+    background: linear-gradient(90deg, #5865F2 0%, #3B4BFF 100%);
+}
+.section-four .social-card.telegram {
+    background: linear-gradient(90deg, #229ED9 0%, #077DCE 100%);
+}
+.section-four .social-card.twitter {
+    background: linear-gradient(90deg, #00ACEE 0%, #0080ED 100%);
+}
+.section-four .social-card.medium {
+    background: linear-gradient(90deg, #00CE67 0%, #00AB6C 100%);
+}
+.section-four .social-card.linkedin {
+    background: linear-gradient(270deg, #3EC9FF 0%, #008CC3 100%);
+}
+.section-four .social-card.tiktok {
+    background: linear-gradient(180deg, #FF0045 0%, #11CBF9 100%);
+}
+
+.section-four .social-card .img {
+    width: 100px;
+    height: 100px;
+    border-radius: 999px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.section-four .social-card .img img {
+    width: 100%;
+}
+
+.section-four .social-card.discord .img,
+.section-four .social-card.twitter .img,
+.section-four .social-card.medium .img  {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 10px;
+}
+
+@media screen and (max-width: 950px) {
+    .section-four > div{
+        flex-direction: column;
+    }
+
+    .section-four .social-card {
+        height: auto;
+        padding: 20px;
+    }
+
+    .section-four .social-card .info-container p {
+        font-size: 18px;
+    }
+
+    .section-four .social-card .img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .section-four .left .main-text {
+        font-size: 60px;
+    }
+
+    .section-four .left .sub-text {
+        font-size: 22px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .section-four .right {
+        grid-template-columns: 1fr;
+    }
+
+    .section-four .left .main-text {
+        font-size: 50px;
+    }
+
+    .section-four .left .sub-text {
+        font-size: 20px;
+    }
+}

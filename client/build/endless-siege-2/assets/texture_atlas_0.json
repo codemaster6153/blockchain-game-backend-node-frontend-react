@@ -1,0 +1,356 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_0.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "duels_bg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 768,
+						"h": 1024
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 768,
+						"h": 1024
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 768,
+						"h": 1024
+					}
+				},
+				{
+					"filename": "halloween_splash_bg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 768,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 768,
+						"h": 128
+					},
+					"frame": {
+						"x": 771,
+						"y": 1,
+						"w": 768,
+						"h": 128
+					}
+				},
+				{
+					"filename": "duels_logo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 412,
+						"h": 325
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 412,
+						"h": 325
+					},
+					"frame": {
+						"x": 1541,
+						"y": 1,
+						"w": 412,
+						"h": 325
+					}
+				},
+				{
+					"filename": "replay_bg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 768,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 768,
+						"h": 128
+					},
+					"frame": {
+						"x": 771,
+						"y": 131,
+						"w": 768,
+						"h": 128
+					}
+				},
+				{
+					"filename": "splash_bg",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 768,
+						"h": 128
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 768,
+						"h": 128
+					},
+					"frame": {
+						"x": 771,
+						"y": 261,
+						"w": 768,
+						"h": 128
+					}
+				},
+				{
+					"filename": "two-dot-o",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 85,
+						"h": 45
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 85,
+						"h": 45
+					},
+					"frame": {
+						"x": 1955,
+						"y": 1,
+						"w": 85,
+						"h": 45
+					}
+				},
+				{
+					"filename": "blue_gradient",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 10,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 264
+					},
+					"frame": {
+						"x": 1955,
+						"y": 48,
+						"w": 10,
+						"h": 264
+					}
+				},
+				{
+					"filename": "purple_gradient",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 10,
+						"h": 270
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 10,
+						"h": 264
+					},
+					"frame": {
+						"x": 1967,
+						"y": 48,
+						"w": 10,
+						"h": 264
+					}
+				},
+				{
+					"filename": "clashdome_logo",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 400,
+						"h": 225
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 400,
+						"h": 225
+					},
+					"frame": {
+						"x": 1541,
+						"y": 328,
+						"w": 400,
+						"h": 225
+					}
+				},
+				{
+					"filename": "txt_daily_strategists",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 577,
+						"h": 40
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 577,
+						"h": 40
+					},
+					"frame": {
+						"x": 771,
+						"y": 391,
+						"w": 577,
+						"h": 40
+					}
+				},
+				{
+					"filename": "endless_siege_title_02",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 580,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 391,
+						"y": 0,
+						"w": 189,
+						"h": 219
+					},
+					"frame": {
+						"x": 1350,
+						"y": 391,
+						"w": 189,
+						"h": 219
+					}
+				},
+				{
+					"filename": "endless_siege_title_01",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 580,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 558,
+						"h": 201
+					},
+					"frame": {
+						"x": 771,
+						"y": 433,
+						"w": 558,
+						"h": 201
+					}
+				},
+				{
+					"filename": "replay_text",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 222,
+						"h": 58
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 222,
+						"h": 58
+					},
+					"frame": {
+						"x": 1541,
+						"y": 555,
+						"w": 222,
+						"h": 58
+					}
+				},
+				{
+					"filename": "btn_play_duels",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 178,
+						"h": 95
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 178,
+						"h": 95
+					},
+					"frame": {
+						"x": 1331,
+						"y": 612,
+						"w": 178,
+						"h": 95
+					}
+				},
+				{
+					"filename": "endless_siege_title_3",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 580,
+						"h": 219
+					},
+					"spriteSourceSize": {
+						"x": 407,
+						"y": 0,
+						"w": 173,
+						"h": 219
+					},
+					"frame": {
+						"x": 1765,
+						"y": 555,
+						"w": 173,
+						"h": 219
+					}
+				},
+				{
+					"filename": "beta",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 137,
+						"h": 54
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 137,
+						"h": 54
+					},
+					"frame": {
+						"x": 1511,
+						"y": 615,
+						"w": 137,
+						"h": 54
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:588d3f63a950b2e69276c8f103cbbb69:fcd3fb548af956759f75e977423747ea:37d6858e7d65f51c1507bb5baedaea8a$"
+	}
+}

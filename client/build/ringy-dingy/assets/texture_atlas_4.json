@@ -1,0 +1,230 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_4.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 2048,
+				"h": 2048
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "highlighted_row",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 857,
+						"h": 332
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 857,
+						"h": 332
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 857,
+						"h": 332
+					}
+				},
+				{
+					"filename": "board",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 572,
+						"h": 572
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 572,
+						"h": 572
+					},
+					"frame": {
+						"x": 860,
+						"y": 1,
+						"w": 572,
+						"h": 572
+					}
+				},
+				{
+					"filename": "pause_box",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 540,
+						"h": 540
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 540,
+						"h": 540
+					},
+					"frame": {
+						"x": 1434,
+						"y": 1,
+						"w": 540,
+						"h": 540
+					}
+				},
+				{
+					"filename": "txtbox_points",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 323,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 323,
+						"h": 81
+					},
+					"frame": {
+						"x": 1434,
+						"y": 543,
+						"w": 323,
+						"h": 81
+					}
+				},
+				{
+					"filename": "textbox_moves",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 204,
+						"h": 81
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 204,
+						"h": 81
+					},
+					"frame": {
+						"x": 1759,
+						"y": 543,
+						"w": 204,
+						"h": 81
+					}
+				},
+				{
+					"filename": "highlighted_cell",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 182,
+						"h": 182
+					},
+					"spriteSourceSize": {
+						"x": 1,
+						"y": 1,
+						"w": 180,
+						"h": 180
+					},
+					"frame": {
+						"x": 1,
+						"y": 335,
+						"w": 180,
+						"h": 180
+					}
+				},
+				{
+					"filename": "hand_cursor",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 150,
+						"h": 215
+					},
+					"spriteSourceSize": {
+						"x": 8,
+						"y": 0,
+						"w": 133,
+						"h": 215
+					},
+					"frame": {
+						"x": 183,
+						"y": 335,
+						"w": 133,
+						"h": 215
+					}
+				},
+				{
+					"filename": "silhouette_03",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 116,
+						"h": 178
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 116,
+						"h": 178
+					},
+					"frame": {
+						"x": 1,
+						"y": 517,
+						"w": 116,
+						"h": 178
+					}
+				},
+				{
+					"filename": "silhouette_02",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 108,
+						"h": 172
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 108,
+						"h": 172
+					},
+					"frame": {
+						"x": 318,
+						"y": 335,
+						"w": 108,
+						"h": 172
+					}
+				},
+				{
+					"filename": "silhouette_01",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 88,
+						"h": 178
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 88,
+						"h": 178
+					},
+					"frame": {
+						"x": 428,
+						"y": 335,
+						"w": 88,
+						"h": 178
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:fb281ad2a39d13f6777fb3af0bd34626:07b3f7b87e135bd99bec4c224e732bc3:da96745a4979f34ffd84fb8b5d66e27c$"
+	}
+}

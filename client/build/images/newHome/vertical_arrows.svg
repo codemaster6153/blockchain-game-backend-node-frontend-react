@@ -1,0 +1,34 @@
+
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="none" x="0px" y="0px" width="4000px" height="700px" viewBox="0 0 4000 700">
+<defs>
+<path id="Layer0_0_1_STROKES" stroke="#D2FF3B" stroke-width="200" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="3" fill="none" d="
+M -80 236
+L 2000 928 4080 236
+M -80 114
+L 2000 806 4080 114"/>
+
+<path id="Layer0_1_1_STROKES" stroke="#D2FF3B" stroke-width="200" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="3" fill="none" d="
+M -80 936
+L 2000 1628 4080 936
+M -80 814
+L 2000 1506 4080 814"/>
+
+<path id="Layer0_2_1_STROKES" stroke="#D2FF3B" stroke-width="200" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="3" fill="none" d="
+M -79 -464
+L 2001 228 4081 -464
+M -79 -586
+L 2001 106 4081 -586"/>
+</defs>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_0_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_1_1_STROKES"/>
+</g>
+
+<g transform="matrix( 1, 0, 0, 1, 0,0) ">
+<use xlink:href="#Layer0_2_1_STROKES"/>
+</g>
+</svg>

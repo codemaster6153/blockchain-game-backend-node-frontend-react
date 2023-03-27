@@ -1,0 +1,49 @@
+.second-half .feature-card-home {
+    position: relative;
+    width: 260px;
+    height: 340px;
+}
+
+.second-half .feature-card-home .abs {
+    position: absolute;
+    top: -20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.second-half .feature-card-home .abs  img{
+    width: 180px;
+    height: 180px;
+    border-radius: 230px;
+    border: #11F9E7 solid 4px;
+}
+
+.second-half .feature-card-home .abs p.header{
+    color: white;
+    font-family: 'Oswald-DemiBold';
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.second-half .feature-card-home .abs p.description{
+    text-align: center;
+    color: white;
+    font-family: 'Oswald-light';
+    font-size: 18px;
+    margin-top: 16px;
+}
+@media screen and (max-width: 1200px) {
+    .second-half .feature-card-home .abs  img{
+        width: 160px;
+        height: 160px;
+    }
+}
+@media screen and (max-width: 1024px) {
+    .second-half .feature-card-home .abs {
+        position: relative;
+        top: 0;
+    }
+}

@@ -1,0 +1,21 @@
+.stats-container {
+    width: 100%;
+}
+
+.stats-container > h1 {
+    font: normal normal 600 20px "Oswald";
+    letter-spacing: normal;
+    color: #FFFFFF;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 45px;
+}
+
+.stats-container > .stat-chart-container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.stats-container .apexcharts-toolbar {
+    display: none;
+}

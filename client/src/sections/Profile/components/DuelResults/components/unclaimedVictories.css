@@ -1,0 +1,301 @@
+.unclaimed-victories-container > .section-header{
+    background-color: #0080d080;
+    font-size: 16px;
+    padding: 10px 50px;
+    font-family: 'Oswald-Light';
+    color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.unclaimed-victories-container > .body > .early-access-row {
+    background: #448BDA40;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 98%;
+    margin: 10px auto;
+    padding: 10px 10px 10px 6px;
+    border: 2px solid transparent;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.unclaimed-victories-container > .body > .early-access-row:hover {
+    background: #2E4289;
+    border-radius: 8px;
+    opacity: 1;
+    border: 2px solid #FFFF4E;
+}
+
+.unclaimed-victories-container > .body > .early-access-row.highlight {
+    background: #2E4289;
+    border-radius: 8px;
+    opacity: 1;
+    border: 2px solid #FFFF4E;
+}
+
+.unclaimed-victories-container > .body > .early-access-row.highlight.lose{
+    border: 2px solid #FF0045;
+}
+.unclaimed-victories-container > .body > .early-access-row.highlight.won{
+    border: 2px solid #00E34F;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.unclaimed-victories-container > .body > .early-access-row > .left > img{
+    width: 130px;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+.unclaimed-victories-container > .body > .early-access-row > .center > img {
+    width: 30px;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > a {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    transition-property: ease-in;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > img {
+    position: absolute;
+    opacity: 0;
+    transition: 0.5s;
+    transition-property: ease-in;
+    z-index: 1;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > img.logo,
+.unclaimed-victories-container > .body > .early-access-row > .center > img.unfolded-logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > img.logo.green,
+.unclaimed-victories-container > .body > .early-access-row > .center > img.unfolded-logo.green{
+    /* background-color: #00E34F; */
+    background-image: url('/images/dummy_avatar.png');
+    background-size: contain;
+    background-position: center;
+}
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > img.logo.red,
+.unclaimed-victories-container > .body > .early-access-row > .center > img.unfolded-logo.red{
+    /* background-color: #FF0045; */
+    background-image: url('/images/dummy_avatar.png');
+    background-size: contain;
+    background-position: center;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > p{
+    text-align: center;
+    font: normal normal 500 16px 'Oswald-Light';
+    letter-spacing: 0px;
+    color: #FFFF4E;
+    opacity: 1;
+}
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > .red {
+    color: #FF0045;
+    font-size: 18px;
+}
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > .green {
+    font-size: 18px;
+    color: #00E34F;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a{
+    z-index: 3;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .red.my {
+    color: #FF0045;
+    font-size: 18px;
+    background: transparent;
+    box-shadow: none;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .red {
+    color: #ffffff;
+    font-size: 18px;
+    background: #FF0045;
+    padding: 0px 6px 3px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 10px #121212;
+    transition: all 0.2s;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .red:hover,
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .green:hover {
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .red.my:hover,
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .green.my:hover {
+    box-shadow: none;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .green.my {
+    font-size: 18px;
+    color: #00E34F;
+    background: transparent;
+    box-shadow: none;
+}
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .green {
+    background-color: #00E34F;
+    color: #ffffff;
+    font-size: 18px;
+    padding: 0px 6px 3px;
+    border-radius: 5px;
+    box-shadow: 0.1px 0.1px 10px #121212;
+    transition: all 0.2s;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > p{
+    text-align: center;
+    font: normal normal 500 16px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFF4E;
+    opacity: 1;
+}
+/* .unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .red {
+    color: #FF0045;
+    font-size: 18px;
+}
+.unclaimed-victories-container > .body > .early-access-row > .center > .player > a > .green {
+    font-size: 18px;
+    color: #00E34F;
+} */
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .reveal-result {
+    background: transparent linear-gradient(179deg, #CFF958 0%, #53C209 100%);
+    border: 2px solid #21AA00;
+    border-radius: 10px;
+    opacity: 1;
+    padding: 5px 20px;
+    cursor: pointer;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .reveal-result > .head {
+    text-align: center;
+    font: normal normal 600 20px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 8px #000000B3;
+    opacity: 1;
+}
+.unclaimed-victories-container > .body > .early-access-row > .center > .reveal-result > .subtext {
+    text-align: center;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 8px #000000B3;
+    opacity: 1;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .right{
+    text-align: right;
+    font: normal normal 600 16px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+/* for the pending row */
+.unclaimed-victories-container > .body > .early-access-row > .center > .pending-row {
+    text-align: center;
+}
+.unclaimed-victories-container > .body > .early-access-row > .center > .pending-row > h2{
+    text-align: center;
+    font: normal normal 500 20px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    text-shadow: 0px 1px 18px #000000cc;
+    opacity: 1;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .pending-row > h2 > span {
+    color: #FFFF4E;
+}
+
+.unclaimed-victories-container > .body > .early-access-row > .center > .pending-row > p {
+    text-align: center;
+    font: normal normal 500 16px 'Oswald';
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-top: 3px;
+}
+
+
+.claims-container {
+    background-color: #002f60;
+    display: flex;
+    flex: 1;
+    margin: 0 14px;
+    padding: 0px 0;
+    margin-top: -18px;
+}
+
+.claim-all-btn{
+    background: transparent linear-gradient(0deg, #FFBA00 0%, #FFEB3C 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #0000008f;
+    border-radius: 14px;
+    opacity: 1;
+    border: none;
+    margin: 20px auto 20px;
+    padding: 0px 20px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-family: 'Oswald-DemiBold';
+    font-size: 18px;  
+    width: 360px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.claim-all-btn p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.claim-all-btn span {
+    font-family: 'Oswald-light';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+}
+
+@media screen and (max-width: 430px) {
+    .unclaimed-victories-container > .body > .early-access-row > .left > img {
+        width: 72px;
+    }
+    .unclaimed-victories-container > .body > .early-access-row > .center {
+        gap: 7px;
+    }
+}

@@ -1,0 +1,1036 @@
+.exchange-container {
+    background-color: #071D40;
+    border-radius: 0px 0px 30px 30px;
+    padding: 30px;
+    padding-top: 150px;
+}
+
+.exchange-container .exchange-row {
+    display: flex;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.exchange-container .react-slidedown {
+    display: flex;
+    justify-content: center;
+}
+
+.exchange-container .exchange-row .exchange-swap-column {
+    width: 35%;
+    flex: 0 0 35%;
+    padding: 0 15px;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .swap-bpx {
+    margin-bottom: 10px;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .claiming-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .claiming-list .claim-item {
+    display: flex;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .claiming-list .claim-item:nth-child(2n) {
+    background-color: #002F60;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .claiming-list .claim-item .claim-info {
+    color: #0080D0;
+    font-family: 'Oswald-Light';
+    font-size: 28px;
+    display: flex;
+    align-items: center;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .claiming-list .claim-item .claim-info .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 999px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .claiming-list .claim-item .claim-tokens {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding-right: 15px;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .claiming-list .claim-item .claim-tokens .amount {
+    color: #FFEE57;
+    font-size: 30px;
+    font-family: 'Oswald-Light';
+    margin-right: 5px;
+}
+
+.exchange-container .exchange-row .exchange-swap-column .claiming-list .claim-item .claim-tokens img {
+    width: 32px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column {
+    width: 65%;
+    flex: 0 0 65%;
+    padding: 0 15px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box {
+    margin-bottom: 20px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .header {
+    margin-bottom: 20px;   
+    position: relative;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .header .close {
+    position: absolute;
+    background: none;
+    padding: 0;
+    border: none;
+    outline: none;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 40px;
+    cursor: pointer;
+    display: flex;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items {
+    display: flex;
+    flex-direction: column;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item {
+    background: #002F60 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    padding: 40px 20px 20px;
+    user-select: none;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item:hover {
+    background: rgb(0 47 96 / 80%) 0% 0% no-repeat padding-box;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content img {
+    width: 220px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content .description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 450px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content .description .title {
+    font-size: 22px;
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 1.5rem;
+}
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content .description p {
+    color: #0080D0;
+    font-size: 22px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens {
+    background: #001A44 0% 0% no-repeat padding-box;
+    border-radius: 70px;
+    padding: 10px 0;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens.grouped {
+    background: none;
+    border-radius: 0;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token {
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+}
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token.token-rows  {
+    flex-direction: column;
+    align-items: flex-end;
+}
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token p {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens.grouped .token.token-rows {
+    background: #001A44 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    padding: 10px 50px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token p.wax {
+    color: #fff
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .ludio {
+    color: #FFE200
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .carbz {
+    color: #62FF00
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .jigo {
+    color: #00FFF5
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token:not(:last-child) {
+    margin-right: 1.5rem;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token img {
+    margin-left: 7px;
+    width: 28px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item {
+    display: flex;
+    align-items: center;
+    padding: 15px 10px;
+}
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item .actions-wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item .actions-wrapper button {
+    margin-top: 0;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item .actions-wrapper button:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item:nth-child(2n) {
+    background-color: #0080D033;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-grow: 1;
+}
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings {
+    align-items: flex-start;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table .amount {
+    width: 110px;
+    flex: 0 0 110px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .amount {
+    width: 130px;
+    flex: 0 0 130px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .amount .taco-pairs {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .ludio {
+    color: #FFE200;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .jigo {
+    color: #00FFF5;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .carbz {
+    color: #62FF00;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table .apy {
+    width: 70px;
+    flex: 0 0 70px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .apy {
+    width: 130px;
+    flex: 0 0 130px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table .auto-renew {
+    width: 140px;
+    flex: 0 0 140px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .auto-renew {
+    width: 170px;
+    flex: 0 0 170px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table .interest {
+    width: 200px;
+    flex: 0 0 200px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .interest {
+    width: 160px;
+    flex: 0 0 160px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table .end-time {
+    width: 130px;
+    flex: 0 0 130px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table label {
+    color: #0080D0;
+    font-size: 24px;
+    font-family: 'Oswald-Light';
+    margin-bottom: 15px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table span {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Oswald-Light';
+    display: flex;
+    align-items: center;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table .interest span {
+    color: #00E34F;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table span img {
+    width: 30px;
+    margin-left: 5px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list button {
+    width: 100px;
+    height: 40px;
+    letter-spacing: -1.01px;
+    font-family: 'Oswald';
+    font-size: 20px;
+    font-weight: 500;
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: auto;
+    transition: all 0.2s;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list button:hover {
+    transform: scale(1.05);
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .claim {
+    background: transparent linear-gradient(1deg, #FFCE00 0%, #FFF61C 100%) 0% 0% no-repeat padding-box;
+    color: #6C4213;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .cancel {
+    background-color: #FF0045;
+    color: #FFFFFF;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list .add {
+    background-color: #00E34F;
+    color: #FFFFFF;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .holdings-list button.disabled {
+    filter: grayscale(20%) opacity(0.5);
+    cursor: not-allowed;
+}
+
+.exchange-container .exchange-row .step-boxes {
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.exchange-container .exchange-row .step-boxes .single-step-box {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 30px;
+    background-color: #004077;
+}
+
+.exchange-container .exchange-row .step-boxes .single-step-box:nth-child(2n - 1) {
+    background-color: #0080D033;
+}
+
+.exchange-container .exchange-row .step-boxes .single-step-box.tacos {
+    background: #002F60 !important;
+    padding-top: 40px !important;
+}
+
+.exchange-container .exchange-row .step-boxes .single-step-box .single-step-title {
+    color: #0080D0;
+    font-size: 20px;
+    font-family: 'Oswald-Light';
+}
+
+.exchange-container .exchange-row .step-boxes .single-step-box.active .single-step-title {
+    color: #fff;
+}
+
+.exchange-container .exchange-row .step-boxes .single-step-box .single-step-items {
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.exchange-container .exchange-row .step-boxes .single-step-box .single-step-items-container {
+    margin-top: 30px;
+}
+
+.tacos-container {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.tacos-container .input-container {
+    border: 1px solid transparent;
+}
+
+.tacos-container .input-container.red {
+    border: 1px solid red;
+}
+
+.tacos-container .input-container input {
+    height: 55px !important;
+}
+
+.tacos-container .input-container .asset {
+    padding: 10px 40px 10px 0px !important;
+}
+
+.tacos-container .token-container {
+    color: #0080D0;
+    display: flex;
+    justify-content: space-between;
+    font-size: 22px;
+    font-weight: 300;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.tacos-container .inputs-divider {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 32px;
+}
+
+.tacos-container .inputs-divider a, .tacos-container .inputs-divider a:hover {
+    color: #fff;
+}
+
+.tacos-container .inputs-divider svg {
+    cursor: pointer;
+}
+
+.tacos-container .token-container .amount {
+    display: flex;
+    align-items: center;
+}
+
+.tacos-container .token-container .amount svg {
+    margin-left: 5px;
+}
+
+.tacos-container .rates-container {
+    padding: 0 20px;
+    margin-top: 15px;
+}
+
+.tacos-container .rates-container p {
+    font-size: 22px;
+    font-weight: 300;
+    color: #0080D0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.tacos-container .rates-container p span {
+    color: #fff;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .tokens .token-item {
+    width: 80px;
+    height: 80px;
+    background-color: #001A4480;
+    border: 4px solid transparent;
+    border-radius: 20px;
+    margin: 0 5px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+.exchange-container .exchange-row .exchange-earn-column .tokens .token-item:hover {
+    transform: scale(1.05);
+}
+
+.exchange-container .exchange-row .step-boxes .single-step-box.active .tokens .token-item {
+    background-color: #001A44;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .tokens .token-item img {
+    width: 50px;
+    object-fit: cover;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .tokens .token-item.active {
+    border-color: #FFEE57;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .durations .duration-item {
+    width: 120px;
+    height: 110px;
+    background-color: #001A44;
+    border: 4px solid transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0 10px;
+    cursor: pointer;
+    opacity: 0.7;
+    transition: all 0.2s;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .durations .duration-item:hover {
+    transform: scale(1.05);
+}
+
+.exchange-container .exchange-row .exchange-earn-column .durations .duration-item .duration-name {
+    color: #fff;
+    font-size: 24px;
+    font-family: "Oswald";
+    font-weight: 500;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .durations .duration-item .duration-apy {
+    color: #FFEE57;
+    font-size: 24px;
+    font-family: "Oswald";
+    font-weight: 300;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .durations .duration-item.active {
+    border-color: #FFEE57;
+    background-color: #001A44;
+    opacity: 1;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .interest {
+    justify-content: center;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .interest p {
+    color: #0080D0;
+    font-family: 'Oswald-Light';
+    font-size: 24px;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .interest p span {
+    margin-left: 10px;
+    color: #00E34F;
+}
+
+.exchange-container .exchange-row .exchange-earn-column .deposit .swap-button {
+    min-width: 460px;
+    margin-top: 0;
+}
+
+.exchange-container .header {
+    display: flex;
+    background-color: #0080D080;
+    color: #ffffff;
+    padding: 10px 50px;
+    font-size: 22px;
+    font-family: 'Oswald-Light';
+    align-items: center;
+    justify-content: center;
+
+}
+
+.exchange-container .main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.exchange-container .main .swap-wrapper {
+    background-color: #002F60;
+    padding: 20px;
+    border-radius: 20px;
+    width: 98%;
+    max-width: 460px;
+    display: flex;
+    flex-direction: column;
+}
+
+.exchange-container .main .swap-wrapper .mid-arrow {
+    margin: 20px auto 0px;
+    cursor: pointer;
+}
+
+.exchange-container .input-container {
+    background-color: #071D40;
+    border-radius: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.exchange-container .input-container .assetList {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: #071D40;
+    border-radius: 24px;
+    padding: 10px 20px;
+    z-index: -2;
+    opacity: 0;
+    transition: all 0.2s;
+}
+
+.exchange-container .input-container .asset {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    /* gap: 5px; */
+    padding: 10px 20px 10px 0px;
+    margin-left: -15px;
+}
+
+.exchange-container .single-step-items .input-container .asset {
+    cursor: default;
+}
+
+.exchange-container .input-container .asset .max-button {
+    background: none;
+    outline: none;
+    border: none;
+    box-shadow: none;
+    color: #FFFFFF;
+    font-family: 'Oswald-Light';
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.exchange-container .input-container .asset p {
+    color: #0080D0;
+    font-size: 20px;
+    font-family: 'Oswald-Light';
+}
+
+.exchange-container .single-step-items .input-container .asset p {
+    font-size: 20px;
+}
+
+.exchange-container .input-container .asset>img:nth-child(1) {
+    margin-right: 7px;
+    width: 28px;
+}
+
+.exchange-container .single-step-items .input-container .asset>img:nth-child(1) {
+    width: 35px;
+}
+
+.exchange-container .input-container input {
+    background-color: #071D40;
+    border: none;
+    padding: 10px 20px;
+    padding-left: 70px;
+    font-size: 20px;
+    border-radius: 36px;
+    color: #ffffff;
+}
+
+.exchange-container .single-step-items .input-container input {
+    text-align: right;
+    padding-left: 20px;
+}
+
+.exchange-container .input-container.non-editable input {
+    color: transparent;
+    text-shadow: 0 0 0 #ffffff;
+    background-color: #071D40;
+    border: none;
+    padding: 10px 20px;
+    padding-left: 70px;
+    font-size: 20px;
+    border-radius: 36px;
+}
+
+.exchange-container .input-container input:focus {
+    outline: none;
+}
+
+.exchange-container .main .swap-wrapper>p {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Oswald-Light';
+    font-weight: 200;
+    margin-left: 20px;
+}
+
+.exchange-container img.loading {
+    margin: 20px auto;
+    display: block;
+    height: 80px;
+    animation: spin 1s linear infinite;
+}
+
+.exchange-container .swap-button {
+    background-color: #0080D0;
+    margin-top: 30px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 14px;
+    cursor: pointer;
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'Oswald-DemiBold';
+    transition: all 0.2s;
+}
+.exchange-container .swap-button:hover {
+    transform: scale(1.05);
+}
+
+.exchange-container .swap-button.disabled {
+    cursor: not-allowed;
+    opacity: 0.7;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@media all and (max-width: 1440px) {
+    .exchange-container .input-container input {
+        padding-left: 50px !important;
+        width: 60% !important;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .amount {
+        width: 110px;
+        flex: 0 0 110px
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .apy {
+        width: 110px;
+        flex: 0 0 110px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .auto-renew {
+        width: 150px;
+        flex: 0 0 150px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table.taco-holdings .interest {
+        width: 140px;
+        flex: 0 0 140px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table .end-time {
+        width: 110px;
+        flex: 0 0 110px;
+    }
+}
+
+@media all and (max-width: 1280px) {
+    .exchange-container .input-container input {
+        padding-left: 20px !important;
+        width: 50% !important;
+    }
+}
+
+@media all and (max-width: 1024px) {
+    .exchange-container .exchange-row {
+        flex-direction: column;
+    }
+
+    .exchange-container .exchange-row .exchange-swap-column,
+    .exchange-container .exchange-row .exchange-earn-column {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+    }
+}
+
+@media all and (max-width: 834px) {
+    
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table>div {
+        width: unset !important;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table label {
+        font-size: 20px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table span {
+        font-size: 20px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list button {
+        width: unset;
+        height: unset;
+        padding: 30px 15px;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content img {
+        width: 200px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content .description {
+        width: 400px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens.grouped .token.token-rows {
+        padding: 10px 25px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token:not(:last-child) {
+        margin-right: 0.5rem;
+    }
+}
+
+@media all and (max-width: 576px) {
+
+    .exchange-container .input-container input,
+    .exchange-container .input-container.non-editable input {
+        padding-left: 20px;
+    }
+
+    .exchange-container .swap-bpx .input-container .asset {
+        position: absolute;
+        right: 0;
+        padding: 10px 10px 10px 0px;
+    }
+
+    .exchange-container .swap-bpx .input-container .assetList .asset {
+        position: unset;
+    }
+
+    .exchange-container .exchange-row .step-boxes .single-step-box .single-step-title {
+        font-size: 20px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .tokens .token-item {
+        width: 65px;
+        height: 65px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .tokens .token-item img {
+        width: 35px;
+    }
+
+    .exchange-container .single-step-items .input-container input {
+        width: 170px;
+    }
+
+    .exchange-container .single-step-items .input-container .asset {
+        padding: 10px 10px 10px 0px;
+    }
+
+    .exchange-container .single-step-items .input-container .asset>img:nth-child(1) {
+        width: 30px;
+    }
+
+    .exchange-container .single-step-items .input-container .asset p,
+    .exchange-container .input-container .asset .max-button {
+        font-size: 18px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .durations .duration-item {
+        width: 80px;
+        height: 80px;
+        margin: 0 5px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .durations .duration-item .duration-name,
+    .exchange-container .exchange-row .exchange-earn-column .durations .duration-item .duration-apy {
+        font-size: 16px;
+    }
+
+
+
+    .exchange-container .exchange-row .exchange-earn-column .interest p {
+        font-size: 22px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .deposit {
+        justify-content: center;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .deposit .swap-button {
+        min-width: 220px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item {
+        flex-direction: column;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table {
+        flex-direction: row;
+        align-items: unset;
+        justify-content: unset;
+        flex-wrap: wrap;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table>div {
+        width: 50% !important;
+        flex: 0 0 50% !important;
+        margin-bottom: 15px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-table .end-time {
+        width: 100% !important;
+        flex: 0 0 100% !important;
+        margin-bottom: 15px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list button {
+        width: 100%;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item .actions-wrapper {
+        width: 100%;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list .holding-item .actions-wrapper button {
+        margin-left: 0;
+    }
+
+    .tacos-container {
+        width: 100%;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content img {
+        margin-bottom: 20px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content {
+        padding: 0;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content .description {
+        width: auto;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-content .description .title {
+        text-align: center;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens {
+        flex-direction: column;
+        border-radius: 30px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token:not(:last-child) {
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+    .exchange-container .exchange-row .exchange-earn-column .earn-box .earn-items .item .item-tokens .token.token-rows {
+        width: 100%;
+        align-items: center;
+    }
+}
+
+@media all and (max-width: 375px) {
+    .exchange-container .exchange-row .exchange-earn-column .durations .duration-item {
+        width: 70px;
+        height: 70px;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .durations .duration-item .duration-name,
+    .exchange-container .exchange-row .exchange-earn-column .durations .duration-item .duration-apy {
+        font-size: 13px;
+    }
+
+    .exchange-container .header {
+        font-size: 14px;
+    }
+
+    .exchange-container .swap-button {
+        font-size: 18px;
+    }
+
+    .exchange-container .single-step-items .input-container .asset>img:nth-child(1) {
+        margin: 0;
+    }
+
+    .exchange-container .single-step-items .input-container .asset p {
+        display: none;
+    }
+
+    .exchange-container .exchange-row .exchange-earn-column .holdings-list button {
+        padding: 15px;
+    }
+}

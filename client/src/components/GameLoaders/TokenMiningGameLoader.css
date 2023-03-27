@@ -1,0 +1,162 @@
+.token-mining {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top 20px center;
+
+}
+
+.section.token-mining {
+  padding: 0 0 !important;
+}
+
+.token-mining-game-loader {
+  height: 100%;
+}
+
+.token-mining>.token-mining-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  margin-top: 16px;
+  background-image: url('/images/alerts_stripes.jpg');
+}
+
+.token-mining>.token-mining-nav>.middle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent linear-gradient(180deg, #1D2D3B 0%, #273C4F 36%, #273D50 100%) 0% 0% no-repeat padding-box;
+  border-radius: 16px;
+  opacity: 1;
+  padding: 7px;
+}
+
+.token-mining>.token-mining-nav>.middle>.nav-item.active {
+  background: transparent linear-gradient(180deg, #FFFF4E 0%, #D59300 100%) 0% 0% no-repeat padding-box;
+  border-radius: 10px;
+  width: fit-content;
+  padding: 9px 43px;
+  display: flex;
+  padding-right: 9px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.token-mining>.token-mining-nav>.middle>.nav-item.active>p {
+  text-align: center;
+  font: normal normal 600 40px/98px "Oswald";
+  letter-spacing: -1.44px;
+  color: #03272C;
+  opacity: 1;
+  text-shadow: none;
+  line-height: normal;
+}
+
+.token-mining>.token-mining-nav>.middle>.nav-item {
+  width: fit-content;
+  padding: 9px 43px;
+  cursor: pointer;
+  display: flex;
+  transition: all 0.2s ease;
+  user-select: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.token-mining>.token-mining-nav>.middle>.nav-item>p {
+  text-align: center;
+  font: normal normal 600 40px/98px "Oswald";
+  letter-spacing: -1.44px;
+  color: #FFFFFF;
+  text-shadow: 0px 3px 10px #001A4466;
+  opacity: 0.4;
+  line-height: normal;
+}
+
+.active-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 13px;
+}
+
+.active-button>.stick {
+  height: 39px;
+  border: 1px solid #B27C00;
+  width: 0px;
+  margin: 0 3.5px;
+}
+
+@media screen and (max-width: 990px) {
+  .token-mining>.token-mining-nav>.middle>.nav-item.active>p {
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  .token-mining>.token-mining-nav>.middle>.nav-item>p {
+    font-size: 20px;
+    letter-spacing: normal;
+    line-height: normal;
+  }
+
+  .active-button>.stick {
+    height: 20px;
+  }
+}
+
+@media (max-width: 600px) {
+  .section.token-mining {
+    height: 200px;
+  }
+  .avatar-container {
+    max-height: 200px;
+    overflow: hidden;
+  }
+  div.token-mining-game-loader {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+  }
+  div.token-mining-game-loader {
+    height: 200px;
+    margin-top: 25px;
+    z-index: 0;
+  }
+  div.token-mining-game-loader > div {
+    overflow: visible !important;
+  }
+  div.token-mining-game-loader canvas {
+    width: 100% !important;
+    max-width: initial;
+    max-height: initial;
+    height: 208px !important;
+    margin-top: 64px !important;
+  }
+}
+@media(max-width:768px){
+  div.token-mining-game-loader canvas {
+    width: 100% !important;
+    max-width: initial;
+    max-height: initial;
+    margin-top: 64px !important;
+  }
+}
+@media (max-width: 400px) {
+  div.token-mining-game-loader canvas {
+    object-fit: contain;
+  }
+}

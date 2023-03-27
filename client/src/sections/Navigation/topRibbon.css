@@ -1,0 +1,133 @@
+.top-ribbon{
+    width: 100%;
+    height: 34px;
+    position: fixed;
+    top: 0;
+    background-color: #010e26;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 22;
+}
+
+.top-ribbon .value-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    padding: 0 10px;
+}
+
+.top-ribbon .value-wrapper .carbz-jigo{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-left: auto;
+    flex: 1;
+}
+
+.top-ribbon .value-wrapper .carbz-jigo .pair{
+    display: flex;
+    align-items: center;
+    margin-top: 0px;
+}
+
+.top-ribbon .value-wrapper .carbz-jigo .pair img{
+    width: auto;
+    height: 20px;
+}
+
+.top-ribbon .value-wrapper .carbz-jigo .pair span{
+    font-size: 16px;
+    color: #ffffff;
+}
+
+.top-ribbon .value-wrapper .carbz-jigo .pair .span-ludio{
+    color: #FFF000;
+}
+
+.top-ribbon .value-wrapper .carbz-jigo .pair .span-carbz{
+    color: #8AF722;
+}
+
+.top-ribbon .value-wrapper .carbz-jigo .pair .span-jigo{
+    color: #44FFF8;
+}
+
+.top-ribbon .account-info {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.top-ribbon .account-info .profile-bar {
+    gap: 5px;
+}
+
+.top-ribbon .account-info .profile-bar .username{
+    color: #ffffff;
+}
+
+.top-ribbon .account-info .cpu-info{
+    background-color: #c8002c;
+    border-radius: 4px;
+    position: relative;
+    height: 24px;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.top-ribbon .account-info .cpu-info.pulse{
+    transition: all 0.2s;
+    animation: pulsate 1s infinite;
+}
+
+.top-ribbon .account-info .cpu-info p{
+    color: #ffffff;
+    font-size: 12px;
+    font-family: 'Oswald-DemiBold';
+    font-weight: bold;
+    padding: 3px 9px;
+    width: 100%;
+    z-index: 3;
+    position: relative;
+}
+
+.top-ribbon .account-info .cpu-info .percentage{
+    width: 60%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background-color: #fb0035;
+    z-index: 2;
+    position: absolute;
+}
+
+.top-ribbon .value-wrapper .right-push{
+    margin-right: 'auto';
+    flex: 1
+}
+
+@media screen and (max-width: 1024px) {
+    .top-ribbon .value-wrapper .right-push{
+        display: none;
+    }
+    
+    .top-ribbon .value-wrapper .carbz-jigo{
+        display: none;
+    }
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}

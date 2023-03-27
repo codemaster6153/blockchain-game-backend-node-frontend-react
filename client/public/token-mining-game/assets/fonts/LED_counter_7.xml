@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--Created using Glyph Designer - http://71squared.com/glyphdesigner-->
+<font>
+    <info face="LED Counter 7" size="50" bold="0" italic="1" charset="" unicode="0" stretchH="100" smooth="1" aa="1" padding="0,0,0,0" spacing="8,8"/>
+    <common lineHeight="74" base="38" scaleW="512" scaleH="256" pages="1" packed="0"/>
+    <pages>
+        <page id="0" file="LED_counter_7.png"/>
+    </pages>
+    <chars count="15">
+        <char id="32" x="65" y="172" width="0" height="0" xoffset="0" yoffset="81" xadvance="15" page="0" chnl="0" letter="space"/>
+        <char id="37" x="8" y="8" width="66" height="74" xoffset="-19" yoffset="7" xadvance="30" page="0" chnl="0" letter="%"/>
+        <char id="44" x="443" y="90" width="49" height="59" xoffset="-19" yoffset="32" xadvance="15" page="0" chnl="0" letter=","/>
+        <char id="46" x="8" y="172" width="49" height="49" xoffset="-19" yoffset="32" xadvance="15" page="0" chnl="0" letter="."/>
+        <char id="48" x="156" y="8" width="65" height="74" xoffset="-19" yoffset="7" xadvance="30" page="0" chnl="0" letter="0"/>
+        <char id="49" x="227" y="90" width="64" height="74" xoffset="-19" yoffset="7" xadvance="30" page="0" chnl="0" letter="1"/>
+        <char id="50" x="229" y="8" width="65" height="74" xoffset="-19" yoffset="7" xadvance="30" page="0" chnl="0" letter="2"/>
+        <char id="51" x="302" y="8" width="65" height="74" xoffset="-19" yoffset="7" xadvance="30" page="0" chnl="0" letter="3"/>
+        <char id="52" x="375" y="8" width="65" height="74" xoffset="-18" yoffset="7" xadvance="30" page="0" chnl="0" letter="4"/>
+        <char id="53" x="82" y="8" width="66" height="74" xoffset="-19" yoffset="7" xadvance="30" page="0" chnl="0" letter="5"/>
+        <char id="54" x="299" y="90" width="64" height="74" xoffset="-19" yoffset="7" xadvance="30" page="0" chnl="0" letter="6"/>
+        <char id="55" x="8" y="90" width="65" height="74" xoffset="-18" yoffset="7" xadvance="30" page="0" chnl="0" letter="7"/>
+        <char id="56" x="81" y="90" width="65" height="74" xoffset="-19" yoffset="7" xadvance="30" page="0" chnl="0" letter="8"/>
+        <char id="57" x="371" y="90" width="64" height="74" xoffset="-18" yoffset="7" xadvance="30" page="0" chnl="0" letter="9"/>
+        <char id="162" x="154" y="90" width="65" height="74" xoffset="-19" yoffset="12" xadvance="30" page="0" chnl="0" letter="¢"/>
+    </chars>
+    <kernings count="0"/>
+</font>

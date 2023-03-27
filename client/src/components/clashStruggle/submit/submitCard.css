@@ -1,0 +1,126 @@
+.struggle-submit-container > .available-card-container > .cards-grid > .card {
+    background-color: transparent;
+    margin: 0 16px;
+    position: relative;
+    width: fit-content;
+}
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > img.border {
+    box-shadow: 0px 3px 20px #0000008F;
+    border: 3px solid #FFFF4E;
+    border-radius: 6px;
+}
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > p {
+    text-align: center;
+    font: normal normal 300 20px "Oswald";
+    letter-spacing: normal;
+    color: #FAF244;
+    margin-bottom: 20px;
+}
+
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > img{
+    height: 230px;
+}
+
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > .card-number {
+    position: absolute;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    top: 52px;
+    right: 5px;
+    text-align: center;
+    font: normal normal 300 14px "Oswald";
+    letter-spacing: -0.68px;
+    color: #001A44;
+    padding: 0px 7px;
+}
+
+/* css for the checkbox start */
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > .checkbox-label {
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 22px;
+    line-height: 24px;
+    height: 24px;
+    width: 24px;
+    clear: both;
+    margin: 20px auto 0px;
+}
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > .checkbox-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > .checkbox-label .checkbox-custom {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    height: 24px;
+    width: 24px;
+    background-color: transparent;
+    border-radius: 5px;
+  	transition: all 0.3s ease-out;
+  	-webkit-transition: all 0.3s ease-out;
+  	-moz-transition: all 0.3s ease-out;
+  	-ms-transition: all 0.3s ease-out;
+  	-o-transition: all 0.3s ease-out;
+    border: 2px solid #FAF244;
+}
+
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > .checkbox-label input:checked ~ .checkbox-custom {
+    background-color: transparent;
+    border-radius: 5px;
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity:1;
+    border: 2px solid #FAF244;
+}
+
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > .checkbox-label .checkbox-custom::after {
+    position: absolute;
+    content: "";
+    left: 12px;
+    top: 12px;
+    height: 0px;
+    width: 0px;
+    border-radius: 5px;
+    border: solid #009BFF;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(0deg) scale(0);
+    -ms-transform: rotate(0deg) scale(0);
+    transform: rotate(0deg) scale(0);
+    opacity:1;
+  	transition: all 0.3s ease-out;
+  	-webkit-transition: all 0.3s ease-out;
+  	-moz-transition: all 0.3s ease-out;
+  	-ms-transition: all 0.3s ease-out;
+  	-o-transition: all 0.3s ease-out;
+}
+
+
+.struggle-submit-container > .available-card-container > .cards-grid > .card > .checkbox-label input:checked ~ .checkbox-custom::after {
+  -webkit-transform: rotate(45deg) scale(1);
+  -ms-transform: rotate(45deg) scale(1);
+  transform: rotate(45deg) scale(1);
+  opacity:1;
+  left: 7px;
+  top: 2px;
+  width: 6px;
+  height: 12px;
+  border: solid #FAF244;
+  border-width: 0 2px 2px 0;
+  background-color: transparent;
+  border-radius: 0;
+}
+
+/* css for checkbox end */

@@ -1,0 +1,254 @@
+.upgrade-section {
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.upgrade-section > .card-section {
+    height: 370px;
+    width: 100%;
+    background: url("/images/arrows_bg.jpg");
+    margin-top: 145px;
+    position: relative;
+    overflow: hidden;
+    z-index: 0;
+}
+
+.upgrade-section > .card-section > .animator{
+    height: 100%;
+    position: absolute;
+    width: 22526px;
+    background-image: url("/images/arrows_animation_tile.png");
+    background-repeat: repeat-x;
+    /* background: transparent url('/images/arrows_animation_tile.png') 0% 0% no-repeat padding-box; */
+    right: 0px;
+    top: 0;
+    z-index: 1;
+}
+
+.upgrade-section > .card-section > .animator.active{
+    animation: slide 30s linear infinite;
+}
+
+@keyframes slide{
+    0%{
+        transform: translate3d(0,0,0);
+    }
+    100%{
+        transform: translate3d(842px,0,0);
+    }
+}
+
+.card-section > .merge-container {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    position: relative;
+    z-index: 3;
+    margin: 0 auto;
+    justify-content: space-around;
+    max-width: 1386px;
+}
+
+.card-section > .merge-container > .cards-container {
+    display: flex;
+    align-items: center;
+    background-color: transparent;
+    position: relative;
+    z-index: 3;
+    height: 100%;
+    margin-left: 20px;
+    position: relative;
+}
+
+
+
+.card-section > .merge-container > .cards-container > .play-tournament-label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.card-section > .merge-container > .cards-container > .play-tournament-label > p {
+    text-align: center;
+    font: normal normal 600 32px "Oswald";
+    letter-spacing: -1.48px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 10px #000000B3;
+}
+
+.card-section > .merge-container > .final-card-container > .final-card > img {
+    height: 100%;
+}
+
+.card-section > .merge-container > .final-card-container > .final-card > img.animate {
+    animation: magnify 2s linear infinite;
+}
+
+
+
+@keyframes magnify{
+    0%{
+        transform: scale(1.1);
+    }
+    50%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.1);
+    }
+}
+
+.nft-hive-button {
+    background: transparent linear-gradient(180deg, #FFFF4E 0%, #D59300 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 6px 11px #00000099;
+    border-radius: 10px;
+    padding: 16px 20px 0px;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.nft-hive-button > p {
+    text-align: center;
+    font: normal normal 600 21px "Oswald";
+    letter-spacing: -0.76px;
+    color: #03272C;
+    line-height: 15px;
+}
+
+.upgrade-section > .merge-button {
+    background: transparent linear-gradient(
+    180deg
+    , #FFFF4E 0%, #D59300 100%) 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    width: fit-content;
+    margin: 16px auto;
+    padding: 5px 70px;
+    cursor: pointer;
+}
+
+.upgrade-section > .merge-button > p {
+    text-align: center;
+    font: normal normal 600 35px Oswald;
+    letter-spacing: -1.26px;
+    color: #03272C;
+}
+
+.upgrade-section > .merge-button > div {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.upgrade-section > .merge-button > div > p {
+    text-align: center;
+    font: normal normal 500 22px "Oswald";
+    letter-spacing: -0.79px;
+    color: #03272C;
+}
+
+.upgrade-section > .luck-factor {
+    display: grid;
+    grid-template-columns: auto auto;
+    width: fit-content;
+    align-items: center;
+    gap: 10px;
+    margin: 0 auto;
+}
+
+.upgrade-section > .luck-factor > p {
+    text-align: center;
+    font: normal normal 500 32px/27px Oswald;
+    letter-spacing: -1.15px;
+    color: #11CBF9;
+    text-shadow: 0px 3px 10px #001A44;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 460px) {
+
+    .upgrade-section > .merge-button > p {
+        font-size: 24px;
+    }
+
+    .upgrade-section > .merge-button > div > p{
+        font-size: 18px;
+    }
+
+    .upgrade-section > .luck-factor > p {
+        font-size: 22px;
+    }
+
+    .upgrade-section > .luck-factor > img {
+        width: 30px;
+    }
+}
+
+/* here we have the css of mobile view of upgrade section */
+
+.mobile-upgrade-container > .card-row-container {
+    position: relative;
+}
+
+.mobile-upgrade-container > .card-row-container > .mobile-card-row {
+    height: 84px;
+    width: 100%;
+    background: url("/images/arrows_bg.jpg");
+    margin-top: 24px;
+    position: relative;
+    overflow: hidden;
+    background-size: contain;
+    z-index: 0;
+}
+
+.mobile-upgrade-container > .card-row-container > .mobile-card-row > .animator{
+    height: 100%;
+    position: absolute;
+    width: 22526px;
+    background-image: url("/images/arrows_animation_tile.png");
+    background-repeat: repeat-x;
+    /* background: transparent url('/images/arrows_animation_tile.png') 0% 0% no-repeat padding-box; */
+    right: 0px;
+    top: 0;
+    background-size: contain;
+    z-index: 1;
+}
+
+.mobile-upgrade-container > .card-row-container > .mobile-card-row > .animator.active{
+    animation: slide 30s linear infinite;
+}
+
+.mobile-upgrade-container > .card-row-container > .absolute-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mobile-upgrade-container > .card-row-container > .absolute-top > .left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+}
+
+.mobile-upgrade-container > .card-row-container > .absolute-top > .right > .final-card > img {
+    height: 100%;
+}
+
+.mobile-upgrade-container > .card-row-container > .absolute-top > .right > .final-card > img.animate {
+    animation: magnify 2s linear infinite;
+}

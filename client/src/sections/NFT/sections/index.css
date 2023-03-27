@@ -1,0 +1,214 @@
+.nft-card {
+    background-color: #D9FFF833;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 28px;
+    text-align: center;
+    max-width: 98%;
+    width: 296px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.container.citizen > .body > .empty-card > .image {
+    margin-bottom: 28px;
+}
+
+.nft-card > .image-container {
+    margin-bottom: 5px;
+    position: relative;
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 28px;
+}
+.nft-card > p{
+    height: 54px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nft-card > p  > a{
+    text-align: center;
+    font: normal normal 500 18px "Oswald";
+    letter-spacing: normal;
+    color: #ea923e;
+    margin-top: 8px;
+}
+
+.impulse {
+    animation: twinkle 1s infinite;
+}
+
+.nft-card > .image-container > .img-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    height: 100%;
+    width: 100%;
+}
+
+.nft-card > .image-container > .abs-text {
+    position: absolute;
+    color: white;
+    z-index: 3;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #74747470
+}
+.nft-card > .button-container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    gap: 8px;
+}
+.nft-card > .image-container > .abs-text > p {
+    text-align: center;
+    font: normal normal bold 32px "Oswald";
+    color: #FFFFFF;
+    text-shadow: 3px 3px 14px #000000;
+}
+
+.nft-card > .image-container > .mint-number {
+    background: #FFFFFF;
+    border-radius: 19px;
+    position: absolute;
+    top: -15px;
+    right: 1px;
+    padding: 5px 10px;
+    z-index: 5;
+}
+
+.nft-card > .button-container > div {
+    background: transparent linear-gradient(
+        3deg, #FFCE00 0%, #FFF61C 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #AD6B00;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+    cursor: pointer;
+    padding: 6px;
+    flex: 1;
+    gap: 7px;
+}
+
+.nft-card > .button-container > div > p{
+    text-align: center;
+    font: normal normal bold 18px "Oswald";
+    color: #6C4200;
+}
+
+.nft-card > .button-container > div > img {
+    height: 19px;
+}
+
+.nft-info-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #E2F7FF;
+}
+
+.nft-info-card > h1 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: "Oswald";
+    text-align: center;
+    padding: 18px 10px;
+    color: #001A44 
+}
+
+.nft-info-card > p {
+    text-align: center;
+    font: normal normal 200 18px "Oswald-Light";
+    letter-spacing: 0px;
+    color: #001A44;
+    padding: 18px 10px;
+}
+
+.nft-info-card > img{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.nft-carousel {
+    margin: 0px auto;
+    background: #0A1D36 0% 0% no-repeat;
+    border-radius: 10px;
+    padding: 32px 0px;
+    opacity: 0.98;
+    width: 100%;
+    max-width: 98%;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    position: relative;
+}
+
+.custom-left-arrow{
+    position: absolute;
+    left: 0;
+    background: transparent;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    width: 37px;
+    transition: all 0.2s;
+}
+
+.custom-right-arrow{
+    position: absolute;
+    right: 0;
+    background: transparent;
+    height: 100%;
+    border: none;
+    cursor: pointer;
+    width: 37px;
+    transition: all 0.2s;
+}
+
+.custom-left-arrow:hover{
+    transform: scale(1.3);
+}
+.custom-right-arrow:hover{
+    transform: scale(1.3);
+}
+
+@media screen and (max-width: 600px) {
+    .nft-container > .nft-dashboard > .container > .heading{
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+
+    .nft-card > .button-container{
+        flex-direction: column;
+    }
+    .nft-container > .nft-dashboard > .container > .subnav > .subnav-link {
+        font-size: 12px;
+    }
+
+    .nft-card > .button-container > div > p{
+        font-size: 16px;
+    }
+
+    .nft-card > .button-container > div > img {
+        height: 17px;
+    }
+}
+
+@keyframes twinkle {
+    0% {opacity: 0.98;}
+    50% {opacity: 0.7;}
+    100% {opacity: 0.98;}
+}

@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <filter id="Rectángulo_299" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-hourglass-half" x="12.086" y="5.75" width="32.017" height="38.69" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-color="#031a69" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_964" data-name="Grupo 964" transform="translate(-478 -923)">
+    <g transform="matrix(1, 0, 0, 1, 478, 923)" filter="url(#Rectángulo_299)">
+      <g id="Rectángulo_299-2" data-name="Rectángulo 299" transform="translate(9 6)" fill="#11cbf9" stroke="#fff" stroke-width="2">
+        <rect width="38" height="38" rx="8" stroke="none"/>
+        <rect x="1" y="1" width="36" height="36" rx="7" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 478, 923)" filter="url(#Icon_awesome-hourglass-half)">
+      <path id="Icon_awesome-hourglass-half-2" data-name="Icon awesome-hourglass-half" d="M18.766,0H1.251A1.251,1.251,0,0,0,0,1.251v.834A1.251,1.251,0,0,0,1.251,3.336c0,4.742,2.659,8.744,6.3,10.009-3.64,1.265-6.3,5.267-6.3,10.009A1.251,1.251,0,0,0,0,24.6v.834A1.251,1.251,0,0,0,1.251,26.69H18.766a1.251,1.251,0,0,0,1.251-1.251V24.6a1.251,1.251,0,0,0-1.251-1.251c0-4.742-2.659-8.744-6.3-10.009,3.64-1.265,6.3-5.267,6.3-10.009a1.251,1.251,0,0,0,1.251-1.251V1.251A1.251,1.251,0,0,0,18.766,0ZM14.853,20.017H5.165c.889-2.439,2.716-4.17,4.844-4.17S13.963,17.578,14.853,20.017Zm0-13.345H5.165a9.78,9.78,0,0,1-.577-3.336H15.43a9.781,9.781,0,0,1-.576,3.336Z" transform="translate(18.09 11.75)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

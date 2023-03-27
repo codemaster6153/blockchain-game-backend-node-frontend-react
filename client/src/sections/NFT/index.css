@@ -1,0 +1,78 @@
+.nft-container{
+    padding: 119px 0 30px 0;
+	min-height: calc(100vh - 31px);
+	box-shadow: inset 0px 320px 55px -40px #0b2347d8;
+    background: url("/images/clashdome_background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    background-color: #293a457a;
+}
+
+.nft-container > .nft-dashboard{
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.nft-container > .nft-dashboard > .container {
+    width: 100%;
+    max-width: 100%;
+}
+
+.nft-container > .nft-dashboard > .container > .subnav{
+    padding-left: 20px;
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.nft-container > .nft-dashboard > .container > .subnav > .subnav-link{
+    text-align: left;
+    opacity: 0.98;
+    font: normal normal 600 20px "Oswald";
+    letter-spacing: normal;
+    color: #FFFFFF8A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+    transition: all 0.2s ease-in;
+}
+
+.nft-container > .nft-dashboard > .container > .subnav > .subnav-link.active{
+    background: #0A1D36 0% 0% no-repeat;
+    color: #FFD800;
+    display: flex;
+}
+
+.nft-container > .nft-dashboard > .container > .body{
+    background: #0A1D36 0% 0% no-repeat;
+    border-radius: 10px;
+    padding: 32px 50px;
+    opacity: 0.98;
+    width: 100%;
+    max-width: 98%;
+    margin: 0 auto;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.nft-container > .nft-dashboard > .container > .heading {
+    text-align: center;
+    font: normal normal bold 42px "Oswald";
+    color: #FFFFFF;
+    text-shadow: 0px 3px 6px #00000029;
+}
+
+.nft-container > .nft-dashboard > .container > .body {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    grid-gap: 40px;
+    gap: 40px;
+}

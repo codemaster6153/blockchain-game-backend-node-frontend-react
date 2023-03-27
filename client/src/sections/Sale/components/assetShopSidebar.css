@@ -1,0 +1,58 @@
+.assetshop-sidebar ul{
+    background-color: #012e658c;
+    width: 94%;
+    margin: 20px auto;
+    padding: 10px 5px 10px 10px;  
+    border-radius: 10px;
+}
+
+.assetshop-sidebar h2{
+    color: white;
+    font-family: 'Oswald-DemiBold';
+    text-align: center;
+    font-size: 32px;
+    margin-top: 20px;
+}
+
+.assetshop-sidebar ul li a{
+    color: inherit;
+}
+.assetshop-sidebar ul li{
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Oswald-Light';
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.assetshop-sidebar ul li:hover{
+    color: white;
+}
+
+.assetshop-sidebar ul li.active-tab {
+    background: #012E65;
+    color: white;
+    border-radius: 20px;
+    font-weight: 600;
+}
+@media(max-width:1280px){
+    .assetshop-section .buy-citizen-card{
+        width: 236px;
+    }
+}
+@media screen and (max-width: 1024px) {
+
+
+    .assetshop-sidebar {
+        background-color: #054D83;
+        padding: 5px 10px;
+        margin-top: 20px;
+        width: 270px;
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+    .assetshop-sidebar ul li {
+        padding: 8px 12px;
+    }
+    
+}

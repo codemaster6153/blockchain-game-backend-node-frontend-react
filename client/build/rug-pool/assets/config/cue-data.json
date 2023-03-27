@@ -1,0 +1,59 @@
+[
+    {
+        "id": 1,
+        "name": "DEFAULT CUE",
+        "guide": "short",
+        "animation-frames": 0,
+        "guide-color": "0xFFFFFF"
+    },
+    {
+        "id": 2,
+        "name": "CLASSIC",
+        "guide": "short",
+        "animation-frames": 0,
+        "guide-color": "0xFFFFFF"
+    },
+    {
+        "id": 3,
+        "name": "CUE 3",
+        "guide": "short",
+        "animation-frames": 0,
+        "guide-color": "0xFFFFFF"
+    },
+    {
+        "id": 4,
+        "name": "CUE 4",
+        "guide": "medium",
+        "animation-frames": 20,
+        "guide-color": "0xeed6ac"
+    },
+    {
+        "id": 5,
+        "name": "CUE 5",
+        "guide": "medium",
+        "animation-frames": 24,
+        "guide-color": "0xFFFFFF"
+    },
+    {
+        "id": 6,
+        "name": "CUE 6",
+        "guide": "medium",
+        "animation-frames": 20,
+        "guide-color": "0xFFFFFF"
+    },
+    {
+        "id": 7,
+        "name": "CUE 7",
+        "guide": "long",
+        "animation-frames": 12,
+        "guide-color": "0xFFFFFF"
+    },
+    {
+        "id": 8,
+        "name": "CUE 8",
+        "guide": "long",
+        "animation-frames": 13,
+        "guide-color": "0xFFFFFF"
+    }
+]
+

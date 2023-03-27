@@ -1,0 +1,160 @@
+
+assets/spine/corales.png
+size: 492,646
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+alga1
+  rotate: true
+  xy: 2, 79
+  size: 32, 227
+  orig: 32, 227
+  offset: 0, 0
+  index: -1
+alga2
+  rotate: true
+  xy: 2, 26
+  size: 29, 97
+  orig: 29, 97
+  offset: 0, 0
+  index: -1
+alga3
+  rotate: true
+  xy: 2, 57
+  size: 20, 202
+  orig: 20, 202
+  offset: 0, 0
+  index: -1
+blue top R 1
+  rotate: true
+  xy: 210, 2
+  size: 34, 62
+  orig: 34, 62
+  offset: 0, 0
+  index: -1
+blue top R 2
+  rotate: true
+  xy: 430, 15
+  size: 37, 24
+  orig: 37, 24
+  offset: 0, 0
+  index: -1
+blue top R 3
+  rotate: false
+  xy: 447, 62
+  size: 43, 47
+  orig: 43, 47
+  offset: 0, 0
+  index: -1
+bot L
+  rotate: true
+  xy: 317, 5
+  size: 41, 48
+  orig: 41, 48
+  offset: 0, 0
+  index: -1
+bot L 2
+  rotate: false
+  xy: 174, 2
+  size: 34, 53
+  orig: 34, 53
+  offset: 0, 0
+  index: -1
+bot R
+  rotate: false
+  xy: 377, 54
+  size: 68, 55
+  orig: 68, 55
+  offset: 0, 0
+  index: -1
+bot-mid L
+  rotate: false
+  xy: 71, 9
+  size: 28, 15
+  orig: 28, 15
+  offset: 0, 0
+  index: -1
+bot-mid R
+  rotate: false
+  xy: 26, 8
+  size: 43, 16
+  orig: 43, 16
+  offset: 0, 0
+  index: -1
+c/c_bot
+  rotate: true
+  xy: 2, 113
+  size: 531, 167
+  orig: 531, 167
+  offset: 0, 0
+  index: -1
+c/c_bot2
+  rotate: true
+  xy: 171, 114
+  size: 530, 167
+  orig: 530, 167
+  offset: 0, 0
+  index: -1
+c/c_top
+  rotate: true
+  xy: 340, 111
+  size: 533, 74
+  orig: 533, 74
+  offset: 0, 0
+  index: -1
+c/c_top2
+  rotate: true
+  xy: 416, 111
+  size: 533, 74
+  orig: 533, 74
+  offset: 0, 0
+  index: -1
+light
+  rotate: false
+  xy: 311, 48
+  size: 64, 61
+  orig: 64, 61
+  offset: 0, 0
+  index: -1
+mid L
+  rotate: true
+  xy: 231, 38
+  size: 74, 78
+  orig: 74, 78
+  offset: 0, 0
+  index: -1
+mid R
+  rotate: true
+  xy: 101, 7
+  size: 48, 71
+  orig: 48, 71
+  offset: 0, 0
+  index: -1
+mid-mid R
+  rotate: true
+  xy: 367, 5
+  size: 41, 18
+  orig: 41, 18
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 274, 2
+  size: 41, 34
+  orig: 41, 34
+  offset: 0, 0
+  index: -1
+star yellow top L
+  rotate: false
+  xy: 2, 2
+  size: 22, 22
+  orig: 22, 22
+  offset: 0, 0
+  index: -1
+top L
+  rotate: false
+  xy: 387, 7
+  size: 41, 45
+  orig: 41, 45
+  offset: 0, 0
+  index: -1

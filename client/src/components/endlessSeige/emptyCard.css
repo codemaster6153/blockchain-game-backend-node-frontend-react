@@ -1,0 +1,43 @@
+.empty-card {
+    background: #D9FFF833 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 28px;
+    text-align: center;
+    max-width: 98%;
+    width: 296px;
+}
+
+.empty-card > h1 {
+    text-align: center;
+    font: normal normal bold 24px "Oswald";
+    letter-spacing: normal;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    margin-bottom: 65px;
+}
+
+.empty-card > .image {
+    margin-bottom: 3px;
+    position: relative;
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+
+.empty-card > p {
+    text-align: center;
+    font: normal normal 500 18px "Oswald";
+    letter-spacing: normal;
+    color: #FFFFFF;
+    margin-top: 8px;
+}
+
+.empty-card > p > a > span {
+    text-align: center;
+    font: normal normal 500 18px "Oswald";
+    letter-spacing: normal;
+    color: #FFFFFF;
+    margin-left: 5px;
+    text-decoration: underline;
+}

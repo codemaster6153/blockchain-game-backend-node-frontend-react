@@ -1,0 +1,284 @@
+.ranking-table{
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 831px;
+}
+
+.ranking-table .ranking-table-container{
+    width: 100%;
+}
+
+.ranking-table .ranking-table-container table{
+    width: 100%;
+}
+
+.ranking-table .ranking-table-container table tr:nth-child(1){
+    text-align: center;
+    background: #0080D033
+}
+
+.ranking-table .ranking-table-container table th {
+    color: #0080D0;
+    font-family: 'Oswald-Light';
+    font-weight: 200;
+    padding: 10px 20px;
+    position: sticky !important;
+    top: 0 !important;
+    background-color: #002F60;
+    z-index: 9;
+}
+
+.ranking-table .ranking-table-container table tr.data td {
+    padding: 10px;
+}
+
+.ranking-table .ranking-table-container table td.position{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ranking-table .ranking-table-container table td.position .player-dp{
+    width: 36px;
+    height: 36px;
+    background-image: url('/images/dummy_avatar.png');
+    background-size: contain;
+    transition: all 0.2s;
+}
+
+.ranking-table .ranking-table-container table td.position .player-dp img{
+    width: 36px;
+    height: 36px;
+    border-radius: 36px;
+    transition: all 0.2s;
+}
+
+
+.ranking-table .ranking-table-container table td.position .player-dp:hover {
+    transform: scale(1.08);
+}
+
+.ranking-table .ranking-table-container table td.position .player-dp .online-badge{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+    border-radius: 100%;
+    background-color: #00e34f;
+}
+
+.ranking-table .ranking-table-container table td.position .rank-num {
+    font-weight: bold;
+    color: white;
+    width: 30px;
+    font-family: 'Oswald-DemiBold';
+    align-items: center;
+}
+
+.ranking-table .ranking-table-container table td.position .username {
+    font-weight: 200;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-Light';
+    margin-left: 8px;
+    background-color: #0080D0;
+    width: 145px;
+    padding: 3px 6px;
+    border-radius: 6px;
+    overflow: hidden;
+    white-space: nowrap; 
+
+}
+
+.ranking-table .ranking-table-container table td.position .username:hover {
+    transform: scale(1.04);
+    transition: all 0.2s;
+}
+
+.ranking-table .ranking-table-container table td.position .add-friend-btn {
+    background: #0080D0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    width: fit-content;
+    padding: 5px 8px;
+    gap: 8px;
+    font-family: 'Oswald-demibold';
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s;
+    margin-left: 2px;
+}
+
+.ranking-table .ranking-table-container table td.position .add-friend-btn img {
+    height: 14px;
+    width: auto;
+}
+
+.ranking-table .ranking-table-container table td.position .add-friend-btn:hover {
+    transform: scale(1.06);
+}
+
+
+.ranking-table .ranking-table-container table td.reward {
+    gap: 5px;
+    align-items: center;
+}
+
+.ranking-table .ranking-table-container table td.reward .rev-num {
+    font-weight: 200;
+    color: white;
+    font-family: 'Oswald-DemiBold';
+    text-align: center;
+}
+
+.ranking-table .ranking-table-container table td.reward img {
+    width: 20px;
+    height: 20px;
+}
+
+.ranking-table .ranking-table-container table td.apartment{
+    
+    gap: 5px;
+}
+
+.ranking-table .ranking-table-container table td.apartment div{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 5px;
+}
+
+.ranking-table .ranking-table-container table td.apartment div img{
+    width: 30px;
+    height: 30px;
+}
+
+.ranking-table .ranking-table-container table td.apartment p {
+    font-weight: 200;
+    color: white;
+    font-family: 'Oswald-DemiBold';
+    text-align: center;
+}
+
+.ranking-table .ranking-table-container table td.score{
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ranking-table .ranking-table-container table td.score p {
+    font-weight: 200;
+    color: #FFFF4E;
+    align-items: center;
+    font-family: 'Oswald-Light';
+    margin-left: 8px;
+}
+
+
+.ranking-table .ranking-table-container table td.actions div {
+    display: flex;
+    align-items: center;
+}
+
+.ranking-table .ranking-table-container table td.actions img {
+    width: 25px;
+    cursor: pointer;
+    margin-right: 14px;
+}
+
+
+.ranking-table .ranking-table-container table td.actions .action-button {
+    font-weight: 600;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    background-color: #0080D0;
+    
+    padding: 3px 12px;
+    border-radius: 6px;
+    overflow: hidden;
+    white-space: nowrap; 
+    transition: all 0.2s;
+    cursor: pointer;
+}
+
+.ranking-table .ranking-table-container table td.actions .action-button:hover {
+    scale: 1.05;
+    transition: scale ease-out 0.5;
+}
+
+
+.ranking-table .ranking-table-container .current-week-switch {
+    display: flex;
+    background-color: #004D8A;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: 'Oswald-Light';
+    font-size: 16px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.ranking-table .ranking-table-container .current-week-switch > p{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+
+.ranking-table .ranking-table-container .current-week-switch > div{
+    display: flex;
+    align-items: center;
+}
+
+.ranking-table .ranking-table-container .current-week-switch > div > img {
+    height: 20px;
+    cursor: pointer;
+    transition: all 0.2s;
+}
+
+.ranking-table-scroll {
+    width: 100%;
+    overflow-y: scroll;
+    max-height: 800px;
+}
+
+@media (max-width: 845px) and (min-width: 701px) {
+    .ranking-table .ranking-table-container .current-week-switch {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+    .ranking-table .ranking-table-container .current-week-switch > div > img {
+        height: 15px;
+    }
+    .ranking-table .ranking-table-container table th {
+        font-size: 15px;
+    }
+    .ranking-table .ranking-table-container .current-week-switch > p img {
+        height: 20px;
+    }
+}
+
+@media (max-width: 400px) {
+    .ranking-table .ranking-table-container .current-week-switch {
+        padding: 10px 10px;
+        font-size: 13px;
+    }
+    .ranking-table .ranking-table-container .current-week-switch > div > img {
+        height: 14px;
+    }
+    .ranking-table .ranking-table-container table th {
+        font-size: 14px;
+    }
+    .ranking-table .ranking-table-container .current-week-switch > p img {
+        height: 20px;
+    }
+}

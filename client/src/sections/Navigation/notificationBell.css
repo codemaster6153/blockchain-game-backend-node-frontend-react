@@ -1,0 +1,50 @@
+.notification-bell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+    width: 20px;
+}
+
+.notification-bell > .toogle-icon {
+    cursor: pointer;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.notification-bell > .toogle-icon > .notification-number {
+    background: #ff0094;
+    color: white;
+    font-size: 10px;
+    padding: 0px 5px;
+    border-radius: 20px;
+    top: -3px;
+    position: absolute;
+    right: -4px;
+}
+
+.notification-bell > .notification-dropdown{
+    position: absolute;
+    top: 29px;
+    right: 0;
+    width: 270px;
+    border-radius: 10px;
+    background: #001a44;
+    box-shadow: 1px 1px 10px #001a44;
+    opacity: 0;
+    /* transition: all 0.2s; */
+}
+
+.notification-bell > .notification-dropdown .notification{
+    background-color: transparent;
+    padding: 20px 20px;
+    margin-bottom: 0;
+    color: white;
+}
+
+.notification-bell > .notification-dropdown .notification:hover{
+    box-shadow: 1px 1px 10px #001a44;
+}

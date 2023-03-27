@@ -1,0 +1,200 @@
+.struggle > .hero-component {
+	display: grid;
+    grid-template-columns: auto 600px auto;
+    margin: 0 auto;
+    background: url("/images/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+	align-items: center;
+    width: fit-content;
+	position: relative;
+	gap: 100px;
+}
+
+.struggle > .hero-component > .hero-center-image {
+
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info {
+	
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .start-end {
+	text-align: center;
+	font: normal normal 600 45px/98px "Oswald";
+	letter-spacing: -1.62px;
+	color: #FFFFFF;
+	text-shadow: 0px 3px 10px #001A44;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .time-remaining {
+	text-align: center;
+	font: normal normal 300 30px/10px "Oswald";
+	letter-spacing: -1.08px;
+	color: #11CBF9;
+	text-shadow: 0px 3px 10px #001A44;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .current-score{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 51px;
+	margin-bottom: 195px;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .current-score > p {
+	text-align: center;
+	font: normal normal 600 45px/194px "Oswald";
+	letter-spacing: -1.8px;
+	color: #FFFFFF;
+	text-shadow: 0px 3px 10px #001A44;
+	margin-right: 16px;
+	line-height: normal;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .final-prize {
+	display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .final-prize > p {
+	text-align: center;
+	font: normal normal 600 40px/56px "Oswald";
+	letter-spacing: -1.44px;
+	color: #FFFF4E;
+	text-shadow: 0px 3px 10px #001A44;
+	display: flex;
+	align-items: center;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .final-prize > p > span {
+	margin: 0px 10px;
+    display: flex;
+    align-items: center;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .final-prize > div {
+	text-align: center;
+	font: normal normal 600 40px/56px "Oswald";
+	letter-spacing: -1.44px;
+	color: #FFFF4E;
+	text-shadow: 0px 3px 10px #001A44;
+	display: flex;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .final-prize > div > img {
+	margin: 0px 16px;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .previous-tournament {
+	background: transparent linear-gradient(180deg, #2653A8 0%, #4D1F8B 100%) 0% 0% no-repeat padding-box;
+	border: 4px solid #9933FF;
+	border-radius: 6px;
+	width: fit-content;
+	padding: 0px 20px;
+	margin: 16px auto 287px;
+	position: absolute;
+    top: -31px;
+    left: 6px;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .previous-tournament > p {
+	text-align: center;
+	font: normal normal 600 26px/37px Oswald;
+	letter-spacing: -0.94px;
+	color: #00BAFF;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .info	{
+	position: absolute;
+    top: -16px;
+    right: 6px;
+}
+
+.struggle > .hero-component > .hero-center-image > .tournament-info > .info > img {
+	width: 46px;
+}
+
+@media screen and (max-width: 990px) {
+	
+	.struggle {
+		background: url("/images/bg.jpg") no-repeat center center fixed;
+		background-size: cover;
+	}
+
+	.struggle > .hero-component > .hero-center-image > img {
+		width: auto;
+	}
+
+	.hero-side-image{
+		display: none;
+	}
+
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .current-score{
+		margin-bottom: 0;
+		margin-top: 118px;
+	}
+
+	.struggle > .hero-component {
+		grid-template-columns: auto;
+		width: fit-content;
+		background: none;
+	}
+	
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .previous-tournament {
+		position: relative;
+		top: auto;
+		left: auto;
+	}
+}
+
+@media screen and (max-width: 645px) {
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .start-end {
+		font-size: 35px;
+		line-height: normal;
+	}
+
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .time-remaining {
+		font-size: 24px;
+    	width: fit-content;
+		line-height: normal;
+    	margin: 0 auto;
+	}
+
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .current-score {
+		margin-top: 118px;
+	}
+
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .current-score > p {
+		font-size: 22px;
+		line-height: normal;
+		letter-spacing: normal;
+	}
+
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .current-score > img {
+		width: 30px;
+	}
+
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .final-prize {
+		flex-direction: column;
+	}
+
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .final-prize > p {
+		font-size: 24px;
+		letter-spacing: normal;
+	}
+
+	.struggle > .hero-component > .hero-center-image > .tournament-info > .final-prize > p > span > img {
+		width: 30px;
+	}
+
+	
+}

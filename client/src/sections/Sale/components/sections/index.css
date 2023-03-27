@@ -1,0 +1,273 @@
+.assetshop-section{}
+.assetshop-section > .head-text{
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Oswald-DemiBold';
+    color: white;
+    margin: 26px auto;
+    line-height: 36px;
+}
+.assetshop-section > .description{
+    background-color: #00568B;
+    border-radius: 20px;
+    padding: 20px 30px;
+    margin: 0 auto 26px;
+    max-width: 1600px;
+}
+
+.assetshop-section > .description p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: 'Oswald-Light';
+}
+
+.assetshop-section > .cards-wrapper{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.disable-asset-buy {
+    cursor: not-allowed !important;
+    opacity: 0.5;
+}
+
+@media (min-width: 320px) {
+    .assetshop-section > .description{
+        max-width: 245px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 245px;
+    }
+}
+
+@media (min-width: 494px) {
+    .assetshop-section > .description{
+        max-width: 500px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 500px;
+    }
+}
+
+@media (min-width: 749px) {
+    .assetshop-section > .description{
+        max-width: 735px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 735px;
+    }
+}
+
+@media (min-width: 1250px) {
+    .assetshop-section > .description{
+        max-width: 750px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 750px;
+    }
+}
+
+@media (min-width: 1281px) {
+    .assetshop-section > .description{
+        max-width: 880px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 880px;
+    }
+}
+
+@media (min-width: 1481px) {
+    .assetshop-section > .description{
+        max-width: 822px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 822px;
+    }
+}
+
+@media (min-width: 1510px) {
+    .assetshop-section > .description{
+        max-width: 1095px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 1095px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .assetshop-section > .description{
+        max-width: 820px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 820px;
+    }
+}
+
+@media (min-width: 1680px) {
+    .assetshop-section > .description{
+        max-width: 1094px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 1094px;
+    }
+}
+
+@media (min-width: 1830px) {
+    .assetshop-section > .description{
+        max-width: 1600px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 1600px;
+    }
+}
+
+@media (min-width: 1900px) {
+    .assetshop-section > .description{
+        max-width: 1465px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 1465px;
+    }
+}
+
+@media (min-width: 2350px) {
+    .assetshop-section > .description{
+        max-width: 1600px;
+    }
+    .assetshop-section > .cards-wrapper{
+        max-width: 1600px;
+    }
+}
+
+
+@media (min-width: 2000px) {
+    .assetshop-section .buy-citizen-card,
+    .shop-craft-card-wrapper {
+        width: 234px;
+    }
+}
+
+.assetshop-section .apartment-decor-card .image-container {
+    margin-bottom: 18px;
+}
+
+.assetshop-section .apartment-decor-card .image-container .img-btm{
+    height: 200px;
+}
+
+.apartment-decor-card .info-wrapper .craft-info {
+    background: #7E9FA880;
+    border-radius: 8px;
+    padding: 8px;
+    width: -moz-fit-content;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
+.apartment-decor-card .info-wrapper .craft-info .asset-button {
+    cursor: pointer;
+}
+.apartment-decor-card .info-wrapper .craft-info .values {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+}
+.apartment-decor-card .info-wrapper .craft-info .values .value {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    grid-gap: 2px;
+    grid-gap: 2px;
+    gap: 2px;
+}
+.apartment-decor-card .info-wrapper .craft-info .values .value img {
+    height: 20px;
+    margin-left: 2px;
+}
+@media (max-width: 991px) {
+    .apartment-decor-card .info-wrapper .craft-info {
+        margin-bottom: 6px;
+    }
+}
+
+.specialInfoWrapper{
+    min-height: auto !important;
+}
+
+.specialCard{
+    background: transparent linear-gradient(180deg, #FFFF86 0%, #FFA843 100%) 0% 0% no-repeat padding-box !important;
+    display: flex;
+}
+ 
+.specialCardFront{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.specialCardTitle{
+    color:#001A44 !important
+}
+
+.hotCraftWrapper{
+    background: transparent linear-gradient(90deg, #F10C9D 0%, #9B32E700 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 70vw;
+    position: absolute;
+    top: -27px;
+}
+
+.hotCraftTitle{
+    margin: 8px 0px 8px 66px;
+    font: normal normal 600 40px/55px Oswald;
+    letter-spacing: 0px;
+    color: #FFEE57;
+    opacity: 1;
+}
+
+.customAssetShopSection{
+    position: relative;
+    margin-top: 48px;
+}
+
+.customCardWrapper{
+    padding-bottom: 55px !important;
+}
+
+.saleCustomCardWrapper{
+    padding: 40px 0px 40px 0px !important;
+}
+
+.saleHotCraftWrapper{
+    background: transparent linear-gradient(90deg, #6332E7 0%, #9B32E700 100%) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    width: 70vw;
+    position: absolute;
+    top: 12px;
+}
+
+.saleAssetShopSection{
+    background: transparent linear-gradient(180deg, #FF12A8 0%, #9B33E8 100%) 0% 0% no-repeat padding-box !important;
+}
+
+@media (max-width: 1310px) {
+    .hotCraftWrapper{
+        width: 80vw;
+        top: -68px;
+    }
+    .saleHotCraftWrapper{
+        width: 80vw;
+        top: -27px;
+    }
+    .customAssetShopSection{
+        margin-top: 75px;
+    }
+}
+
+

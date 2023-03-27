@@ -1,0 +1,236 @@
+/* here we have the css for land cards */
+.hall-management-container > .land-cards-container > .land-cards > .land-card {
+    background: #11CBF933 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    width: fit-content;
+    padding: 28px;
+    text-align: center;
+    max-width: 296px;
+    position: relative;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > h1 {
+    text-align: center;
+    font: normal normal bold 36px "Oswald";
+    letter-spacing: -1.3px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.hall-management-container > .land-cards-container > .land-cards > .land-card .play-button {
+    background: transparent linear-gradient(3deg, #FFCE00 0%, #FFF61C 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #AD6B00;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 8px auto 0;
+    cursor: pointer;
+    gap: 5px;
+    max-width: 166px;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card .play-button p {
+    text-align: center;
+    font: normal normal bold 20px "Oswald";
+    letter-spacing: -1.26px;
+    color: #6C4200;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card .play-button > .triangle {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px 0 10px 20px;
+    border-color: transparent transparent transparent #72461a;
+}
+.hall-management-container > .land-cards-container > .land-cards > .land-card > h2 {
+    text-align: center;
+    font: normal normal 300 26px "Oswald";
+    letter-spacing: -0.94px;
+    color: #11CBF9;
+    margin-bottom: 40px;
+}
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .image {
+    margin-bottom: 3px;
+    position: relative;
+    width: 88%;
+    margin: 0 auto;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .image > .imgs > .bck-img{
+    position: relative;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .image > .imgs > .top-img{
+    position: absolute;
+    transform: translate(0, -100%);
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .land-card-info {
+    text-align: center;
+    font: normal normal 300 26px "Oswald";
+    letter-spacing: -0.94px;
+    color: #11CBF9;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .land-card-info > span {
+    text-align: center;
+    font: normal normal 500 26px "Oswald";
+    letter-spacing: -0.94px;
+    color: #11CBF9;
+    margin-right: 5px;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .collected-goblin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .collected-goblin > p {
+    text-align: center;
+    font: normal normal 300 30px "Oswald";
+    letter-spacing: -1.08px;
+    color: #FFFFFF;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .collected-goblin > p > span {
+    text-align: center;
+    font: normal normal 500 30px "Oswald";
+    letter-spacing: -1.08px;
+    color: #FFFFFF;
+    margin-right: 5px;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .collected-goblin > img {
+    margin-left: 5px;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .claim-button {
+    background: transparent linear-gradient(3deg, #FFCE00 0%, #FFF61C 100%) 0% 0% no-repeat padding-box;
+    border: 4px solid #AD6B00;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .loading-disabled:hover {
+    transform: scale(1.05);
+    animation: 0
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .loading-enabled{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .claimable-enabled:hover {
+    transform: scale(1.05);
+    animation: 0
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .claimable-disabled{
+    opacity: 0.5;
+    cursor: default;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .claimable-disabled:hover{
+    transform: scale(1);
+    animation: 0
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .claim-button > p {
+    text-align: center;
+    font: normal normal bold 35px "Oswald";
+    letter-spacing: -1.26px;
+    color: #6C4200;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .claim-button > img {
+    margin-left: 12px;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .image >.mint-number {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    position: absolute;
+    top: -15px;
+    right: 2px;
+    padding: 5px 10px;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .image >.map-id {
+    position: absolute;
+    color: rgba(255, 255, 255, 0.782);
+    font: normal normal 300 16px "Oswald";
+    bottom: 0;
+    left: 5px;
+    text-shadow: 2.9px 3.9px 5px black;
+}
+
+.hall-management-container > .land-cards-container > .land-cards > .land-card > .image >.loading {
+    position: absolute;
+    width: 30%;
+    height: auto;
+    top: 35%;
+    left: 35%;
+    -webkit-animation: spin 1s linear infinite;
+    -moz-animation: spin 1s linear infinite;
+    animation: spin 1s linear infinite;
+}
+
+@media screen {
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > h1 {
+        font-size: 24px;
+        letter-spacing: normal;
+    }
+
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > h2 {
+        font-size: 16px;
+        letter-spacing: normal;
+    }
+
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > .land-card-info {
+        font-size: 18px;
+        letter-spacing: normal;
+    }
+
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > .land-card-info > span {
+        font-size: 18px;
+        letter-spacing: normal;
+    }
+
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > .collected-goblin > p {
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+    
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > .collected-goblin > p > span {
+        font-size: 20px;
+        letter-spacing: normal;
+    }
+
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > .collected-goblin > img {
+        width: 32px;
+    }
+
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > .claim-button > p {
+        font-size: 20px;
+        letter-spacing: -0.26px;
+    }
+
+    .hall-management-container > .land-cards-container > .land-cards > .land-card > .claim-button > img {
+        width: 24px;
+    }
+
+    .hall-management-container > .land-cards-container {
+        padding: 32px 10px;
+    }
+
+}

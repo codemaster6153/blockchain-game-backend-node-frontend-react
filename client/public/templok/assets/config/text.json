@@ -1,0 +1,23 @@
+{
+    "en": {
+
+        "WAX_10": "(10 WAX)",
+        "CURRENT_POT": "CURRENT TOURNAMENT POT",
+        "SPLIT_POT": "SPLIT AMONG THE TOP 15 PLAYERS",
+        "PROCEED": "PROCEED & COMPETE",
+        "DISCARD": "DISCARD & RESTART",
+        "LOGIN": "LOGIN TO WAX",
+        "FEE": "DAILY TOURNAMENT ENTRY FEE",
+        "REMAINING_TIME": "CURRENT TOURNAMENT REMAINING TIME",
+        "PAUSE": "PAUSE",
+        "LOOSE": "YOU WILL LOOSE YOUR SCORE AND THE ENTRY FEE",
+        "CANCEL": "CANCEL",
+        "RESTART": "RESTART",
+        "SCORE_SUBMITED": "YOUR SCORE WAS SUBMITED!",
+        "WAITING_RIVAL": "Waiting for a rival to respond your duel.\nCheck later the duels section.",
+        "RIVAL_FINISH": "Your rival already\nfinished playing!",
+        "FINISH_MATCH": "YOU ALREADY BEAT\nYOUR RIVAL'S SCORE!",
+        "END_MATCH": "FINISH MATCH",
+        "FINISH": "FINISH"
+        }
+}

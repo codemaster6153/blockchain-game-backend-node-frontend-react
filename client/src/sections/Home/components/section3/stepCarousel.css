@@ -1,0 +1,59 @@
+.step-carousel-container{
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.step-carousel-container .custom-dot-list-style{
+    bottom: 0;
+}
+.step-carousel-container .custom-dot-list-style li button{
+    border: white;
+    opacity: 0.5;
+}
+
+.step-carousel-container .custom-dot-list-style .react-multi-carousel-dot--active button{
+    background: white;
+    border: white;
+    opacity: 1;
+}
+
+.step-carousel-container .step-container{
+    padding: 0 !important;
+    margin: 30px auto !important;
+    overflow: hidden;
+    box-shadow: none !important;
+    max-width: 860px !important;
+    width: 90%;
+    display: flex;
+}
+
+.step-carousel-container .step-container img{
+    width: 100%;
+    height: auto;
+}
+
+.step-carousel-container .custom-left-arrow, 
+.step-carousel-container .custom-right-arrow {
+    padding: 0 !important;
+    width: auto !important;
+}
+
+.step-carousel-container .custom-left-arrow svg {
+    transform: scaleX(-1);
+}
+
+.step-carousel-container .custom-left-arrow svg, 
+.step-carousel-container .custom-right-arrow svg {
+    width: 50px;
+    height: 50px;
+    fill: #fff;
+}
+
+.step-carousel-container .custom-left-arrow {
+    left: -5px;
+}
+
+.step-carousel-container .custom-right-arrow {
+    right: -5px;
+}

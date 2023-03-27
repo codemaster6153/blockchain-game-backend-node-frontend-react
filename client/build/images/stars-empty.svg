@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="202.308" height="35.005" viewBox="0 0 202.308 35.005">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#b9dbd8"/>
+      <stop offset="1" stop-color="#94b7b4"/>
+    </linearGradient>
+    <filter id="Icon_awesome-star" x="164.691" y="0" width="37.617" height="35.005" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-color="#152336" flood-opacity="0.4" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-star-2" x="123.518" y="0" width="37.617" height="35.005" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-color="#152336" flood-opacity="0.4" result="color-2"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color-2"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-star-3" x="82.346" y="0" width="37.617" height="35.005" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-3"/>
+      <feFlood flood-color="#152336" flood-opacity="0.4" result="color-3"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
+      <feComposite operator="in" in="color-3"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-star-4" x="41.173" y="0" width="37.617" height="35.005" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-4"/>
+      <feFlood flood-color="#152336" flood-opacity="0.4" result="color-4"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-4"/>
+      <feComposite operator="in" in="color-4"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_awesome-star-5" x="0" y="0" width="37.617" height="35.005" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-5"/>
+      <feFlood flood-color="#152336" flood-opacity="0.4" result="color-5"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-5"/>
+      <feComposite operator="in" in="color-5"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2564" data-name="Grupo 2564" transform="translate(0)">
+    <g data-type="innerShadowGroup">
+      <path id="Icon_awesome-star-6" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(163.25 0.001)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-star)">
+        <path id="Icon_awesome-star-7" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(163.25 0)" fill="#fff"/>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <path id="Icon_awesome-star-8" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(122.077 0.001)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-star-2)">
+        <path id="Icon_awesome-star-9" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(122.08 0)" fill="#fff"/>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <path id="Icon_awesome-star-10" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(80.904 0.001)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-star-3)">
+        <path id="Icon_awesome-star-11" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(80.9 0)" fill="#fff"/>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <path id="Icon_awesome-star-12" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(39.731 0.001)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-star-4)">
+        <path id="Icon_awesome-star-13" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(39.73 0)" fill="#fff"/>
+      </g>
+    </g>
+    <g data-type="innerShadowGroup">
+      <path id="Icon_awesome-star-14" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(-1.441 0.001)" fill="url(#linear-gradient)"/>
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Icon_awesome-star-5)">
+        <path id="Icon_awesome-star-15" data-name="Icon awesome-star" d="M18.232,1.217l-4.591,9.051L3.368,11.724a2.173,2.173,0,0,0-1.245,3.732L9.555,22.5,7.8,32.443a2.236,2.236,0,0,0,3.262,2.3l9.19-4.7,9.19,4.7a2.238,2.238,0,0,0,3.262-2.3L30.945,22.5l7.432-7.041a2.173,2.173,0,0,0-1.245-3.732L26.859,10.268,22.268,1.217a2.281,2.281,0,0,0-4.036,0Z" transform="translate(-1.44 0)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,16 @@
+{
+  "urls": [
+    "assets/audio/music.mp3",
+    "assets/audio/music.ogg"
+  ],
+  "sprite": {
+    "endless_siege_game_soundtrack": [
+      0,
+      15333.877551020407
+    ],
+    "gameover_loop": [
+      17000,
+      20114.285714285714
+    ]
+  }
+}

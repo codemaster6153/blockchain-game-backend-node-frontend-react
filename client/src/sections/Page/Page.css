@@ -1,0 +1,11 @@
+section.page {
+  margin-top: 25px;
+  padding: 30px;
+  font-size: 15px;
+  font-weight: lighter; }
+  section.page h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 25px; }
+
+/*# sourceMappingURL=Page.css.map */

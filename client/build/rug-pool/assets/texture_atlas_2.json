@@ -1,0 +1,83 @@
+{
+	"textures": [
+		{
+			"image": "texture_atlas_2.png",
+			"format": "RGBA8888",
+			"size": {
+				"w": 1152,
+				"h": 603
+			},
+			"scale": 1,
+			"frames": [
+				{
+					"filename": "table_holes_1",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 1015,
+						"h": 601
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 1015,
+						"h": 601
+					},
+					"frame": {
+						"x": 1,
+						"y": 1,
+						"w": 1015,
+						"h": 601
+					}
+				},
+				{
+					"filename": "power_bar_empty",
+					"rotated": false,
+					"trimmed": false,
+					"sourceSize": {
+						"w": 71,
+						"h": 535
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 0,
+						"w": 71,
+						"h": 535
+					},
+					"frame": {
+						"x": 1018,
+						"y": 1,
+						"w": 71,
+						"h": 535
+					}
+				},
+				{
+					"filename": "power_bar_full",
+					"rotated": false,
+					"trimmed": true,
+					"sourceSize": {
+						"w": 71,
+						"h": 535
+					},
+					"spriteSourceSize": {
+						"x": 0,
+						"y": 13,
+						"w": 60,
+						"h": 507
+					},
+					"frame": {
+						"x": 1091,
+						"y": 1,
+						"w": 60,
+						"h": 507
+					}
+				}
+			]
+		}
+	],
+	"meta": {
+		"app": "https://www.codeandweb.com/texturepacker",
+		"version": "3.0",
+		"smartupdate": "$TexturePacker:SmartUpdate:486faa095195d04983343316bd5a6f9e:ba6b29e98f17743e09a74bf922ad9ded:1841566b8127e300c587f5f8309c1e38$"
+	}
+}

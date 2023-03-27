@@ -1,0 +1,249 @@
+.assetshop-section .buy-citizen-card {
+    background-color: #D9FFF833;
+    border-radius: 20px;
+    width: fit-content;
+    padding-top: 12px;
+    text-align: center;
+    max-width: 98%;
+    width: 245px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.assetshop-section .buy-citizen-card .title {
+    font-size: 22px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.assetshop-section .buy-citizen-card .image-container {
+    margin-bottom: 5px;
+    position: relative;
+    width: 88%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.assetshop-section .buy-citizen-card .image-container img {
+    max-width: 196px;
+    max-height: 196px;
+    margin: 0 auto;
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper {
+    background-color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding: 4px 10px;
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper .info-line {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px 5px;
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper .info-line-label {
+    color: #001A44;
+    font-family: 'Oswald-DemiBold';
+    font-size: 14px;
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper .info-line-value {
+    color: #001A44;
+    font-family: 'Oswald-Light';
+    font-size: 14px;
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper hr {
+    background-color: #94A6AA;
+    margin: 10px 0px;
+    height: 1px;
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper .buy-wrapper>p {
+    color: #546467;
+    font-size: 20px;
+    font-family: 'Oswald-DemiBold';
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper .buy-wrapper .buttons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper .buy-wrapper .buttons-container img {
+    max-width: 95%;
+    transition: 0.5s ease;
+}
+
+.assetshop-section .buy-citizen-card .info-wrapper .buy-wrapper .buttons-container img:hover {
+    animation: zoom linear 0.5s;
+    transition: 0.5s ease-in;
+}
+
+.slider-wrapper {
+    padding: 20px 50px;
+}
+
+.image-container-slider {
+    background-color: transparent !important;
+
+}
+
+.image-container>div {
+    background-color: transparent !important;
+}
+
+.image-container .rsis-image,
+.image-container .rsis-image+div {
+    right: 0 !important;
+    margin: 0 auto !important;
+    width: 200px !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+
+.image-container .rsis-container {
+    right: 0 !important;
+    margin: 0 auto !important;
+    width: 200px !important;
+    overflow: hidden;
+}
+
+.rsis-container+button {
+    left: -15px !important;
+    top: 40% !important;
+}
+
+.rsis-container+button+button {
+    right: -15px !important;
+    top: 40% !important;
+}
+
+.box-img-slider {
+    margin-bottom: 0px !important;
+}
+
+.rsis-container+button+button+div button {
+    width: 12px !important;
+    height: 12px !important;
+}
+
+.assetshop-section .buy-citizen-card.card-box-new .buy-citizen-card {
+    max-width: 100%;
+}
+
+.react-slideshow-container .nav {
+    background-color: transparent !important;
+}
+
+.react-slideshow-container .default-nav {
+    height: 140px !important;
+    width: 40px !important;
+}
+
+.react-slideshow-container .nav svg {
+    fill: #fff;
+}
+
+.react-slideshow-container button[data-type="prev"] {
+    left: 8px !important;
+}
+
+.react-slideshow-container button[data-type="next"] {
+    right: 8px !important;
+}
+
+.slider-info {
+    min-height: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+.slider-info .info-line {
+    margin-bottom: 0px !important;
+}
+
+.slider-info hr {
+    margin-top: auto !important;
+}
+
+.card-box-new .react-slideshow-container+ul.indicators {
+    position: absolute;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    top: 341px;
+    z-index: 9;
+}
+
+.card-box-new .react-slideshow-container+ul.indicators .each-slideshow-indicator:before {
+    background: #fff;
+}
+
+.buy-citizen-card .slick-prev {
+    left: 12px;
+    z-index: 1;
+}
+
+.buy-citizen-card .slick-prev:before {
+    content: '❮';
+}
+
+.buy-citizen-card .slick-next {
+    right: 12px;
+}
+
+.buy-citizen-card .slick-next:before {
+    content: '❯';
+}
+
+.buy-citizen-card .slick-prev:before,
+.buy-citizen-card .slick-next:before {
+    font-size: 25px;
+}
+
+.buy-citizen-card .slick-dots {
+    bottom: 0;
+}
+
+.buy-citizen-card .slick-dots li {
+    width: 10px;
+    height: 10px;
+    margin: 0 1px;
+}
+
+.buy-citizen-card .slick-dots li button {
+    width: 8px;
+    height: 8px;
+    padding: 20px 0 0;
+}
+
+.buy-citizen-card .slick-dots li button:before {
+    opacity: 0.5;
+    color: #fff;
+    width: 7px;
+    height: 7px;
+}
+
+.buy-citizen-card .slick-dots li.slick-active button:before {
+    opacity: 1;
+    color: #fff;
+}
+
+@keyframes zoom {
+    0% {
+        transform: scale(100%);
+    }
+    100% {
+        transform: scale(105%);
+    }
+}

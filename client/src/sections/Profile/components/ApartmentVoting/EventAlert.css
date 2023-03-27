@@ -1,0 +1,80 @@
+.apartment-voting-event-alert {
+    display: flex;
+    position: absolute;
+    right: 0px;
+    top: 165px;
+    width: 350px;
+    background: url(/images/event-alert-bg.svg);
+    background-size: cover;
+    border-radius: 8px;
+    align-items: center;
+    transition: tween 0.5 seconds ease out;
+    padding: 10px 0;
+    z-index: 20;
+}
+
+.apartment-voting-event-alert .close-button {
+    display: flex;
+    position: absolute;
+    left: -0px;
+    top: -0px;
+    padding: 10px;
+    padding-top: 5px;
+    background: #ec2b4e;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 70px;
+}
+
+.apartment-voting-event-alert div:first-child {
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.apartment-voting-event-alert .title {
+    color: #fff;
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 45px;
+    margin-left: 65px;
+}
+
+.apartment-voting-event-alert .reward {
+    color: #0080D0;
+    font-size: 21px;
+    font-weight: 700;
+    margin-right: 45px;
+    margin-left: 65px;
+    margin-top: -15px;
+}
+
+.apartment-voting-event-alert .play-button {
+    margin-left: auto;
+    cursor: pointer;
+}
+
+.apartment-voting-event-alert-enter {
+    transform: translateX(+350px);
+}
+
+.apartment-voting-event-alert-enter-active {
+    transform: translateX(0);
+    transition: transform 500ms ease-in;
+}
+
+.apartment-voting-event-alert-exit {
+    transform: translateX(0);
+}
+
+.apartment-voting-event-alert-exit-active {
+    transform: translateX(350px);
+    transition: transform 500ms ease-out;
+}

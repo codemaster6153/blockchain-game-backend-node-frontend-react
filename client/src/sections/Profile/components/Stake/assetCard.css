@@ -1,0 +1,168 @@
+.asset-card {
+    width: 205px;
+    background: #FFFFFF4D;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 320px;
+}
+
+.asset-card>p.top-text {
+    font-size: 15px;
+    text-align: center;
+    font-weight: 700;
+    padding: 10px 20px 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    color: white;
+}
+
+.asset-card>.img-wrapper {
+    width: 80%;
+    margin: 10px auto;
+    position: relative;
+    max-height: 185px;
+    max-width: 164px;
+    min-height: 185px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.asset-card>.img-wrapper>.asset-id {
+    background-color: #FFFFFFCC;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: fit-content;
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-size: 12px;
+    color: #001A44;
+}
+
+.asset-card>.img-wrapper>img {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+
+.asset-card>.img-wrapper>video {
+    height: auto;
+    max-height: 100%;
+    max-width: 100%;
+    width: auto;
+}
+
+.asset-card>.button-wrapper {
+    padding: 0px 20px 10px;
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.asset-card>.button-wrapper>img {
+    margin: 0 auto;
+    display: block;
+    height: 36px;
+    margin-top: 32px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.asset-card .button-wrapper .asset-button {
+    cursor: pointer;
+    font-family: 'Oswald-DemiBold';
+    font-weight: bold;
+    font-size: 20px;
+    height: 54px;
+    letter-spacing: -0.79px;
+    border-radius: 6px;
+    border: 3px solid;
+    box-shadow: 0px 3px 6px #00000080;
+    transform: scale(0.9);
+}
+.asset-card .button-wrapper .asset-button:hover {
+    border-color: #fff !important;
+    color: #fff !important;
+}
+
+.asset-card .button-wrapper .asset-button.sm-button {
+    width: 49% !important;
+    font-size: 18px;
+}
+
+.asset-card .button-wrapper .asset-button.slot,
+.asset-card .button-wrapper .asset-button.Jigowatts {
+    background: transparent linear-gradient(360deg, #1383C9 0%, #01B4EB 6%, #6AFEF9 95%, #D8FDFF 100%) 0% 0% no-repeat padding-box;
+    border-color: #1A669B;
+    color: #173B45;
+    width: 49%;
+}
+.asset-card .button-wrapper .asset-button.Jigowatts {
+    width: 100%;
+}
+.asset-card .button-wrapper .asset-button.slot:hover {
+    background: transparent linear-gradient(360deg, #1383C9 0%, #01B4EB 46%, #6AFEF9 95%, #D8FDFF 100%) 0% 0% no-repeat padding-box;
+}
+
+.asset-card .button-wrapper .asset-button.slot-green {
+    background: transparent linear-gradient(360deg, #008D36 0%, #47C949 6%, #C7F314 95%, #F5FF80 100%) 0% 0% no-repeat padding-box;
+    border-color: #158218;
+    color: #233D30;
+    width: 49%;
+}
+.asset-card .button-wrapper .asset-button.slot-green:hover {
+    background: transparent linear-gradient(360deg, #008D36 0%, #47C949 46%, #C7F314 95%, #F5FF80 100%) 0% 0% no-repeat padding-box;
+}
+
+.asset-card .button-wrapper .asset-button.decoration,
+.asset-card .button-wrapper .asset-button.citizen,
+.asset-card .button-wrapper .asset-button.wallet {
+    border-color: #754800;
+    background: transparent linear-gradient(360deg, #F58E02 0%, #FFC400 6%, #FFEE00 95%, #FFF9A0 100%) 0% 0% no-repeat padding-box;
+    color: #482C00;
+    width: 100%;
+}
+.asset-card .button-wrapper .asset-button.decoration:hover,
+.asset-card .button-wrapper .asset-button.citizen:hover,
+.asset-card .button-wrapper .asset-button.wallet:hover {
+    background: transparent linear-gradient(360deg, #F58E02 0%, #FFC400 46%, #FFEE00 95%, #FFF9A0 100%) 0% 0% no-repeat padding-box;
+}
+
+.asset-card .button-wrapper .asset-button.Carbz {
+    width: 100%;
+    border-color: #158218;
+    color: #233D30;
+    background: transparent linear-gradient(360deg, #008D36 0%, #47C949 6%, #C7F314 95%, #F5FF80 100%) 0% 0% no-repeat padding-box;
+}
+.asset-card .button-wrapper .asset-button.Carbz:hover {
+    background: transparent linear-gradient(360deg, #008D36 0%, #47C949 46%, #C7F314 95%, #F5FF80 100%) 0% 0% no-repeat padding-box;
+}
+
+.asset-card .button-wrapper .asset-button.tokens {
+    width: 100%;
+    border-color: #4E2097;
+    color: #331464;
+    background: transparent linear-gradient(360deg, #5529CC 0%, #8B3DC8 6%, #C746FE 95%, #FF74F4 100%) 0% 0% no-repeat padding-box;
+}
+.asset-card .button-wrapper .asset-button.tokens:hover {
+    background: transparent linear-gradient(360deg, #5529CC 0%, #8B3DC8 6%, #C746FE 95%, #FF74F4 100%) 0% 0% no-repeat padding-box;
+}
+
+.asset-card>.button-wrapper .red {
+    width: 100%;
+    color: #FFF;
+    text-align: center;
+    line-height: 19px;
+}

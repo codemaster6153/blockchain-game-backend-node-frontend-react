@@ -1,0 +1,172 @@
+.login img.avatar {
+  position: absolute;
+  height: 20px;
+  max-height: 25px;
+  margin-left: -25px;
+  margin-top: 2px;
+}
+.login .welcome {
+  color: #2781c1;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin-right: 5px;
+}
+.login .username {
+  color: #2781c1;
+  font-size: 16px;
+  font-weight: lighter;
+  text-transform: lowercase;
+  margin-right: 5px;
+}
+.login-button {
+  width: 120px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  font-size: 13px;
+  color: white;
+  height: 24px;
+  padding: 3px 10px;
+  background-color: #fb216a;
+  border-color: #dbdbdb;
+  border-width: 1px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  white-space: nowrap;
+}
+.login-button:hover,
+.login-button:focus {
+  color: white;
+  opacity: 0.8;
+}
+
+.logout-button {
+  background: url("/images/btn_log_out.png") center no-repeat;
+  background-size: contain;
+  width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.profile-bar {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #2781c1;
+  font-weight: bold;
+}
+
+.profile-bar > a {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  color: #2781c1;
+  font-weight: bold;
+  text-decoration: none;
+}
+.profile-bar img {
+  width: 24px;
+  height: 24px;
+  object-fit: contain;
+  margin: 0 5px;
+}
+
+@media screen and (max-width: 1024px) {
+  .coin-display-container {
+    display: none;
+  }
+}
+/*# sourceMappingURL=Login.css.map */
+
+/* this is for socaol icons */
+.social-logos{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.social-logos a {
+  height: 24px;
+  width: 24px;
+}
+
+.navbar-expanded .social-logos a {
+  height: 36px;
+  width: 36px;
+}
+
+.social-logos a.twitter {
+  background-image: url('/images/social_icons_nav/icon_twitter_idle.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+
+.social-logos a.twitter:hover {
+  background-image: url('/images/social_icons_nav/icon_twitter_hover.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+
+.social-logos a.discord {
+  background-image: url('/images/social_icons_nav/icon_discord_idle.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+
+.social-logos a.discord:hover {
+  background-image: url('/images/social_icons_nav/icon_discord_hover.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+.social-logos a.telegram {
+  background-image: url('/images/social_icons_nav/icon_telegram_idle.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+
+.social-logos a.telegram:hover {
+  background-image: url('/images/social_icons_nav/icon_telegram_hover.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+.social-logos a.medium {
+  background-image: url('/images/social_icons_nav/icon_medium_idle.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+
+.social-logos a.medium:hover {
+  background-image: url('/images/social_icons_nav/icon_medium_hover.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+.social-logos a.github {
+  background-image: url('/images/social_icons_nav/icon_github_idle.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+
+.social-logos a.github:hover {
+  background-image: url('/images/social_icons_nav/icon_github_hover.svg');
+  background-repeat: no-repeat;
+  transition: all .2s;
+  background-size: contain;
+}
+
+@media screen and (max-width: 550px) {
+  .social-logos a {
+    display: none;
+  }
+}

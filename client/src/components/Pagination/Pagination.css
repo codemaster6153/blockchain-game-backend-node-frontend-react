@@ -1,0 +1,8 @@
+.pagination {
+  width: 100%; }
+  .pagination .pagination-link,
+  .pagination .pagination-previous,
+  .pagination .pagination-next {
+    cursor: pointer; }
+
+/*# sourceMappingURL=Pagination.css.map */

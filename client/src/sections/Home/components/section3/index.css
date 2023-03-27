@@ -1,0 +1,191 @@
+.section-three {
+    padding: 50px 0px;
+    position: relative;
+    background-image: url('/images/newHome/vertical_arrows.svg');
+    background-size: contain;
+    background-color: #00E34F;
+}
+
+.section-three .content-wrapper{
+    z-index: 2;
+    position: relative;
+}
+
+.section-three .bg-overlay {
+    left: 0;
+    top: 0;
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.8;
+    background: transparent linear-gradient(270deg, #00e34fc2 0%, #C4FF00 100%) 0% 0% no-repeat padding-box;
+}
+
+.section-three h1 {
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    letter-spacing: 1.4px;
+    opacity: 1;
+    font-size: 52px;
+    color: #001A44;
+}
+
+.section-three .mobile-view .step-container{
+    border: 6px solid #FFFFFF;
+    border-radius: 30px;
+    padding: 21px;
+    margin: 44px auto;
+    box-shadow: 0px 3px 18px #005a1f;
+    background: transparent linear-gradient(301deg, #00E34F 0%, #C4FF00 100%) 0% 0% no-repeat padding-box;
+    max-width: 94%;
+}
+
+.section-three .mobile-view .step-container .step-head{
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    opacity: 1;
+    font-size: 24px;
+    color: #001A44;
+}
+
+.section-three .mobile-view .step-container.card-two .step-head{
+    margin-bottom: 20px;
+}
+
+.section-three .mobile-view .step-container .login-to-play{
+    background: transparent linear-gradient(0deg, #FFBA00 0%, #FFEB3C 100%) 0% 0% no-repeat padding-box;
+    text-align: center;
+    font-family: 'Oswald-DemiBold';
+    opacity: 1;
+    font-size: 24px;
+    color: #001A44;
+    width: fit-content;
+    padding: 8px 30px;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 18px;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0px 3px 10px #0000008F;
+
+}
+
+
+.section-three .mobile-view .step-container .button{
+    background: transparent linear-gradient(0deg, #FFBA00 0%, #FFEB3C 100%) 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 10px #0000008F;
+    border-radius: 14px;
+    opacity: 1;
+    border: none;
+    transition: all 0.2s;
+}
+
+.section-three .mobile-view .step-container .button:hover, .section-three .mobile-view .step-container .login-to-play:hover {
+    transform: scale(1.1);
+}
+
+.section-three .mobile-view .step-container .cards-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    gap: 30px;
+}
+
+.section-three .mobile-view .step-container .cards-container .card{
+    display: flex;
+    background-color: transparent;
+    flex-direction: column;
+    gap: 20px;
+    border: none;
+    box-shadow: none;
+}
+
+.section-three .mobile-view .step-container .cards-container .card img{
+    height: 250px;
+}
+
+.section-three .mobile-view .step-container .bottom-text{
+    text-align: center;
+    font-family: 'Oswald-light';
+    opacity: 1;
+    font-size: 18px;
+    color: #001A44;
+    margin-top: 30px;
+    width: 600px;
+    max-width: 98%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.section-three .mobile-view .step-container .bottom-text.bold{
+    font-family: 'Oswald-DemiBold';
+}
+
+.section-three .mobile-view .step-container .bottom-text span a{
+    color: inherit;
+    text-decoration: underline;
+    margin-left: 2px;
+}
+
+.home-game-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 20px;
+    gap: 20px;
+    padding: 8px 10px;
+    grid-gap: 30px;
+    gap: 30px;
+    background-color: #00E34F;
+}
+
+.home-game-info div img {
+    width: 140px;
+}
+
+.home-game-info.even{
+    background: #00BC5E 0% 0% no-repeat padding-box;
+}
+
+.home-game-info div p {
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Oswald-DemiBold';
+    color: white;
+}
+
+.home-game-info div p span {
+    font-family: 'Oswald-light';
+}
+
+.home-game-info > img {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+    .section-three h1{
+        font-size: 36px;
+        letter-spacing: inherit;
+    }
+
+    .section-three .mobile-view .step-container .step-head{
+        font-size: 26px;
+    }
+
+    .section-three .mobile-view .step-container .bottom-text{
+        font-size: 20px;
+    }
+
+    .section-three .mobile-view .step-container .cards-container{
+        gap: 5px;
+    }
+
+    .section-three .mobile-view .step-container .login-to-play{
+        font-size: 26px;
+    }
+}

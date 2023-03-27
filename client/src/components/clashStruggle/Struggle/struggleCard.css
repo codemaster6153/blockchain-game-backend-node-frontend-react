@@ -1,0 +1,88 @@
+.card-section > .merge-container > .cards-container > .card {
+    background-color: transparent;
+    margin: 0 16px;
+    position: relative;
+}
+
+/* .card-section > .merge-container > .cards-container > .card.disabled::before {
+    width: 100%;
+    height: 100%;
+    background-color: #22032c6b;
+    content: "";
+    position: absolute;
+} */
+
+.card-section > .merge-container > .cards-container > .card > img{
+    height: 230px;
+}
+
+.card-section > .merge-container > .cards-container > .card > .card-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card-section > .merge-container > .cards-container > .card > .card-number {
+    position: absolute;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    top: 0;
+    right: 5px;
+    text-align: center;
+    font: normal normal 300 14px "Oswald";
+    letter-spacing: -0.68px;
+    color: #001A44;
+    padding: 0px 7px;
+}
+
+
+/* this is the css for mobile version of the struggle card */
+
+.mobile-upgrade-container > .card-row-container > .absolute-top > .left > .card {
+    background-color: transparent;
+    margin: 0 16px;
+    position: relative;
+    width: fit-content;
+}
+
+/* .mobile-upgrade-container > .card-row-container > .absolute-top > .left > .card.disabled::before {
+    width: 100%;
+    height: 100%;
+    background-color: #22032c6b;
+    content: "";
+    position: absolute;
+} */
+
+.mobile-upgrade-container > .card-row-container > .absolute-top > .left > .card > img{
+    height: 84px;
+}
+
+.mobile-upgrade-container > .card-row-container > .absolute-top > .left > .card > .card-button {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.mobile-upgrade-container > .card-row-container > .absolute-top > .left > .card > .card-number {
+    position: absolute;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 19px;
+    width: 18px;
+    height: 8px;
+    top: 0;
+    right: 2px;
+    text-align: center;
+    font: normal normal 300 5px Oswald;
+    letter-spacing: -0.18px;
+    color: #001A44;
+}

@@ -1,0 +1,25 @@
+{
+  "short_name": "Clashdome",
+  "name": "Clashdome",
+  "icons": [
+    {
+      "src": "/images/clashdome_16x16.ico",
+      "sizes": "16x16",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/clashdome_32x32.ico",
+      "sizes": "32x32",
+      "type": "image/x-icon"
+    },
+    {
+      "src": "/images/clashdome_96x96.ico",
+      "sizes": "96x96",
+      "type": "image/x-icon"
+    }
+  ],
+  "start_url": ".",
+  "display": "fullscreen",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}

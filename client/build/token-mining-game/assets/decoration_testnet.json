@@ -1,0 +1,905 @@
+{
+    "avatar": {
+        "517457": {
+            "type": "accesory",
+            "id": "05",
+            "attachmentName": "a_accessory/accessory_05",
+            "animation": "accesory_05_fx"
+        },
+        "530668": {
+            "type": "nose",
+            "id": "23",
+            "attachmentName": "h_nose_NFT/nose_23"
+        },
+        "641149": {
+            "type": "tops",
+            "id": "46",
+            "id2": "47",
+            "attachmentName": "p_tops_NFT/tops_46",
+            "attachmentName2": "p_tops_NFT/tops_47"
+        }
+    },
+    "decoration": {
+        "480024": "wall and floor"
+    },
+    "items": {
+        "603629": {
+            "img": "cabinet_rugpool"
+        },
+        "603633": {
+            "img": "decor_modding_1"
+        },
+        "603634": {
+            "img": "decor_modding_2"
+        },
+        "603635": {
+            "img": "decor_modding_3"
+        },
+        "603636": {
+            "img": "decor_modding_4"
+        },
+        "603637": {
+            "img": "decor_gamerism_1"
+        },
+        "603638": {
+            "img": "decor_gamerism_2"
+        },
+        "603639": {
+            "img": "decor_gamerism_3"
+        },
+        "603640": {
+            "img": "decor_gamerism_4"
+        },
+        "603641": {
+            "img": "decor_rugpool_1"
+        },
+        "603642": {
+            "img": "decor_rugpool_2"
+        },
+        "603643": {
+            "img": "decor_rugpool_3"
+        },
+        "527297": {
+            "img": "halloween_pumpkin"
+        },
+        "525047": {
+            "img": "poster_rugpool"
+        },
+        "541183": {
+            "img": "poster_lasser_cook"
+        },
+        "480243": {
+            "img": "poster_endless"
+        },
+        "459109": {
+            "img": "poster_og"
+        },
+        "517045": {
+            "img": "poster_templok"
+        },
+        "519416": {
+            "img": "poster_candy_fiesta"
+        },
+        "506257": {
+            "img": "neko_badge",
+            "components": [
+                {
+                    "id": "bottom",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 8
+                        }
+                    ]
+                },
+                {
+                    "id": "neon_01",
+                    "front": true,
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 500
+                        }
+                    ]
+                },
+                {
+                    "id": "neon_02",
+                    "front": true,
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 0,
+                            "to": 1,
+                            "time": 500
+                        }
+                    ]
+                }
+            ]
+        },
+        "522086": {
+            "img": "badge_templok",
+            "components": [
+                {
+                    "id": "2",
+                    "type": "static"
+                },
+                {
+                    "id": "3",
+                    "type": "static"
+                },
+                {
+                    "id": "bulb",
+                    "front": true,
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 2000
+                        }
+                    ]
+                },
+                {
+                    "id": "neon",
+                    "front": true,
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 2000,
+                            "delay_init": 500
+                        }
+                    ]
+                },
+                {
+                    "id": "serie",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 15
+                        }
+                    ]
+                }
+            ]
+        },
+        "606551": {
+            "img": "portrait_frame_1",
+            "portrait": true,
+            "components": [
+                {
+                    "id": "2",
+                    "type": "static"
+                }
+            ]
+        },
+        "522363": {
+            "img": "column_gamerism",
+            "front": true,
+            "components": [
+                {
+                    "id": "spotlights",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0.4,
+                            "time": 2000
+                        }
+                    ]
+                },
+                {
+                    "id": "column_gamerism",
+                    "type": "static"
+                },
+                {
+                    "id": "2",
+                    "type": "static",
+                    "mode": "add"
+                },
+                {
+                    "id": "gamepads_01",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "y",
+                            "yoyo": true,
+                            "from": 0,
+                            "to": 2,
+                            "time": 2000
+                        }
+                    ]
+                },
+                {
+                    "id": "gamepads_02",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "y",
+                            "yoyo": true,
+                            "from": 0,
+                            "to": 2,
+                            "time": 2000,
+                            "delay_init": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        "596004": {
+            "img": "aquarium",
+            "components": [
+                {
+                    "id": "botLight",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 1200
+                        }
+                    ]
+                },
+                {
+                    "id": "midLight",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 1200,
+                            "delay_init": 300
+                        }
+                    ]
+                },
+                {
+                    "id": "topLight",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 1200,
+                            "delay_init": 600
+                        }
+                    ]
+                },
+                {
+                    "id": "tank",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 19
+                        }
+                    ]
+                },
+                {
+                    "id": "details",
+                    "type": "static"
+                }
+            ]
+        },
+        "522364": {
+            "img": "badge_rugpool",
+            "components": [
+                {
+                    "id": "neon",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 12
+                        }
+                    ]
+                },
+                {
+                    "id": "balls",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 12
+                        }
+                    ]
+                },
+                {
+                    "id": "01",
+                    "type": "static"
+                },
+                {
+                    "id": "rim",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "yoyo": true,
+                            "attribute": "scaleX",
+                            "from": 1,
+                            "to": -1,
+                            "time": 0,
+                            "delay": 2000
+                        }
+                    ]
+                },
+                {
+                    "id": "outlines",
+                    "type": "static"
+                }
+            ]
+        },
+        "526686": {
+            "img": "gamerism",
+            "components": [
+                {
+                    "id": "cables",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 8,
+                            "time": 1000,
+                            "delay": 500
+                        }
+                    ]
+                },
+                {
+                    "id": "neon_01",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 400,
+                            "delay": 400
+                        }
+                    ]
+                },
+                {
+                    "id": "neon_02",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 400,
+                            "delay": 100
+                        }
+                    ]
+                },
+                {
+                    "id": "neon_03",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 400,
+                            "delay": 200
+                        }
+                    ]
+                },
+                {
+                    "id": "neon_04",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 400,
+                            "delay": 300
+                        }
+                    ]
+                },
+                {
+                    "id": "character",
+                    "type": "static"
+                },
+                {
+                    "id": "visor",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 11,
+                            "delay": 4000
+                        }
+                    ]
+                }
+            ]
+        },
+        "528163": {
+            "img": "badge_endless",
+            "components": [
+                {
+                    "id": "fire",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 2,
+                            "delay": 2000
+                        }
+                    ]
+                },
+                {
+                    "id": "01",
+                    "type": "static"
+                },
+                {
+                    "id": "gem",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 12
+                        }
+                    ]
+                },
+                {
+                    "id": "eyes",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "delay_init": 0
+                        }
+                    ]
+                },
+                {
+                    "id": "ligths",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0.6,
+                            "time": 3000
+                        }
+                    ]
+                }
+            ]
+        },
+        "528604": {
+            "img": "badge_ringydingy",
+            "components": [
+                {
+                    "id": "serie",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 16
+                        }
+                    ]
+                }
+            ]
+        },
+        "541069": {
+            "img": "hatch_door",
+            "components": [
+                {
+                    "id": "goo",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 20,
+                            "time": 2000
+                        }
+                    ]
+                },
+                {
+                    "id": "lights",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 0,
+                            "to": 1,
+                            "time": 1000
+                        }
+                    ]
+                }
+            ]
+        },
+        "602331": {
+            "img": "evomoment",
+            "components": [
+                {
+                    "id": "leg",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 4,
+                            "delay": 1800
+                        }
+                    ]
+                },
+                {
+                    "id": "impact",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "tween",
+                            "attribute": "alpha",
+                            "from": 1,
+                            "to": 0,
+                            "time": 300
+                        }
+                    ]
+                },
+                {
+                    "id": "ken",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 2,
+                            "time": 300
+                        }
+                    ]
+                },
+                {
+                    "id": "text",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 3,
+                            "time": 500
+                        }
+                    ]
+                },
+                {
+                    "id": "glitch",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 3,
+                            "time": 800
+                        }
+                    ]
+                },
+                {
+                    "id": "frame",
+                    "type": "static"
+                }
+            ]
+        },
+        "602979": {
+            "img": "badge_xmas",
+            "components": [
+                {
+                    "id": "snowflake",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 2,
+                            "time": 1000,
+                            "frameRate": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "lights",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 2,
+                            "time": 500,
+                            "frameRate": 3
+                        }
+                    ]
+                },
+                {
+                    "id": "glare",
+                    "type": "animated",
+                    "animations": [
+                        {
+                            "type": "frames",
+                            "frames": 11,
+                            "delay": 8000
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "arcade": {
+        "462396": {
+            "type": "mid",
+            "id": 1,
+            "animation": [
+                {
+                    "id": "",
+                    "frames": 13
+                }
+            ]
+        },
+        "463749": {
+            "type": "top",
+            "id": 1,
+            "animation": [
+                {
+                    "id": "",
+                    "frames": 6
+                }
+            ]
+        },
+        "463757": {
+            "type": "side",
+            "id": 1,
+            "animation": [
+                {
+                    "id": "",
+                    "frames": 4
+                },
+                {
+                    "id": "bubbles",
+                    "frames": 9
+                }
+            ]
+        },
+        "603654": {
+            "type": "mid",
+            "id": 2,
+            "animation": [
+                {
+                    "id": "",
+                    "frames": 14
+                }
+            ]
+        },
+        "603653": {
+            "type": "top",
+            "id": 2,
+            "animation": [
+                {
+                    "id": "",
+                    "frames": 13
+                }
+            ]
+        },
+        "603655": {
+            "type": "side",
+            "id": 2,
+            "animation": [
+                {
+                    "id": "",
+                    "frames": 14
+                }
+            ]
+        }
+    },
+    "walls": [
+        {
+            "img": "wall_01",
+            "tint": "0x882D91",
+            "outline": "0xD145DE"
+        },
+        {
+            "img": "wall_02",
+            "tint": "0x911C3F",
+            "outline": "0xDE2A60"
+        },
+        {
+            "img": "wall_03",
+            "tint": "0x8C3527",
+            "outline": "0xBF4836"
+        },
+        {
+            "img": "wall_04",
+            "tint": "0xB6652C",
+            "outline": "0xE88138"
+        },
+        {
+            "img": "wall_05",
+            "tint": "0x1C413F",
+            "outline": "0x31736F"
+        },
+        {
+            "img": "wall_06",
+            "tint": "0x053E89",
+            "outline": "0x0856BD"
+        },
+        {
+            "img": "wall_07",
+            "tint": "0x27246D",
+            "outline": "0x3935A1"
+        },
+        {
+            "img": "wall_08",
+            "tint": "0x589EA7",
+            "outline": "0x73CDD9"
+        },
+        {
+            "img": "wall_09",
+            "tint": "0x162136",
+            "outline": "0x2B4069"
+        }
+    ],
+    "floors": [
+        {
+            "img": "floor_01",
+            "tint": "0x542396"
+        },
+        {
+            "img": "floor_02",
+            "tint": "0x661F3D"
+        },
+        {
+            "img": "floor_03",
+            "tint": "0x733A1E"
+        },
+        {
+            "img": "floor_04",
+            "tint": "0x906048"
+        },
+        {
+            "img": "floor_05",
+            "tint": "0x2B5F74"
+        },
+        {
+            "img": "floor_06",
+            "tint": "0x114077"
+        },
+        {
+            "img": "floor_07",
+            "tint": "0x231871"
+        },
+        {
+            "img": "floor_08",
+            "tint": "0x41727E"
+        },
+        {
+            "img": "floor_09",
+            "tint": "0x15264B"
+        }
+    ],
+    "tools_carbz": {
+        "352324": {
+            "rarity": "Common"
+        },
+        "357388": {
+            "rarity": "Uncommon"
+        },
+        "357451": {
+            "rarity": "Rare"
+        }
+    },
+    "tools_jigos": {
+        "352325": {
+            "rarity": "Common"
+        },
+        "357427": {
+            "rarity": "Uncommon"
+        },
+        "357466": {
+            "rarity": "Rare"
+        }
+    },
+    "wallets": {
+        "358761": {
+            "rarity": "Uncommon"
+        },
+        "358834": {
+            "rarity": "Rare"
+        }
+    },
+    "textures": {
+        "floors": {
+            "603644": {
+                "imgs": [
+                    "floor_modding_01",
+                    "floor_modding_02"
+                ]
+            },
+            "603645": {
+                "imgs": [
+                    "floor_rugpool_01",
+                    "floor_rugpool_02"
+                ]
+            },
+            "603646": {
+                "imgs": [
+                    "floor_gamerism"
+                ]
+            }
+        },
+        "walls": {
+            "603647": {
+                "imgs": [
+                    "wall_texture_modding"
+                ]
+            },
+            "603648": {
+                "imgs": [
+                    "wall_texture_rugpool"
+                ]
+            },
+            "603649": {
+                "imgs": [
+                    "wall_texture_gamerism"
+                ]
+            }
+        },
+        "baseboards": {
+            "603650": {
+                "imgs": [
+                    "baseboard_modding_fill",
+                    "baseboard_modding_02"
+                ]
+            },
+            "603651": {
+                "imgs": [
+                    "baseboard_fill",
+                    "baseboard_rugpool"
+                ]
+            },
+            "603652": {
+                "imgs": [
+                    "baseboard_fill",
+                    "baseboard_gamerism_01",
+                    "baseboard_gamerism_02"
+                ]
+            }
+        },
+        "ceiling": {
+            "603630": {
+                "imgs": [
+                    "ceiling_modding"
+                ]
+            },
+            "603631": {
+                "imgs": [
+                    "ceiling_gamerism"
+                ]
+            },
+            "603632": {
+                "imgs": [
+                    "ceiling_rugpool"
+                ]
+            }
+        }
+    }
+}

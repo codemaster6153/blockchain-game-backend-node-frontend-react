@@ -1,0 +1,27 @@
+<svg id="bola_8" data-name="bola 8" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="84" viewBox="0 0 84 84">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.221" y1="0.077" x2="0.815" y2="0.88" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#38214b"/>
+      <stop offset="1" stop-color="#181e43"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.221" y1="0.077" x2="0.815" y2="0.88" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#faebff"/>
+      <stop offset="1" stop-color="#436c8b"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="-1.374" y1="0.504" x2="1.152" y2="0.432" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="0.5" cy="0.538" r="0.54" gradientTransform="translate(0 0.024) scale(1 0.956)" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#d4a0ff" stop-opacity="0"/>
+      <stop offset="0.754" stop-color="#d19bff" stop-opacity="0"/>
+      <stop offset="1" stop-color="#c386ff" stop-opacity="0.169"/>
+    </radialGradient>
+  </defs>
+  <circle id="Elipse_58" data-name="Elipse 58" cx="42" cy="42" r="42" fill="url(#linear-gradient)"/>
+  <circle id="Elipse_60" data-name="Elipse 60" cx="21" cy="21" r="21" transform="translate(21 21)" fill="url(#linear-gradient-2)"/>
+  <ellipse id="Elipse_59" data-name="Elipse 59" cx="10" cy="16.5" rx="10" ry="16.5" transform="translate(23.929 4.721) rotate(41)" fill="url(#linear-gradient-3)"/>
+  <circle id="Elipse_61" data-name="Elipse 61" cx="42" cy="42" r="42" fill="url(#radial-gradient)"/>
+  <text id="_8" data-name="8" transform="translate(34 55)" fill="#201f45" font-size="31" font-family="Oswald-DemiBold, Oswald" font-weight="300"><tspan x="0" y="0">8</tspan></text>
+</svg>

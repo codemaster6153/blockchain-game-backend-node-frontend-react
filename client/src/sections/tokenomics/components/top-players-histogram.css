@@ -1,0 +1,43 @@
+#top-players-histogram {
+    flex: 0 0 100%;
+    width: 100%;
+}
+
+#top-players-histogram .top-players-list {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    
+    height: 250px;
+    border-bottom: 1.5px solid #d7d7d7;
+    justify-content: center;
+    overflow-x: auto;
+}
+
+#top-players-histogram .top-players-list .player {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#top-players-histogram .top-players-list .player img {
+    width: 35px;
+    min-width: 35px;
+    height: 35px;
+    border-radius: 100%;
+    display: flex;
+}
+
+#top-players-histogram .top-players-list .player .order {
+    color: #eee;
+    margin: 10px 0;
+    display: flex;
+}
+
+#top-players-histogram .top-players-list .player .line {
+    width: 1.5px;
+    min-width: 1.5px;
+    background: #d7d7d7;
+    display: flex;
+}

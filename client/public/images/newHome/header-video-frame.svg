@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="782" height="782" viewBox="0 0 782 782">
+  <defs>
+    <filter id="Captura_de_Pantalla_2022-09-15_a_las_15.06.25" x="0" y="0" width="782" height="782" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="49.5" result="blur"/>
+      <feFlood flood-color="#fe469b"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Captura_de_Pantalla_2022-09-15_a_las_15.06.25-2" x="120" y="120" width="542" height="542" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="9.5" result="blur-2"/>
+      <feFlood flood-color="#fe469b"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2500" data-name="Grupo 2500" transform="translate(-863.227 -107.227)">
+    <g transform="matrix(1, 0, 0, 1, 863.23, 107.23)" filter="url(#Captura_de_Pantalla_2022-09-15_a_las_15.06.25)">
+      <rect id="Captura_de_Pantalla_2022-09-15_a_las_15.06.25-3" data-name="Captura de Pantalla 2022-09-15 a las 15.06.25" width="485" height="485" rx="50" transform="translate(148.5 148.5)" fill="#020422"/>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 863.23, 107.23)" filter="url(#Captura_de_Pantalla_2022-09-15_a_las_15.06.25-2)">
+      <g id="Captura_de_Pantalla_2022-09-15_a_las_15.06.25-4" data-name="Captura de Pantalla 2022-09-15 a las 15.06.25" transform="translate(148.5 148.5)" fill="none" stroke="#ff5cba" stroke-width="12">
+        <rect width="485" height="485" rx="50" stroke="none"/>
+        <rect x="6" y="6" width="473" height="473" rx="44" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

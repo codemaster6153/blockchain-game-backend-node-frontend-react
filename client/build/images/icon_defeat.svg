@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <filter id="Rectángulo_299" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Icon_material-thumb-up" x="8.316" y="8.89" width="39.366" height="36.298" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur-2"/>
+      <feFlood flood-color="#005c2a" flood-opacity="0.702"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_969" data-name="Grupo 969" transform="translate(-478 -923)">
+    <g transform="matrix(1, 0, 0, 1, 478, 923)" filter="url(#Rectángulo_299)">
+      <g id="Rectángulo_299-2" data-name="Rectángulo 299" transform="translate(9 6)" fill="#ff0045" stroke="#fff" stroke-width="2">
+        <rect width="38" height="38" rx="8" stroke="none"/>
+        <rect x="1" y="1" width="36" height="36" rx="7" fill="none"/>
+      </g>
+    </g>
+    <g transform="matrix(1, 0, 0, 1, 478, 923)" filter="url(#Icon_material-thumb-up)">
+      <path id="Icon_material-thumb-up-2" data-name="Icon material-thumb-up" d="M28.866,1.5H23.891V16.079h4.976ZM1.5,14.864a2.467,2.467,0,0,0,2.488,2.43h7.849l-1.182,5.552-.037.389a1.808,1.808,0,0,0,.547,1.288L12.484,25.8l8.185-8.006a2.348,2.348,0,0,0,.734-1.713V3.93A2.467,2.467,0,0,0,18.915,1.5H7.72A2.472,2.472,0,0,0,5.431,2.982L1.674,11.547a2.351,2.351,0,0,0-.174.887v2.32l.012.012Z" transform="translate(12.82 13.39)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

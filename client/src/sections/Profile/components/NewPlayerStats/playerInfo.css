@@ -1,0 +1,216 @@
+.player-info-wrapper {
+    padding: 10px;
+}
+
+.player-info-wrapper .player-info-container{
+    background: linear-gradient(180deg, #ffffff 0%, #D1F0F7 100%);
+    padding: 10px;
+    box-shadow: 0px 5px 8px #0000004D;
+    border: 6px solid #F10C9D;
+    border-radius: 20px;
+}
+
+.player-info-wrapper .player-info-container .top-info{
+    display: flex;
+    gap: 20px;
+}
+
+.player-info-wrapper .player-info-container .top-info .display-picture{
+    position: relative;
+    width: 90px;
+    height: 90px;
+    /* overflow: hidden; */
+    border-radius: 90px;
+}
+
+.player-info-wrapper .player-info-container .top-info .display-picture img {
+    width: 90px;
+    height: 90px;
+    border-radius: 90px;
+    border: 6px solid #11CBF9;
+}
+
+.player-info-wrapper .player-info-container .top-info .display-picture .rank{
+    color: white;
+    font-size: 20px;
+    font-family: 'Oswald-DemiBold';
+    font-weight: bold;
+    letter-spacing: 0;
+    position: absolute;
+    bottom: -12px;
+    left: 13px;
+    background-color: #001A45;
+    border-radius: 100px;
+    padding: 0px 10px;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link {
+    flex: 1;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .username{
+    display: flex;
+    flex-direction: column;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .username > p{
+    font-family: 'Oswald-DemiBold';
+    font-size: 22px;
+    border-bottom: 2px solid;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .username > p.mem-since{
+    font-size: 14px;
+    border: none;
+    font-family: 'Oswald-Light';
+    text-align: right;
+    color: #AEB8C6;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .userlinks{
+    display: flex;
+    justify-content: space-between;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .userlinks .links{
+    display: flex;
+    flex-direction: column;
+}
+.player-info-wrapper .player-info-container .top-info .username-link .userlinks .links > a{
+    text-decoration: underline;
+    font-family: 'Oswald';
+    font-weight: 300;
+    opacity: 1;
+    margin: 0;
+}
+.player-info-wrapper .player-info-container .top-info .username-link .userlinks .links > a.block{
+    color: #11CBF9;
+}
+.player-info-wrapper .player-info-container .top-info .username-link .userlinks .links > a.atomic{
+    color: #EA923E;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .stars-container {
+    display: flex;
+    border-bottom: 2px solid;
+    padding: 6px 0 6px 0;
+    gap: 8px;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .stars {
+    display: flex;
+    position: relative;
+    width: 150px;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .stars img.stars-empty {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .stars img.stars-full {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.player-info-wrapper .player-info-container .top-info .username-link .stars-container span.nvotes {
+    color: #9ABBBC !important;
+    font-weight: 300 !important;
+    font-size: 18px !important;
+    font-family: Oswald;
+}
+
+
+
+.player-info-wrapper .player-info-container .bottom-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    margin-top: 18px;
+}
+
+.player-info-wrapper .player-info-container .bottom-info .social-usernames{
+    /* margin-top: 8px; */
+}
+
+.player-info-wrapper .player-info-container .bottom-info .social-usernames > .link{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    gap: 8px;
+    margin-bottom: 4px;
+}
+
+.player-info-wrapper .player-info-container .bottom-info .social-usernames > .link > img{
+    width: 20px;
+    height: auto;
+}
+
+.player-info-wrapper .player-info-container .bottom-info .social-usernames > .link > input,
+.player-info-wrapper .player-info-container .top-info .username-link .username > input{
+    border-radius: 5px;
+    border: 1px solid #cfcfcf;
+    padding: 7px 2px;
+}
+
+.player-info-wrapper .player-info-container .bottom-info .social-usernames > .link > p{
+    color: #001A44;
+    font-family: 'Oswald-Light';
+    font-size: 16px;
+    font-weight: 200;
+}
+
+.edit-btns .edit-btn{
+    background: #0080D0;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: 300;
+    color: white;
+    width: fit-content;
+    padding: 5px 8px;
+    gap: 8px;
+    font-family: 'Oswald-demibold';
+    cursor: pointer;
+    opacity: 0.8;
+    transition: all 0.2s;
+    margin-left: auto;
+}
+
+.edit-btns .edit-btn:hover{
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+.edit-btns .edit-btn > img {
+    height: 14px;
+    width: auto;
+}
+
+.edit-btns .save-btns {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.edit-btns .save-btns  .close-editing {
+    height: 34px;
+}
+
+.mem-since{
+    font-family: 'Oswald-Light';
+}
+
+
+.friendos-table-container .friends-list table td.position .player-dp .online-badge{
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    right: 0px;
+    bottom: 4px;
+    border-radius: 100%;
+    background-color: #00e34f;
+}

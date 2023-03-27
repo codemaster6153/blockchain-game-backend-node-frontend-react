@@ -1,0 +1,54 @@
+.container {
+	margin-bottom: -15px;
+	margin-top: 20px;
+}
+
+.leaderboard {
+  margin-bottom: 30px;
+	margin-top: 30px;
+	background: #1f429988;
+	border-radius: 10px 10px 10px 10px;
+	padding: 20px 20px 10px;
+  font-size: 14px;
+}
+
+@media (max-width: 600px) {
+	.leaderboard {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+}
+
+.leaderboard h2 {
+	font-size: 16px;
+	color: #ffd800;
+	margin-bottom: 10px;
+	text-transform: uppercase;
+}
+
+.leaderboard .tournament-date {
+	color: white;
+	margin-bottom: 20px;
+}
+
+.leaderboard .entries-amount {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.leaderboard .no-results {
+	color: white;
+	margin-bottom: 10px;
+}
+
+.leaderboard .control,
+.leaderboard button {
+	font-size: 14px;
+}
+
+.leaderboard .pagination {
+	margin-top: 20px;
+}
+
+
+/*# sourceMappingURL=Leaderboard.css.map */

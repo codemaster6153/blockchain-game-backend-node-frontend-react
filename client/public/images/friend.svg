@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77" height="59" viewBox="0 0 77 59">
+  <defs>
+    <filter id="Rectángulo_272" x="0" y="0" width="77" height="59" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.4"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Grupo_2525" data-name="Grupo 2525" transform="translate(-2159 -906)">
+    <g id="Grupo_962" data-name="Grupo 962" transform="translate(646.492)">
+      <g transform="matrix(1, 0, 0, 1, 1512.51, 906)" filter="url(#Rectángulo_272)">
+        <rect id="Rectángulo_272-2" data-name="Rectángulo 272" width="59" height="41" rx="6" transform="translate(9 6)" fill="#0080d0"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-user-plus" data-name="Icon awesome-user-plus" d="M36.3,12.1H32.579V8.377a.934.934,0,0,0-.931-.931H29.786a.934.934,0,0,0-.931.931V12.1H25.132a.934.934,0,0,0-.931.931v1.862a.934.934,0,0,0,.931.931h3.723v3.723a.934.934,0,0,0,.931.931h1.862a.934.934,0,0,0,.931-.931V15.824H36.3a.934.934,0,0,0,.931-.931V13.031A.934.934,0,0,0,36.3,12.1ZM13.031,14.893A7.447,7.447,0,1,0,5.585,7.447,7.446,7.446,0,0,0,13.031,14.893Zm5.213,1.862h-.972a10.127,10.127,0,0,1-8.482,0H7.819A7.821,7.821,0,0,0,0,24.574v2.42a2.793,2.793,0,0,0,2.792,2.792H23.271a2.793,2.793,0,0,0,2.792-2.792v-2.42A7.821,7.821,0,0,0,18.244,16.755Z" transform="translate(2181.095 917.476)" fill="#fff"/>
+  </g>
+</svg>
